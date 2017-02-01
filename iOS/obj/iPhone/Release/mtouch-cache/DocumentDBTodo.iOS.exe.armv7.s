@@ -158,32 +158,42 @@ DocumentDBTodo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_
 .file 2 "/Users/microsoftdx/Desktop/TechSummitHK/iOS/AppDelegate.cs"
 .loc 2 18 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,0,0,141,229,4,16,141,229,8,32,141,229
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,9,223,77,226,0,0,141,229,4,16,141,229,8,32,141,229
 bl _p_3
 .loc 2 20 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 52
-	.byte 0,0,159,231
+	.byte 0,0,159,231,20,0,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 56
+	.byte 0,0,159,231,128,19,160,227
 bl _p_4
-.loc 2 22 0
+
+	.byte 0,48,160,225,28,0,141,229,0,32,159,229,0,0,0,234
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 60
+	.byte 2,32,159,231,3,0,160,225,0,31,160,227,0,48,147,229,15,224,160,225,128,240,147,229,28,48,157,229,3,0,160,225
+	.byte 24,0,141,229,0,32,159,229,0,0,0,234
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 64
+	.byte 2,32,159,231,3,0,160,225,64,19,160,227,0,48,147,229,15,224,160,225,128,240,147,229,20,0,157,229,24,16,157,229
+bl _p_5
+.loc 2 23 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 56
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 68
 	.byte 0,0,159,231,46,31,160,227
-bl _p_5
-
-	.byte 16,0,141,229
 bl _p_6
 
-	.byte 16,16,157,229,0,0,157,229
+	.byte 16,0,141,229
 bl _p_7
-.loc 2 24 0
+
+	.byte 16,16,157,229,0,0,157,229
+bl _p_8
+.loc 2 25 0
 
 	.byte 0,0,157,229,4,16,157,229,8,32,157,229
-bl _p_8
+bl _p_9
 
-	.byte 255,0,0,226,7,223,141,226,0,1,189,232,128,128,189,232
+	.byte 255,0,0,226,9,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_3:
 .text
@@ -194,35 +204,35 @@ DocumentDBTodo_App__ctor:
 .loc 3 10 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,4,223,77,226,0,160,160,225,10,0,160,225
-bl _p_9
+bl _p_10
 .loc 3 12 0
 
 	.byte 10,0,160,225
-bl _p_10
+bl _p_11
 .loc 3 14 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 60
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 72
 	.byte 0,0,159,231,74,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 8,0,141,229
-bl _p_11
+bl _p_12
 
 	.byte 8,16,157,229,10,0,160,225
-bl _p_12
+bl _p_13
 .loc 3 16 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 64
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 56
 	.byte 0,0,159,231,128,19,160,227
-bl _p_13
+bl _p_4
 
 	.byte 0,48,160,225,4,0,141,229,0,32,159,229,0,0,0,234
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 68
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 60
 	.byte 2,32,159,231,3,0,160,225,0,31,160,227,0,48,147,229,15,224,160,225,128,240,147,229,4,48,157,229,3,0,160,225
 	.byte 0,0,141,229,0,32,159,229,0,0,0,234
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 72
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 64
 	.byte 2,32,159,231,3,0,160,225,64,19,160,227,0,48,147,229,15,224,160,225,128,240,147,229,0,0,157,229
 bl _p_14
 
@@ -310,7 +320,7 @@ bl _p_21
 	.byte 32,1,154,229,12,0,141,229,0,15,90,227,76,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 96
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,160,128,229,8,0,141,229,4,15,128,226
 bl _p_21
@@ -329,7 +339,7 @@ bl _p_22
 	.byte 52,1,154,229,4,0,141,229,0,15,90,227,37,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 96
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,160,128,229,0,0,141,229,4,15,128,226
 bl _p_21
@@ -924,7 +934,7 @@ DocumentDBTodo_DocumentDBTodoPage_ActivityIndicatorScope_Dispose:
 	.byte 12,0,154,229,4,0,141,229,0,15,90,227,41,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 232
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,160,128,229,8,0,141,229,4,15,128,226
 bl _p_21
@@ -1059,7 +1069,7 @@ bl _p_21
 	.byte 0,0,159,231,32,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 260
 	.byte 0,0,159,231,10,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 32,16,155,229,24,0,139,229
 bl _p_52
@@ -1243,7 +1253,7 @@ DocumentDBTodo_TodoItemManager__cctor:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 88
 	.byte 0,0,159,231,5,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,0,141,229
 bl _p_60
@@ -1280,7 +1290,7 @@ bl _p_19
 	.byte 36,1,154,229,4,0,141,229,0,15,90,227,37,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 96
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,160,128,229,0,0,141,229,4,15,128,226
 bl _p_21
@@ -1728,7 +1738,7 @@ DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_MoveNext:
 	.byte 0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 388
 	.byte 0,0,159,231,5,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,160,160,225,60,0,139,229,36,0,155,229,4,0,144,229,40,17,144,229,1,0,160,225,0,224,209,229
 bl _p_88
@@ -2322,7 +2332,7 @@ bl _p_72
 	.byte 72,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 516
 	.byte 0,0,159,231,5,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 68,16,155,229,72,32,155,229,64,0,139,229
 bl _p_108
@@ -2473,15 +2483,15 @@ bl _p_72
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 564
 	.byte 0,0,159,231,0,0,144,229,52,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 60
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 72
 	.byte 0,0,159,231,74,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 48,0,139,229
-bl _p_11
+bl _p_12
 
 	.byte 48,16,155,229,52,32,155,229,2,0,160,225,0,224,210,229
-bl _p_12
+bl _p_13
 
 	.byte 15,0,0,234,12,0,139,229,8,0,139,229,44,0,155,229,0,31,224,227,24,16,128,229,44,0,155,229,2,15,128,226
 	.byte 8,16,155,229
@@ -2639,7 +2649,7 @@ bl _p_21
 	.byte 8,0,144,229,124,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 608
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,160,160,225,128,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227,32,0,139,229,7,15,139,226,0,128,159,229
 	.byte 0,0,0,234
@@ -2667,7 +2677,7 @@ bl _p_116
 	.byte 128,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 628
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,31,160,227,8,16,192,229,0,16,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 632
@@ -2680,7 +2690,7 @@ bl _p_118
 	.byte 120,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 636
 	.byte 0,0,159,231,64,19,160,227
-bl _p_13
+bl _p_4
 
 	.byte 0,48,160,225,124,0,139,229,112,0,155,229,0,32,144,229,3,0,160,225,0,31,160,227,0,48,147,229,15,224,160,225
 	.byte 128,240,147,229,120,0,155,229,124,16,155,229,0,128,159,229,0,0,0,234
@@ -2708,7 +2718,7 @@ bl _p_21
 	.byte 112,0,155,229,8,0,144,229,128,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 656
 	.byte 0,0,159,231,6,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 660
@@ -3157,13 +3167,13 @@ bl _p_72
 	.byte 0,0,159,231,0,0,144,229,76,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 756
 	.byte 0,0,159,231,78,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 72,0,139,229
 bl _p_144
 
 	.byte 72,16,155,229,76,32,155,229,2,0,160,225,0,224,210,229
-bl _p_12
+bl _p_13
 
 	.byte 111,0,0,234
 .loc 9 36 0
@@ -3624,7 +3634,7 @@ bl _p_148
 bl _p_147
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 24,0,141,229,2,31,128,226,1,0,160,225,12,32,157,229,32,32,141,229,0,32,129,229,28,0,141,229
 bl _p_21
@@ -4184,7 +4194,7 @@ bl _p_156
 bl _p_157
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,0,141,229,2,31,128,226,1,0,160,225,4,32,157,229,28,32,141,229,0,32,129,229,24,0,141,229
 bl _p_21
@@ -4213,7 +4223,7 @@ bl _p_159
 bl _p_158
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 24,0,141,229,2,31,128,226,1,0,160,225,12,32,157,229,32,32,141,229,0,32,129,229,28,0,141,229
 bl _p_21
@@ -4302,13 +4312,13 @@ bl _p_162
 bl _p_163
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,16,157,229,8,16,128,229,12,0,141,229,8,0,149,229,8,0,141,229,0,0,157,229,0,0,144,229
 bl _p_163
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,32,160,225,8,0,157,229,12,16,157,229,8,0,130,229,10,0,160,225,0,48,154,229,0,128,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 800
@@ -4317,13 +4327,13 @@ bl _p_5
 bl _p_164
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,16,157,229,8,16,128,229,12,0,141,229,12,0,149,229,8,0,141,229,0,0,157,229,0,0,144,229
 bl _p_164
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,32,160,225,8,0,157,229,12,16,157,229,8,0,130,229,10,0,160,225,0,48,154,229,0,128,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 800
@@ -4374,13 +4384,13 @@ bl _p_162
 bl _p_167
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,16,157,229,8,16,128,229,12,0,141,229,8,0,149,229,8,0,141,229,0,0,157,229,0,0,144,229
 bl _p_167
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,32,160,225,8,0,157,229,12,16,157,229,8,0,130,229,10,0,160,225,0,48,154,229,0,128,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 812
@@ -4394,13 +4404,13 @@ bl _p_5
 bl _p_168
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,16,157,229,8,16,128,229,12,0,141,229,12,0,149,229,8,0,141,229,0,0,157,229,0,0,144,229
 bl _p_168
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,32,160,225,8,0,157,229,12,16,157,229,8,0,130,229,10,0,160,225,0,48,154,229,0,128,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 812
@@ -4413,7 +4423,7 @@ bl _p_149
 	.byte 12,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 816
 	.byte 0,0,159,231,64,19,160,227
-bl _p_13
+bl _p_4
 
 	.byte 20,0,141,229,16,0,141,229,0,0,157,229,0,0,144,229,12,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225
 	.byte 32,240,145,229,0,32,160,225,20,48,157,229,3,0,160,225,0,31,160,227,0,48,147,229,15,224,160,225,128,240,147,229
@@ -4456,7 +4466,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode
 bl _p_170
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,16,0,157,229,8,0,129,229,10,0,160,225,0,32,154,229,0,128,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 824
@@ -4465,7 +4475,7 @@ bl _p_5
 bl _p_171
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,12,0,157,229,8,0,129,229,10,0,160,225,0,32,154,229,0,128,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 824
@@ -4484,7 +4494,7 @@ System_Tuple_2_T1_INT_T2_INT_ToString:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 828
 	.byte 0,0,159,231,7,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 12,0,141,229
 bl _p_173
@@ -4516,7 +4526,7 @@ System_Tuple_2_T1_INT_T2_INT_System_ITuple_ToString_System_Text_StringBuilder:
 bl _p_175
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,12,0,157,229,8,0,129,229,10,0,160,225,0,224,218,229
 bl _p_176
@@ -4532,7 +4542,7 @@ bl _p_174
 bl _p_177
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,8,0,157,229,8,0,129,229,10,0,160,225,0,224,218,229
 bl _p_176
@@ -4774,7 +4784,7 @@ bl _p_21
 bl _p_179
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,160,160,225,2,31,138,226,1,0,160,225,28,32,155,229,64,32,139,229,0,32,129,229,60,0,139,229
 bl _p_21
@@ -4793,7 +4803,7 @@ bl _p_181
 bl _p_179
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 56,0,139,229,2,31,128,226,1,0,160,225,36,32,155,229,68,32,139,229,0,32,129,229,64,0,139,229
 bl _p_21
@@ -5342,7 +5352,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_
 bl _p_195
 
 	.byte 11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 60,0,139,229,16,0,155,229
 bl _p_196
@@ -5772,7 +5782,7 @@ bl _p_227
 bl _p_228
 
 	.byte 11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 68,0,139,229,24,0,155,229,0,0,144,229
 bl _p_229
@@ -5815,7 +5825,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__cctor:
 bl _p_231
 
 	.byte 6,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 20,0,141,229,0,0,157,229
 bl _p_232
@@ -5834,7 +5844,7 @@ bl _p_235
 bl _p_236
 
 	.byte 14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 12,32,157,229,8,0,141,229,0,31,160,227
 bl _p_237
@@ -6114,7 +6124,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_Sy
 bl _p_258
 
 	.byte 5,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 60,0,139,229,24,0,155,229
 bl _p_259
@@ -6146,7 +6156,7 @@ bl _p_20
 bl _p_261
 
 	.byte 11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 68,0,139,229,24,0,155,229
 bl _p_262
@@ -6191,7 +6201,7 @@ bl _p_266
 bl _p_267
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 84,0,139,229,24,0,155,229
 bl _p_268
@@ -6206,7 +6216,7 @@ bl _p_21
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 872
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 72,0,139,229
 bl _p_269
@@ -6220,7 +6230,7 @@ bl _p_21
 	.byte 0,15,86,227,197,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 876
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,96,128,229,60,0,139,229,4,15,128,226
 bl _p_21
@@ -6260,7 +6270,7 @@ bl _p_274
 	.byte 8,0,155,229,68,0,139,229,0,15,80,227,111,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 876
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 68,16,155,229,64,16,139,229,16,16,128,229,60,0,139,229,4,15,128,226
 bl _p_21
@@ -6582,12 +6592,12 @@ System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Equals_System_Nulla
 	.byte 0,0,154,229,16,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 896
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,16,155,229,8,16,128,229,12,0,139,229,0,0,155,229,8,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 896
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,32,160,225,8,0,155,229,12,16,155,229,8,0,130,229,2,0,160,225,0,224,210,229
 bl _p_285
@@ -6617,7 +6627,7 @@ System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_GetHashCode:
 	.byte 0,0,157,229,0,0,144,229,8,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 896
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,8,0,157,229,8,0,129,229,1,0,160,225,0,224,209,229
 bl _p_286
@@ -6677,7 +6687,7 @@ System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_ToString:
 	.byte 0,0,157,229,0,0,144,229,8,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 896
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,8,0,157,229,8,0,129,229,1,0,160,225,0,224,209,229
 bl _p_287
@@ -6712,7 +6722,7 @@ System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Box_System_Nullable
 	.byte 0,0,155,229,8,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 896
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 8,16,155,229,8,16,128,229,4,223,139,226,0,9,189,232,128,128,189,232
 
@@ -6955,7 +6965,7 @@ System_Threading_Tasks_Task_1_TResult_INT_StartNew_System_Threading_Tasks_Task_S
 bl _p_292
 
 	.byte 11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 60,0,139,229,16,0,155,229
 bl _p_293
@@ -7385,7 +7395,7 @@ bl _p_227
 bl _p_308
 
 	.byte 11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 68,0,139,229,24,0,155,229,0,0,144,229
 bl _p_309
@@ -7428,7 +7438,7 @@ System_Threading_Tasks_Task_1_TResult_INT__cctor:
 bl _p_310
 
 	.byte 6,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 20,0,141,229,0,0,157,229
 bl _p_311
@@ -7447,7 +7457,7 @@ bl _p_235
 bl _p_314
 
 	.byte 14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 12,32,157,229,8,0,141,229,0,31,160,227
 bl _p_315
@@ -7726,7 +7736,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_INT_FromAsyncImpl_System_Func_3_Sys
 bl _p_327
 
 	.byte 5,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 60,0,139,229,24,0,155,229
 bl _p_328
@@ -7758,7 +7768,7 @@ bl _p_20
 bl _p_329
 
 	.byte 11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 68,0,139,229,24,0,155,229
 bl _p_330
@@ -7803,7 +7813,7 @@ bl _p_266
 bl _p_331
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 84,0,139,229,24,0,155,229
 bl _p_332
@@ -7818,7 +7828,7 @@ bl _p_21
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 872
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 72,0,139,229
 bl _p_269
@@ -7832,7 +7842,7 @@ bl _p_21
 	.byte 0,15,86,227,196,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 876
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,96,128,229,60,0,139,229,4,15,128,226
 bl _p_21
@@ -7872,7 +7882,7 @@ bl _p_336
 	.byte 8,0,155,229,68,0,139,229,0,15,80,227,110,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 876
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 68,16,155,229,64,16,139,229,16,16,128,229,60,0,139,229,4,15,128,226
 bl _p_21
@@ -8107,7 +8117,7 @@ System_Nullable_1_int_Equals_System_Nullable_1_int:
 	.byte 0,0,154,229,8,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 904
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,8,0,155,229,8,0,129,229,11,0,160,225
 bl _p_342
@@ -8218,7 +8228,7 @@ System_Nullable_1_int_Box_System_Nullable_1_int:
 	.byte 0,0,155,229,8,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 904
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 8,16,155,229,8,16,128,229,4,223,139,226,0,9,189,232,128,128,189,232
 
@@ -8448,7 +8458,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_get_Keys:
 bl _p_363
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 20,0,141,229,0,0,157,229,0,0,144,229
 bl _p_364
@@ -8474,7 +8484,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_System_Collections_
 bl _p_365
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 20,0,141,229,0,0,157,229,0,0,144,229
 bl _p_366
@@ -8500,7 +8510,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_System_Collections_
 bl _p_367
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 20,0,141,229,0,0,157,229,0,0,144,229
 bl _p_368
@@ -8526,7 +8536,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_get_Values:
 bl _p_369
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 20,0,141,229,0,0,157,229,0,0,144,229
 bl _p_370
@@ -8552,7 +8562,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_System_Collections_
 bl _p_371
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 20,0,141,229,0,0,157,229,0,0,144,229
 bl _p_372
@@ -8578,7 +8588,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_System_Collections_
 bl _p_373
 
 	.byte 3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 20,0,141,229,0,0,157,229,0,0,144,229
 bl _p_374
@@ -8996,7 +9006,7 @@ bl _p_409
 bl _p_408
 
 	.byte 9,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 7,31,141,226,64,0,141,229,2,15,128,226,7,47,160,227,144,50,160,227
 bl _p_407
@@ -9051,7 +9061,7 @@ bl _p_413
 bl _p_414
 
 	.byte 32,16,155,229
-bl _p_13
+bl _p_4
 
 	.byte 0,96,160,225
 .loc 18 292 0
@@ -9147,7 +9157,7 @@ bl _p_419
 	.byte 0,0,157,229,12,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 928
 	.byte 0,0,159,231,10,16,160,225
-bl _p_13
+bl _p_4
 
 	.byte 0,16,160,225,12,0,157,229,8,16,141,229,8,16,128,229,2,15,128,226
 bl _p_21
@@ -9164,7 +9174,7 @@ bl _p_21
 bl _p_420
 
 	.byte 10,16,160,225
-bl _p_13
+bl _p_4
 
 	.byte 0,16,160,225,12,0,157,229,8,16,141,229,12,16,128,229,3,15,128,226
 bl _p_21
@@ -9389,7 +9399,7 @@ bl _p_21
 	.byte 24,0,155,229,36,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 928
 	.byte 0,0,159,231,6,16,160,225
-bl _p_13
+bl _p_4
 
 	.byte 0,16,160,225,36,0,155,229,32,16,139,229,8,16,128,229,2,15,128,226
 bl _p_21
@@ -9406,7 +9416,7 @@ bl _p_21
 bl _p_431
 
 	.byte 6,16,160,225
-bl _p_13
+bl _p_4
 
 	.byte 0,16,160,225,48,0,155,229,44,16,139,229,12,16,128,229,3,15,128,226
 bl _p_21
@@ -9525,7 +9535,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_Resize_int_bool:
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 928
 	.byte 0,0,159,231,36,16,155,229
-bl _p_13
+bl _p_4
 
 	.byte 0,160,160,225
 .loc 18 446 0
@@ -9539,7 +9549,7 @@ bl _p_13
 bl _p_442
 
 	.byte 36,16,155,229
-bl _p_13
+bl _p_4
 
 	.byte 0,96,160,225
 .loc 18 448 0
@@ -9879,7 +9889,7 @@ bl _p_450
 bl _p_451
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,32,160,225,136,0,155,229,140,16,155,229,144,48,155,229,12,48,130,229,8,0,130,229,0,15,160,227,20,0,139,229
 	.byte 0,15,160,227,24,0,139,229,5,15,139,226
@@ -9942,7 +9952,7 @@ bl _p_454
 bl _p_453
 
 	.byte 5,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 128,0,139,229,2,31,128,226,1,0,160,225,92,32,155,229,132,32,139,229,0,32,129,229,120,0,139,229
 bl _p_21
@@ -9990,7 +10000,7 @@ bl _p_456
 bl _p_455
 
 	.byte 9,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 7,31,141,226,64,0,141,229,2,15,128,226,7,47,160,227,144,50,160,227
 bl _p_407
@@ -10021,7 +10031,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_System_Collections_
 	.byte 4,0,157,229,0,15,80,227,35,0,0,11,7,15,128,226,12,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 936
 	.byte 0,0,159,231,2,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,0,141,229
 bl _p_457
@@ -10122,7 +10132,7 @@ bl _p_463
 bl _p_464
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 8,16,157,229,12,32,157,229,12,32,128,229,8,16,128,229,0,0,0,234
 .loc 18 624 0
@@ -10362,7 +10372,7 @@ bl _p_487
 bl _p_486
 
 	.byte 9,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 7,31,141,226,64,0,141,229,2,15,128,226,7,47,160,227,144,50,160,227
 bl _p_407
@@ -10586,7 +10596,7 @@ bl _p_499
 bl _p_498
 
 	.byte 6,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 40,0,141,229,2,31,128,226,1,0,160,225,16,32,157,229,52,32,141,229,0,32,129,229,48,0,141,229
 bl _p_21
@@ -10617,7 +10627,7 @@ bl _p_501
 bl _p_500
 
 	.byte 6,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 40,0,141,229,2,31,128,226,1,0,160,225,16,32,157,229,52,32,141,229,0,32,129,229,48,0,141,229
 bl _p_21
@@ -10956,7 +10966,7 @@ bl _p_511
 bl _p_510
 
 	.byte 7,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 48,0,141,229,2,31,128,226,1,0,160,225,20,32,157,229,56,32,141,229,0,32,129,229,52,0,141,229
 bl _p_21
@@ -10986,7 +10996,7 @@ bl _p_513
 bl _p_512
 
 	.byte 7,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 48,0,141,229,2,31,128,226,1,0,160,225,20,32,157,229,56,32,141,229,0,32,129,229,52,0,141,229
 bl _p_21
@@ -11093,7 +11103,7 @@ bl _p_402
 bl _p_517
 
 	.byte 4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,32,160,225,56,0,155,229,60,16,155,229,64,48,155,229,12,48,130,229,8,0,130,229,4,0,160,225,0,48,148,229
 	.byte 15,224,160,225,128,240,147,229
@@ -11606,7 +11616,7 @@ bl _p_20
 bl _p_530
 
 	.byte 11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 12,0,141,229,0,0,157,229
 bl _p_531
@@ -12004,7 +12014,7 @@ bl _p_526
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 984
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 11,31,139,226,88,0,139,229,2,15,128,226,9,47,160,227,191,49,0,227
 bl _p_407
@@ -12076,7 +12086,7 @@ bl _p_58
 	.byte 72,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 988
 	.byte 0,0,159,231,10,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 11,31,139,226,88,0,139,229,2,15,128,226,8,47,160,227,191,48,0,227
 bl _p_407
@@ -12652,7 +12662,7 @@ bl _p_526
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1000
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 11,31,139,226,88,0,139,229,2,15,128,226,9,47,160,227,223,49,0,227
 bl _p_407
@@ -12874,7 +12884,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_Sys
 	.byte 32,0,155,229,128,13,128,227,56,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1004
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 56,192,155,229,48,0,139,229,52,0,139,229,20,16,155,229,16,32,155,229,24,48,155,229,28,0,155,229,0,0,141,229
 	.byte 52,0,155,229,4,192,141,229,36,192,155,229,8,192,141,229,40,192,155,229,12,192,141,229
@@ -13277,7 +13287,7 @@ bl _p_227
 	.byte 16,0,155,229,56,0,139,229,20,0,155,229,60,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1032
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,56,0,155,229,60,192,155,229,48,16,139,229,52,16,139,229,24,16,155,229,28,32,155,229,0,63,160,227
 	.byte 0,0,141,229,52,0,155,229,4,192,141,229,44,192,155,229,8,192,141,229
@@ -13318,7 +13328,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1036
 	.byte 0,0,159,231,6,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,0,141,229
 bl _p_574
@@ -13331,7 +13341,7 @@ bl _p_574
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1040
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1044
@@ -13568,7 +13578,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 	.byte 0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1064
 	.byte 0,0,159,231,5,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 8,0,139,229,44,16,155,229,8,16,128,229,2,15,128,226
 bl _p_21
@@ -13589,7 +13599,7 @@ bl _p_260
 	.byte 8,0,155,229,68,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1004
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 72,0,139,229,52,16,155,229,56,32,155,229
 bl _p_580
@@ -13622,7 +13632,7 @@ bl _p_20
 	.byte 0,0,159,231,0,0,144,229,10,0,208,229,0,15,80,227,99,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1076
 	.byte 0,0,159,231,4,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,96,160,225,8,16,155,229,76,16,139,229,12,16,128,229,72,0,139,229,3,15,128,226
 bl _p_21
@@ -13633,7 +13643,7 @@ bl _p_21
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 872
 	.byte 0,0,159,231,3,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,72,0,155,229,68,16,139,229,8,16,128,229,2,15,134,226
 bl _p_21
@@ -13644,7 +13654,7 @@ bl _p_21
 	.byte 0,15,86,227,176,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 876
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,96,128,229,64,0,139,229,4,15,128,226
 bl _p_21
@@ -13679,7 +13689,7 @@ bl _p_581
 	.byte 8,0,155,229,72,0,139,229,0,15,80,227,101,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 876
 	.byte 0,0,159,231,14,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 72,16,155,229,64,16,139,229,16,16,128,229,68,0,139,229,4,15,128,226
 bl _p_21
@@ -13836,7 +13846,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 	.byte 6,0,160,225,0,15,80,227,15,0,0,26,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1004
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 4,0,141,229
 bl _p_583
@@ -14034,7 +14044,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,105,2,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14064,7 +14074,7 @@ bl _p_5
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,49,2,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14093,7 +14103,7 @@ bl _p_5
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,244,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14105,7 +14115,7 @@ bl _p_5
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,207,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14117,7 +14127,7 @@ bl _p_5
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,170,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14129,7 +14139,7 @@ bl _p_5
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,133,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14146,7 +14156,7 @@ bl _p_586
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,77,1,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14167,7 +14177,7 @@ bl _mono_decimal_compare
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,29,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,2,15,129,226,216,38,219,225,0,32,192,229,0,0,145,229,22,32,208,229,0,15,82,227,253,0,0,27
 	.byte 0,0,144,229,0,0,144,229,0,32,159,229,0,0,0,234
@@ -14180,7 +14190,7 @@ bl _p_5
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,29,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,16,160,225,2,15,129,226,216,38,219,225,0,32,192,229,0,0,145,229,22,32,208,229,0,15,82,227,210,0,0,27
 	.byte 0,0,144,229,0,0,144,229,0,32,159,229,0,0,0,234
@@ -14193,7 +14203,7 @@ bl _p_5
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,168,0,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14205,7 +14215,7 @@ bl _p_5
 	.byte 1,16,159,231,1,0,80,225,0,0,160,19,1,0,160,3,0,15,80,227,23,0,0,10,0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,131,0,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14218,7 +14228,7 @@ bl _p_5
 	.byte 0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,93,0,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14232,7 +14242,7 @@ bl _p_5
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1116
 	.byte 0,0,159,231,144,18,160,227
-bl _p_5
+bl _p_6
 
 	.byte 2,31,128,226,216,38,219,225,0,32,193,229,0,16,144,229,22,32,209,229,0,15,82,227,50,0,0,27,0,16,145,229
 	.byte 0,16,145,229,0,32,159,229,0,0,0,234
@@ -14257,7 +14267,7 @@ bl _p_5
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1004
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 112,0,139,229,104,16,155,229
 bl _p_587
@@ -14344,7 +14354,7 @@ bl _p_526
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1000
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 11,31,139,226,88,0,139,229,2,15,128,226,9,47,160,227,223,49,0,227
 bl _p_407
@@ -14417,7 +14427,7 @@ bl _p_526
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1240
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 11,31,139,226,88,0,139,229,2,15,128,226,9,47,160,227,223,49,0,227
 bl _p_407
@@ -14490,7 +14500,7 @@ bl _p_526
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1240
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 11,31,139,226,88,0,139,229,2,15,128,226,9,47,160,227,223,49,0,227
 bl _p_407
@@ -14561,7 +14571,7 @@ bl _p_526
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1244
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 11,31,139,226,88,0,139,229,2,15,128,226,9,47,160,227,190,49,0,227
 bl _p_407
@@ -14633,7 +14643,7 @@ bl _p_562
 	.byte 0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1248
 	.byte 0,0,159,231,9,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 11,31,139,226,80,0,139,229,2,15,128,226,7,47,160,227,95,48,0,227
 bl _p_407
@@ -14731,7 +14741,7 @@ bl _p_592
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1260
 	.byte 0,0,159,231,2,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,160,160,225,10,0,160,225
 bl _p_593
@@ -14754,7 +14764,7 @@ bl _p_592
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1268
 	.byte 0,0,159,231,2,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,160,160,225,10,0,160,225
 bl _p_595
@@ -14802,9 +14812,9 @@ bl _p_592
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1280
 	.byte 0,0,159,231,12,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 64
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 56
 	.byte 0,0,159,231,64,19,160,227
-bl _p_13
+bl _p_4
 
 	.byte 0,48,160,225,8,0,141,229,3,0,160,225,0,31,160,227,5,32,160,225,0,48,147,229,15,224,160,225,128,240,147,229
 	.byte 8,16,157,229,12,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,176,240,146,229,0,32,160,225,5,16,160,225
@@ -14890,7 +14900,7 @@ bl _p_594
 bl _p_600
 
 	.byte 2,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 8,0,141,229
 bl _p_601
@@ -14930,7 +14940,7 @@ bl _p_592
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1260
 	.byte 0,0,159,231,2,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,160,160,225,10,0,160,225
 bl _p_593
@@ -14953,7 +14963,7 @@ bl _p_592
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1268
 	.byte 0,0,159,231,2,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 0,160,160,225,10,0,160,225
 bl _p_595
@@ -15001,9 +15011,9 @@ bl _p_592
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1324
 	.byte 0,0,159,231,12,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 64
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 56
 	.byte 0,0,159,231,64,19,160,227
-bl _p_13
+bl _p_4
 
 	.byte 0,48,160,225,8,0,141,229,3,0,160,225,0,31,160,227,5,32,160,225,0,48,147,229,15,224,160,225,128,240,147,229
 	.byte 8,16,157,229,12,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,176,240,146,229,0,32,160,225,5,16,160,225
@@ -15089,7 +15099,7 @@ bl _p_603
 bl _p_605
 
 	.byte 2,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 12,0,141,229,0,0,157,229
 bl _p_606
@@ -15525,7 +15535,7 @@ System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Thread
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_DocumentDBTodo_iOS_got - . + 1004
 	.byte 0,0,159,231,11,31,160,227
-bl _p_5
+bl _p_6
 
 	.byte 16,0,139,229,0,31,160,227,12,32,155,229,64,60,160,227,8,192,155,229,0,192,141,229
 bl _p_608
@@ -16195,7 +16205,7 @@ unwind_info:
 	.byte 3,12,13,0,30,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,68,10,68,14,12,68,8,8,14
 	.byte 8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14
 	.byte 8,68,11,30,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,76,10,68,14,12,68,8,8,14,8
-	.byte 68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,100,10,68,14,12,68,8,8,14,8
+	.byte 68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,2,228,10,68,14,12,68,8,8,14,8
 	.byte 68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,32,2,188,10,68,14,16,68,8,8
 	.byte 8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,44,10,68,14,12,68
 	.byte 8,8,14,8,68,11,36,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,40,3,200,1,10,68
@@ -16483,3661 +16493,3661 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1384,13396
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1384,13399
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1388,13401
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1388,13404
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1392,13406
-	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_Configure_string
-plt_Microsoft_Azure_Mobile_MobileCenter_Configure_string:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1392,13409
+	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1396,13411
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1396,13414
+	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_Start_string_System_Type__
+plt_Microsoft_Azure_Mobile_MobileCenter_Start_string_System_Type__:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1400,13416
-	.no_dead_strip plt_DocumentDBTodo_App__ctor
-plt_DocumentDBTodo_App__ctor:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1400,13422
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1404,13424
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1404,13427
+	.no_dead_strip plt_DocumentDBTodo_App__ctor
+plt_DocumentDBTodo_App__ctor:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1408,13426
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1408,13435
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1412,13431
-	.no_dead_strip plt_Xamarin_Forms_Application__ctor
-plt_Xamarin_Forms_Application__ctor:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1412,13437
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1416,13436
-	.no_dead_strip plt_DocumentDBTodo_App_InitializeComponent
-plt_DocumentDBTodo_App_InitializeComponent:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1416,13442
+	.no_dead_strip plt_Xamarin_Forms_Application__ctor
+plt_Xamarin_Forms_Application__ctor:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1420,13441
-	.no_dead_strip plt_DocumentDBTodo_LoginPage__ctor
-plt_DocumentDBTodo_LoginPage__ctor:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1420,13447
+	.no_dead_strip plt_DocumentDBTodo_App_InitializeComponent
+plt_DocumentDBTodo_App_InitializeComponent:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1424,13443
-	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
-plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1424,13452
+	.no_dead_strip plt_DocumentDBTodo_LoginPage__ctor
+plt_DocumentDBTodo_LoginPage__ctor:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1428,13445
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1428,13454
+	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
+plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1432,13450
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1432,13456
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_Start_System_Type__
 plt_Microsoft_Azure_Mobile_MobileCenter_Start_System_Type__:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1436,13458
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1436,13461
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_App_DocumentDBTodo_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_App_DocumentDBTodo_App_System_Type:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1440,13463
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1440,13466
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1444,13475
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1444,13478
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_InitializeComponent
 plt_DocumentDBTodo_DocumentDBTodoPage_InitializeComponent:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1448,13480
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1448,13483
 	.no_dead_strip plt_Xamarin_Forms_ImageSource_FromFile_string
 plt_Xamarin_Forms_ImageSource_FromFile_string:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1452,13482
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1452,13485
 	.no_dead_strip plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource
 plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1456,13487
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1456,13490
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1460,13492
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1460,13495
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
 plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1464,13518
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1464,13521
 	.no_dead_strip plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler
 plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1468,13525
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1468,13528
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1472,13530
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1472,13533
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1476,13565
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1476,13568
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1480,13570
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1480,13573
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1484,13582
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1484,13585
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1488,13587
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1488,13590
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1492,13599
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1492,13602
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1496,13604
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1496,13607
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1500,13616
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1500,13619
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1504,13628
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1504,13631
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1508,13640
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1508,13643
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1512,13652
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1512,13655
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1516,13664
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1516,13667
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1520,13676
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1520,13679
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_:
 _p_36:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1524,13688
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1524,13691
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_:
 _p_37:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1528,13700
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1528,13703
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_DocumentDBTodoPage_DocumentDBTodo_DocumentDBTodoPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_DocumentDBTodoPage_DocumentDBTodo_DocumentDBTodoPage_System_Type:
 _p_38:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1532,13712
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1532,13715
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ActivityIndicator_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ActivityIndicator_Xamarin_Forms_Element_string:
 _p_39:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1536,13724
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1536,13727
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string:
 _p_40:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1540,13736
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1540,13739
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string:
 _p_41:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1544,13748
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1544,13751
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string:
 _p_42:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1548,13760
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1548,13763
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
 _p_43:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1552,13772
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1552,13775
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ListView_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ListView_Xamarin_Forms_Element_string:
 _p_44:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1556,13784
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1556,13787
 	.no_dead_strip plt_System_Threading_Tasks_Task_Delay_int
 plt_System_Threading_Tasks_Task_Delay_int:
 _p_45:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1560,13796
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1560,13799
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_int_int
 plt_System_Threading_Tasks_Task_FromResult_int_int:
 _p_46:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1564,13801
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1564,13804
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_IsVisible_bool
 plt_Xamarin_Forms_VisualElement_set_IsVisible_bool:
 _p_47:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1568,13813
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1568,13816
 	.no_dead_strip plt_Xamarin_Forms_ActivityIndicator_set_IsRunning_bool
 plt_Xamarin_Forms_ActivityIndicator_set_IsRunning_bool:
 _p_48:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1572,13818
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1572,13821
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_FromCurrentSynchronizationContext
 plt_System_Threading_Tasks_TaskScheduler_FromCurrentSynchronizationContext:
 _p_49:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1576,13823
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1576,13826
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWith_System_Action_1_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_ContinueWith_System_Action_1_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler:
 _p_50:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1580,13828
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1580,13831
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_UriFactory_CreateDocumentCollectionUri_string_string
 plt_Microsoft_Azure_Documents_Client_UriFactory_CreateDocumentCollectionUri_string_string:
 _p_51:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1584,13833
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1584,13836
 	.no_dead_strip plt_System_Uri__ctor_string
 plt_System_Uri__ctor_string:
 _p_52:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1588,13838
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1588,13841
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_53:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1592,13843
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1592,13846
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_DocumentClient__ctor_System_Uri_string_Microsoft_Azure_Documents_Client_ConnectionPolicy_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel
 plt_Microsoft_Azure_Documents_Client_DocumentClient__ctor_System_Uri_string_Microsoft_Azure_Documents_Client_ConnectionPolicy_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel:
 _p_54:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1596,13875
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1596,13878
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Start_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Start_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_:
 _p_55:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1600,13880
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1600,13883
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_get_Task:
 _p_56:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1604,13892
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1604,13895
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_Start_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_Start_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_:
 _p_57:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1608,13903
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1608,13906
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_get_Task:
 _p_58:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1612,13915
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1612,13918
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_:
 _p_59:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1616,13926
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1616,13929
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager__ctor
 plt_DocumentDBTodo_TodoItemManager__ctor:
 _p_60:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1620,13938
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1620,13941
 	.no_dead_strip plt_DocumentDBTodo_LoginPage_InitializeComponent
 plt_DocumentDBTodo_LoginPage_InitializeComponent:
 _p_61:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1624,13940
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1624,13943
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_:
 _p_62:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1628,13942
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1628,13945
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_LoginPage_DocumentDBTodo_LoginPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_LoginPage_DocumentDBTodo_LoginPage_System_Type:
 _p_63:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1632,13954
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1632,13957
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_RefreshItems_bool
 plt_DocumentDBTodo_DocumentDBTodoPage_RefreshItems_bool:
 _p_64:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1636,13966
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1636,13969
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_:
 _p_65:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1640,13968
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1640,13971
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
 _p_66:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1644,13980
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1644,13983
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_67:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1648,13985
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1648,13988
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_68:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1652,13990
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1652,13993
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_69:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1656,14029
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1656,14032
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_70:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1660,14057
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1660,14060
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_71:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1664,14062
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1664,14065
 	.no_dead_strip plt_Microsoft_Azure_Mobile_Analytics_Analytics_TrackEvent_string_System_Collections_Generic_IDictionary_2_string_string
 plt_Microsoft_Azure_Mobile_Analytics_Analytics_TrackEvent_string_System_Collections_Generic_IDictionary_2_string_string:
 _p_72:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1668,14067
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1668,14070
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager_InsertItemAsync_DocumentDBTodo_TodoItem
 plt_DocumentDBTodo_TodoItemManager_InsertItemAsync_DocumentDBTodo_TodoItem:
 _p_73:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1672,14072
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1672,14075
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_DocumentDBTodo_TodoItem_GetAwaiter
 plt_System_Threading_Tasks_Task_1_DocumentDBTodo_TodoItem_GetAwaiter:
 _p_74:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1676,14074
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1676,14077
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_75:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1680,14085
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1680,14088
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_GetResult:
 _p_76:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1684,14097
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1684,14100
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager_GetTodoItemsAsync
 plt_DocumentDBTodo_TodoItemManager_GetTodoItemsAsync:
 _p_77:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1688,14108
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1688,14111
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_GetAwaiter
 plt_System_Threading_Tasks_Task_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_GetAwaiter:
 _p_78:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1692,14110
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1692,14113
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_79:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1696,14121
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1696,14124
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_GetResult:
 _p_80:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1700,14133
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1700,14136
 	.no_dead_strip plt_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_set_ItemsSource_System_Collections_IEnumerable
 plt_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_set_ItemsSource_System_Collections_IEnumerable:
 _p_81:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1704,14144
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1704,14147
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_82:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1708,14155
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1708,14158
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_83:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1712,14160
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1712,14163
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_84:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1716,14165
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1716,14168
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager_CompleteItemAsync_DocumentDBTodo_TodoItem
 plt_DocumentDBTodo_TodoItemManager_CompleteItemAsync_DocumentDBTodo_TodoItem:
 _p_85:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1720,14170
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1720,14173
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_86:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1724,14172
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1724,14175
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_87:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1728,14184
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1728,14187
 	.no_dead_strip plt_Xamarin_Forms_Entry_get_Text
 plt_Xamarin_Forms_Entry_get_Text:
 _p_88:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1732,14196
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1732,14199
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_AddItem_DocumentDBTodo_TodoItem
 plt_DocumentDBTodo_DocumentDBTodoPage_AddItem_DocumentDBTodo_TodoItem:
 _p_89:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1736,14201
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1736,14204
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_:
 _p_90:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1740,14203
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1740,14206
 	.no_dead_strip plt_Xamarin_Forms_Entry_set_Text_string
 plt_Xamarin_Forms_Entry_set_Text_string:
 _p_91:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1744,14215
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1744,14218
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_Unfocus
 plt_Xamarin_Forms_VisualElement_Unfocus:
 _p_92:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1748,14220
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1748,14223
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_93:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1752,14225
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1752,14228
 	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string
 plt_Xamarin_Forms_Page_DisplayAlert_string_string_string:
 _p_94:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1756,14230
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1756,14233
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_:
 _p_95:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1760,14235
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1760,14238
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_96:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1764,14247
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1764,14250
 	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string
 plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string:
 _p_97:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1768,14252
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1768,14255
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_GetAwaiter
 plt_System_Threading_Tasks_Task_1_bool_GetAwaiter:
 _p_98:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1772,14257
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1772,14260
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_:
 _p_99:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1776,14268
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1776,14271
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
 _p_100:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1780,14280
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1780,14283
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_CompleteItem_DocumentDBTodo_TodoItem
 plt_DocumentDBTodo_DocumentDBTodoPage_CompleteItem_DocumentDBTodo_TodoItem:
 _p_101:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1784,14291
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1784,14294
 	.no_dead_strip plt_Xamarin_Forms_ListView_set_SelectedItem_object
 plt_Xamarin_Forms_ListView_set_SelectedItem_object:
 _p_102:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1788,14293
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1788,14296
 	.no_dead_strip plt_Xamarin_Forms_MenuItem_get_CommandParameter
 plt_Xamarin_Forms_MenuItem_get_CommandParameter:
 _p_103:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1792,14298
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1792,14301
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_:
 _p_104:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1796,14303
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1796,14306
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_:
 _p_105:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1800,14315
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1800,14318
 	.no_dead_strip plt_Xamarin_Forms_ListView_EndRefresh
 plt_Xamarin_Forms_ListView_EndRefresh:
 _p_106:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1804,14327
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1804,14330
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_:
 _p_107:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1808,14332
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1808,14335
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_ActivityIndicatorScope__ctor_Xamarin_Forms_ActivityIndicator_bool
 plt_DocumentDBTodo_DocumentDBTodoPage_ActivityIndicatorScope__ctor_Xamarin_Forms_ActivityIndicator_bool:
 _p_108:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1812,14344
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1812,14347
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_:
 _p_109:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1816,14346
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1816,14349
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_:
 _p_110:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1820,14358
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1820,14361
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_:
 _p_111:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1824,14370
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1824,14373
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Parameter_System_Type_string
 plt_System_Linq_Expressions_Expression_Parameter_System_Type_string:
 _p_112:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1828,14382
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1828,14385
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_113:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1832,14387
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1832,14390
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_DocumentClient_CreateDocumentQuery_DocumentDBTodo_TodoItem_System_Uri_Microsoft_Azure_Documents_Client_FeedOptions
 plt_Microsoft_Azure_Documents_Client_DocumentClient_CreateDocumentQuery_DocumentDBTodo_TodoItem_System_Uri_Microsoft_Azure_Documents_Client_FeedOptions:
 _p_114:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1836,14398
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1836,14401
 	.no_dead_strip plt_System_Reflection_MethodBase_GetMethodFromHandle_System_RuntimeMethodHandle
 plt_System_Reflection_MethodBase_GetMethodFromHandle_System_RuntimeMethodHandle:
 _p_115:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1840,14410
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1840,14413
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Property_System_Linq_Expressions_Expression_System_Reflection_MethodInfo
 plt_System_Linq_Expressions_Expression_Property_System_Linq_Expressions_Expression_System_Reflection_MethodInfo:
 _p_116:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1844,14415
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1844,14418
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Constant_object_System_Type
 plt_System_Linq_Expressions_Expression_Constant_object_System_Type:
 _p_117:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1848,14420
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1848,14423
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Equal_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression
 plt_System_Linq_Expressions_Expression_Equal_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression:
 _p_118:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1852,14425
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1852,14428
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_DocumentDBTodo_TodoItem_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__
 plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_DocumentDBTodo_TodoItem_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__:
 _p_119:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1856,14430
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1856,14433
 	.no_dead_strip plt_System_Linq_Queryable_Where_DocumentDBTodo_TodoItem_System_Linq_IQueryable_1_DocumentDBTodo_TodoItem_System_Linq_Expressions_Expression_1_System_Func_2_DocumentDBTodo_TodoItem_bool
 plt_System_Linq_Queryable_Where_DocumentDBTodo_TodoItem_System_Linq_IQueryable_1_DocumentDBTodo_TodoItem_System_Linq_Expressions_Expression_1_System_Func_2_DocumentDBTodo_TodoItem_bool:
 _p_120:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1860,14442
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1860,14445
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_GetAwaiter:
 _p_121:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1864,14454
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1864,14457
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem__DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem__DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_:
 _p_122:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1868,14465
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1868,14468
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_GetResult:
 _p_123:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1872,14477
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1872,14480
 	.no_dead_strip plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_AddRange_System_Collections_Generic_IEnumerable_1_DocumentDBTodo_TodoItem
 plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_AddRange_System_Collections_Generic_IEnumerable_1_DocumentDBTodo_TodoItem:
 _p_124:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1876,14488
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1876,14491
 	.no_dead_strip plt_System_Console_get_Error
 plt_System_Console_get_Error:
 _p_125:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1880,14499
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1880,14502
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetException_System_Exception:
 _p_126:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1884,14504
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1884,14507
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetResult_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetResult_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem:
 _p_127:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1888,14515
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1888,14518
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_128:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1892,14526
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1892,14529
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_DocumentClient_CreateDocumentAsync_System_Uri_object_Microsoft_Azure_Documents_Client_RequestOptions_bool
 plt_Microsoft_Azure_Documents_Client_DocumentClient_CreateDocumentAsync_System_Uri_object_Microsoft_Azure_Documents_Client_RequestOptions_bool:
 _p_129:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1896,14537
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1896,14540
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_GetAwaiter:
 _p_130:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1900,14542
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1900,14545
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_:
 _p_131:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1904,14553
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1904,14556
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_GetResult:
 _p_132:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1908,14565
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1908,14568
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_get_Resource
 plt_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_get_Resource:
 _p_133:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1912,14576
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1912,14579
 	.no_dead_strip plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Add_DocumentDBTodo_TodoItem
 plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Add_DocumentDBTodo_TodoItem:
 _p_134:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1916,14587
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1916,14590
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetException_System_Exception:
 _p_135:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1920,14598
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1920,14601
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetResult_DocumentDBTodo_TodoItem
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetResult_DocumentDBTodo_TodoItem:
 _p_136:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1924,14609
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1924,14612
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_137:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1928,14620
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1928,14623
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_UriFactory_CreateDocumentUri_string_string_string
 plt_Microsoft_Azure_Documents_Client_UriFactory_CreateDocumentUri_string_string_string:
 _p_138:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1932,14631
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1932,14634
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_DocumentClient_ReplaceDocumentAsync_System_Uri_object_Microsoft_Azure_Documents_Client_RequestOptions
 plt_Microsoft_Azure_Documents_Client_DocumentClient_ReplaceDocumentAsync_System_Uri_object_Microsoft_Azure_Documents_Client_RequestOptions:
 _p_139:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1936,14636
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1936,14639
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_:
 _p_140:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1940,14641
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1940,14644
 	.no_dead_strip plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Remove_DocumentDBTodo_TodoItem
 plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Remove_DocumentDBTodo_TodoItem:
 _p_141:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1944,14653
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1944,14656
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_142:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1948,14664
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1948,14667
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_:
 _p_143:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1952,14669
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1952,14672
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage__ctor
 plt_DocumentDBTodo_DocumentDBTodoPage__ctor:
 _p_144:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1956,14681
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1956,14684
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_:
 _p_145:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1960,14683
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1960,14686
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_146:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1964,14695
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1964,14698
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_147:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1968,14761
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1968,14764
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_148:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1972,14769
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1972,14772
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_149:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1976,14788
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1976,14791
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_150:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1980,14836
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1980,14839
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_151:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1984,14860
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1984,14863
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_152:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1988,14865
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1988,14868
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_153:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1992,14888
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1992,14891
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_154:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 1996,14912
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 1996,14915
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_155:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2000,14954
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2000,14957
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_156:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2004,14962
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2004,14965
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_157:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2008,14985
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2008,14988
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_158:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2012,15021
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2012,15024
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_159:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2016,15029
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2016,15032
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_object_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_object_get_Default:
 _p_160:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2020,15052
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2020,15055
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_161:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2024,15093
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2024,15096
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_162:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2028,15101
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2028,15104
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_163:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2032,15109
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2032,15112
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_164:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2036,15117
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2036,15120
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_object_get_Default
 plt_System_Collections_Generic_Comparer_1_object_get_Default:
 _p_165:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2040,15125
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2040,15128
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_166:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2044,15166
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2044,15169
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_167:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2048,15174
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2048,15177
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_168:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2052,15182
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2052,15185
 	.no_dead_strip plt_System_Environment_GetResourceString_string_object__
 plt_System_Environment_GetResourceString_string_object__:
 _p_169:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2056,15190
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2056,15193
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_170:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2060,15216
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2060,15219
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_171:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2064,15224
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2064,15227
 	.no_dead_strip plt_System_Tuple_CombineHashCodes_int_int
 plt_System_Tuple_CombineHashCodes_int_int:
 _p_172:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2068,15232
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2068,15235
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_173:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2072,15237
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2072,15240
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_174:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2076,15242
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2076,15245
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_175:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2080,15268
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2080,15271
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_176:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2084,15276
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2084,15279
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_177:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2088,15281
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2088,15284
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_178:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2092,15308
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2092,15311
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_179:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2096,15332
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2096,15335
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_180:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2100,15340
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2100,15343
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_181:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2104,15354
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2104,15357
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_182:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2108,15387
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2108,15390
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_183:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2112,15430
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2112,15433
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_184:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2116,15473
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2116,15476
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_185:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2120,15497
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2120,15500
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_186:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2124,15502
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2124,15505
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_187:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2128,15507
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2128,15510
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_188:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2132,15530
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2132,15533
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_189:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2136,15553
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2136,15556
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_190:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2140,15558
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2140,15561
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_191:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2144,15581
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2144,15584
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_192:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2148,15622
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2148,15625
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_193:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2152,15645
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2152,15648
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_194:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2156,15650
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2156,15653
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_195:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2160,15673
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2160,15676
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_196:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2164,15681
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2164,15684
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_197:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2168,15704
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2168,15707
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_198:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2172,15709
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2172,15712
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_199:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2176,15714
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2176,15717
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_200:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2180,15719
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2180,15722
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_201:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2184,15724
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2184,15727
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_202:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2188,15747
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2188,15750
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_203:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2192,15770
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2192,15773
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_204:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2196,15793
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2196,15796
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_205:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2200,15816
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2200,15819
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_206:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2204,15821
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2204,15824
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_207:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2208,15826
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2208,15829
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_208:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2212,15831
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2212,15834
 	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
 plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_209:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2216,15836
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2216,15839
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
 plt_System_Threading_Tasks_Task_AddException_object:
 _p_210:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2220,15841
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2220,15844
 	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
 plt_System_Threading_Tasks_Task_Finish_bool:
 _p_211:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2224,15846
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2224,15849
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_212:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2228,15869
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2228,15872
 	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_213:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2232,15892
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2232,15895
 	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
 plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_214:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2236,15897
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2236,15900
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_215:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2240,15920
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2240,15923
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_216:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2244,15928
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2244,15931
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_217:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2248,15962
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2248,15965
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_218:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2252,15982
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2252,15985
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_219:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2256,16017
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2256,16020
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_220:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2260,16025
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2260,16028
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_221:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2264,16075
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2264,16078
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_222:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2268,16083
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2268,16086
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_223:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2272,16106
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2272,16109
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_224:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2276,16129
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2276,16132
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_225:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2280,16170
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2280,16173
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_226:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2284,16211
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2284,16214
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_227:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2288,16234
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2288,16237
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_228:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2292,16266
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2292,16269
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_229:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2296,16274
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2296,16277
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_230:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2300,16297
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2300,16300
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_231:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2304,16329
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2304,16332
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_232:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2308,16337
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2308,16340
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_233:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2312,16360
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2312,16363
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_234:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2316,16368
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2316,16371
 	.no_dead_strip plt__jit_icall_mono_ldftn
 plt__jit_icall_mono_ldftn:
 _p_235:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2320,16391
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2320,16394
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_236:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2324,16415
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2324,16418
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr:
 _p_237:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2328,16425
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2328,16428
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
 _p_238:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2332,16449
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2332,16452
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_239:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2336,16487
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2336,16490
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_240:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2340,16515
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2340,16518
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_241:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2344,16540
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2344,16543
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_242:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2348,16545
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2348,16548
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_243:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2352,16577
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2352,16580
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_244:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2356,16589
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2356,16592
 	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
 plt_System_OperationCanceledException_get_CancellationToken:
 _p_245:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2360,16616
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2360,16619
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_246:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2364,16639
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2364,16642
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_247:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2368,16651
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2368,16654
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_248:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2372,16678
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2372,16681
 	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
 plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
 _p_249:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2376,16705
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2376,16708
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_250:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2380,16710
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2380,16713
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_251:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2384,16715
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2384,16718
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_252:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2388,16720
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2388,16723
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_253:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2392,16725
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2392,16728
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_254:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2396,16730
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2396,16733
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_255:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2400,16757
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2400,16760
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_256:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2404,16802
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2404,16805
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_257:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2408,16812
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2408,16815
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_258:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2412,16864
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2412,16867
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_259:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2416,16876
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2416,16879
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_260:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2420,16903
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2420,16906
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_261:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2424,16908
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2424,16911
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_262:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2428,16920
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2428,16923
 	.no_dead_strip plt_System_Delegate_get_Method
 plt_System_Delegate_get_Method:
 _p_263:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2432,16947
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2432,16950
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_264:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2436,16952
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2436,16955
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_265:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2440,16957
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2440,16960
 	.no_dead_strip plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5
 plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5:
 _p_266:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2444,16962
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2444,16965
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_267:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2448,16976
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2448,16979
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_268:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2452,16988
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2452,16991
 	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
 plt_System_Threading_AtomicBoolean__ctor:
 _p_269:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2456,17015
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2456,17018
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_270:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2460,17020
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2460,17023
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_271:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2464,17047
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2464,17050
 	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
 plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_272:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2468,17074
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2468,17077
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_273:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2472,17079
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2472,17082
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_274:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2476,17089
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2476,17092
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_275:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2480,17114
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2480,17117
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_276:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2484,17141
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2484,17144
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_277:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2488,17168
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2488,17171
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_278:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2492,17195
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2492,17198
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_279:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2496,17225
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2496,17228
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_280:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2500,17230
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2500,17233
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_281:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2504,17262
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2504,17265
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_282:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2508,17274
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2508,17277
 	.no_dead_strip plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Unbox_object
 plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Unbox_object:
 _p_283:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2512,17301
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2512,17304
 	.no_dead_strip plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Equals_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel
 plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Equals_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel:
 _p_284:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2516,17322
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2516,17325
 	.no_dead_strip plt_System_Enum_Equals_object
 plt_System_Enum_Equals_object:
 _p_285:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2520,17343
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2520,17346
 	.no_dead_strip plt_System_Enum_GetHashCode
 plt_System_Enum_GetHashCode:
 _p_286:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2524,17348
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2524,17351
 	.no_dead_strip plt_System_Enum_ToString
 plt_System_Enum_ToString:
 _p_287:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2528,17353
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2528,17356
 	.no_dead_strip plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel__ctor_Microsoft_Azure_Documents_ConsistencyLevel
 plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel__ctor_Microsoft_Azure_Documents_ConsistencyLevel:
 _p_288:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2532,17358
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2532,17361
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_289:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2536,17397
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2536,17400
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_290:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2540,17440
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2540,17443
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_291:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2544,17483
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2544,17486
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_292:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2548,17526
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2548,17529
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_293:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2552,17536
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2552,17539
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_294:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2556,17579
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2556,17582
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_295:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2560,17622
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2560,17625
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_296:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2564,17665
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2564,17668
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_297:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2568,17708
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2568,17711
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_298:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2572,17718
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2572,17721
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_299:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2576,17754
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2576,17757
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_300:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2580,17778
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2580,17781
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_301:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2584,17817
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2584,17820
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_302:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2588,17829
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2588,17832
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_303:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2592,17883
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2592,17886
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_304:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2596,17895
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2596,17898
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_305:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2600,17940
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2600,17943
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_306:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2604,17983
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2604,17986
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_307:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2608,18026
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2608,18029
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_308:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2612,18078
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2612,18081
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_309:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2616,18090
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2616,18093
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_310:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2620,18144
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2620,18147
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_311:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2624,18156
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2624,18159
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_312:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2628,18183
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2628,18186
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_313:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2632,18193
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2632,18196
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_314:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2636,18229
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2636,18232
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr:
 _p_315:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2640,18241
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2640,18244
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_316:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2644,18283
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2644,18286
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_317:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2648,18311
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2648,18314
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_318:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2652,18363
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2652,18366
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_319:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2656,18375
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2656,18378
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_320:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2660,18420
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2660,18423
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_321:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2664,18432
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2664,18435
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_322:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2668,18459
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2668,18462
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_323:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2672,18486
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2672,18489
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_324:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2676,18513
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2676,18516
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_325:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2680,18558
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2680,18561
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_326:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2684,18568
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2684,18571
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_327:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2688,18620
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2688,18623
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_328:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2692,18632
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2692,18635
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_329:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2696,18659
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2696,18662
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_330:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2700,18671
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2700,18674
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_331:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2704,18707
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2704,18710
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_332:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2708,18719
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2708,18722
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_333:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2712,18746
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2712,18749
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_334:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2716,18773
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2716,18776
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_335:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2720,18800
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2720,18803
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_336:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2724,18810
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2724,18813
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_337:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2728,18835
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2728,18838
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_338:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2732,18862
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2732,18865
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_339:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2736,18889
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2736,18892
 	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
 plt_System_Nullable_1_int_Unbox_object:
 _p_340:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2740,18916
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2740,18919
 	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
 plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
 _p_341:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2744,18938
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2744,18941
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_342:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2748,18960
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2748,18963
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_343:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2752,18965
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2752,18968
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_344:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2756,18991
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2756,18994
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_345:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2760,19040
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2760,19043
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_346:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2764,19089
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2764,19092
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument:
 _p_347:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2768,19117
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2768,19120
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_348:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2772,19143
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2772,19146
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_349:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2776,19180
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2776,19183
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TKey_REF_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_TKey_REF_get_Default:
 _p_350:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2780,19192
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2780,19195
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_351:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2784,19234
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2784,19237
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_352:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2788,19306
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2788,19309
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_353:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2792,19335
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2792,19338
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_354:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2796,19363
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2796,19366
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_355:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2800,19379
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2800,19382
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_356:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2804,19419
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2804,19422
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_357:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2808,19448
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2808,19451
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_358:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2812,19460
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2812,19463
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_359:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2816,19490
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2816,19493
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_360:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2820,19520
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2820,19523
 	.no_dead_strip plt_System_Collections_HashHelpers_get_SerializationInfoTable
 plt_System_Collections_HashHelpers_get_SerializationInfoTable:
 _p_361:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2824,19548
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2824,19551
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Add_object_System_Runtime_Serialization_SerializationInfo
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Add_object_System_Runtime_Serialization_SerializationInfo:
 _p_362:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2828,19567
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2828,19570
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_363:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2832,19626
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2832,19629
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_364:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2836,19638
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2836,19641
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_365:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2840,19689
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2840,19692
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_366:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2844,19701
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2844,19704
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_367:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2848,19752
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2848,19755
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_368:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2852,19764
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2852,19767
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_369:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2856,19827
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2856,19830
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_370:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2860,19839
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2860,19842
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_371:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2864,19890
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2864,19893
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_372:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2868,19902
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2868,19905
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_373:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2872,19953
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2872,19956
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_374:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2876,19965
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2876,19968
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_375:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2880,20016
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2880,20019
 	.no_dead_strip plt_System_ThrowHelper_ThrowKeyNotFoundException
 plt_System_ThrowHelper_ThrowKeyNotFoundException:
 _p_376:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2884,20044
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2884,20047
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_377:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2888,20070
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2888,20073
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_378:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2892,20119
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2892,20122
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_379:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2896,20168
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2896,20171
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_380:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2900,20180
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2900,20183
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_381:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2904,20210
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2904,20213
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_382:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2908,20240
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2908,20243
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_383:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2912,20289
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2912,20292
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_384:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2916,20301
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2916,20304
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_385:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2920,20331
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2920,20334
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_386:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2924,20368
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2924,20371
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_387:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2928,20380
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2928,20383
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_388:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2932,20407
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2932,20410
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_389:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2936,20458
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2936,20461
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_390:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2940,20470
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2940,20473
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_391:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2944,20500
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2944,20503
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_392:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2948,20528
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2948,20531
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_393:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2952,20540
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2952,20543
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_394:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2956,20567
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2956,20570
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_395:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2960,20597
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2960,20600
 	.no_dead_strip plt_System_Array_Clear_System_Array_int_int
 plt_System_Array_Clear_System_Array_int_int:
 _p_396:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2964,20625
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2964,20628
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_397:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2968,20651
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2968,20654
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_398:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2972,20700
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2972,20703
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_399:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2976,20712
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2976,20715
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_400:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2980,20739
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2980,20742
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_401:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2984,20765
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2984,20768
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_402:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2988,20793
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2988,20796
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_403:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2992,20798
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2992,20801
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_404:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 2996,20810
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 2996,20813
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_405:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3000,20873
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3000,20876
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_406:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3004,20885
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3004,20888
 	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
 plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_407:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3008,20915
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3008,20918
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_408:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3012,20973
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3012,20976
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_409:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3016,20985
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3016,20988
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_int
 plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_int:
 _p_410:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3020,21015
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3020,21018
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_411:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3024,21050
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3024,21053
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_object_System_Type
 plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_object_System_Type:
 _p_412:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3028,21062
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3028,21065
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_413:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3032,21067
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3032,21070
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_414:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3036,21095
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3036,21098
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_415:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3040,21109
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3040,21112
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_416:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3044,21137
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3044,21140
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_417:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3048,21172
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3048,21175
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_418:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3052,21199
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3052,21202
 	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
 plt_System_Collections_HashHelpers_GetPrime_int:
 _p_419:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3056,21226
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3056,21229
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_420:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3060,21264
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3060,21267
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_421:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3064,21299
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3064,21302
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_422:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3068,21327
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3068,21330
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_423:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3072,21354
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3072,21357
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_424:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3076,21381
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3076,21384
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_TryGetValue_object_System_Runtime_Serialization_SerializationInfo_
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_TryGetValue_object_System_Runtime_Serialization_SerializationInfo_:
 _p_425:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3080,21409
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3080,21412
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_GetInt32_string
 plt_System_Runtime_Serialization_SerializationInfo_GetInt32_string:
 _p_426:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3084,21435
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3084,21438
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_427:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3088,21461
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3088,21464
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_GetValue_string_System_Type
 plt_System_Runtime_Serialization_SerializationInfo_GetValue_string_System_Type:
 _p_428:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3092,21473
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3092,21476
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_429:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3096,21478
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3096,21481
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_430:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3100,21490
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3100,21493
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_431:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3104,21498
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3104,21501
 	.no_dead_strip plt__rgctx_fetch_199
 plt__rgctx_fetch_199:
 _p_432:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3108,21512
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3108,21515
 	.no_dead_strip plt__rgctx_fetch_200
 plt__rgctx_fetch_200:
 _p_433:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3112,21526
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3112,21529
 	.no_dead_strip plt_System_ThrowHelper_ThrowSerializationException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowSerializationException_System_ExceptionResource:
 _p_434:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3116,21540
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3116,21543
 	.no_dead_strip plt__rgctx_fetch_201
 plt__rgctx_fetch_201:
 _p_435:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3120,21545
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3120,21548
 	.no_dead_strip plt__rgctx_fetch_202
 plt__rgctx_fetch_202:
 _p_436:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3124,21557
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3124,21560
 	.no_dead_strip plt__rgctx_fetch_203
 plt__rgctx_fetch_203:
 _p_437:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3128,21587
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3128,21590
 	.no_dead_strip plt__rgctx_fetch_204
 plt__rgctx_fetch_204:
 _p_438:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3132,21617
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3132,21620
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Remove_object
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Remove_object:
 _p_439:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3136,21645
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3136,21648
 	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
 plt_System_Collections_HashHelpers_ExpandPrime_int:
 _p_440:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3140,21671
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3140,21674
 	.no_dead_strip plt__rgctx_fetch_205
 plt__rgctx_fetch_205:
 _p_441:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3144,21697
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3144,21700
 	.no_dead_strip plt__rgctx_fetch_206
 plt__rgctx_fetch_206:
 _p_442:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3148,21746
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3148,21749
 	.no_dead_strip plt__rgctx_fetch_207
 plt__rgctx_fetch_207:
 _p_443:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3152,21760
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3152,21763
 	.no_dead_strip plt__rgctx_fetch_208
 plt__rgctx_fetch_208:
 _p_444:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3156,21808
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3156,21811
 	.no_dead_strip plt__rgctx_fetch_209
 plt__rgctx_fetch_209:
 _p_445:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3160,21835
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3160,21838
 	.no_dead_strip plt__rgctx_fetch_210
 plt__rgctx_fetch_210:
 _p_446:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3164,21883
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3164,21886
 	.no_dead_strip plt__rgctx_fetch_211
 plt__rgctx_fetch_211:
 _p_447:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3168,21932
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3168,21935
 	.no_dead_strip plt__rgctx_fetch_212
 plt__rgctx_fetch_212:
 _p_448:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3172,21981
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3172,21984
 	.no_dead_strip plt__rgctx_fetch_213
 plt__rgctx_fetch_213:
 _p_449:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3176,22009
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3176,22012
 	.no_dead_strip plt__rgctx_fetch_214
 plt__rgctx_fetch_214:
 _p_450:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3180,22023
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3180,22026
 	.no_dead_strip plt__rgctx_fetch_215
 plt__rgctx_fetch_215:
 _p_451:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3184,22051
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3184,22054
 	.no_dead_strip plt_System_Collections_DictionaryEntry__ctor_object_object
 plt_System_Collections_DictionaryEntry__ctor_object_object:
 _p_452:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3188,22061
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3188,22064
 	.no_dead_strip plt__rgctx_fetch_216
 plt__rgctx_fetch_216:
 _p_453:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3192,22066
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3192,22069
 	.no_dead_strip plt__rgctx_fetch_217
 plt__rgctx_fetch_217:
 _p_454:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3196,22078
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3196,22081
 	.no_dead_strip plt__rgctx_fetch_218
 plt__rgctx_fetch_218:
 _p_455:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3200,22129
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3200,22132
 	.no_dead_strip plt__rgctx_fetch_219
 plt__rgctx_fetch_219:
 _p_456:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3204,22141
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3204,22144
 	.no_dead_strip plt_object__ctor
 plt_object__ctor:
 _p_457:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3208,22171
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3208,22174
 	.no_dead_strip plt__rgctx_fetch_220
 plt__rgctx_fetch_220:
 _p_458:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3212,22197
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3212,22200
 	.no_dead_strip plt__rgctx_fetch_221
 plt__rgctx_fetch_221:
 _p_459:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3216,22246
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3216,22249
 	.no_dead_strip plt__rgctx_fetch_222
 plt__rgctx_fetch_222:
 _p_460:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3220,22295
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3220,22298
 	.no_dead_strip plt__rgctx_fetch_223
 plt__rgctx_fetch_223:
 _p_461:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3224,22305
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3224,22308
 	.no_dead_strip plt__rgctx_fetch_224
 plt__rgctx_fetch_224:
 _p_462:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3228,22333
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3228,22336
 	.no_dead_strip plt__rgctx_fetch_225
 plt__rgctx_fetch_225:
 _p_463:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3232,22343
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3232,22346
 	.no_dead_strip plt__rgctx_fetch_226
 plt__rgctx_fetch_226:
 _p_464:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3236,22371
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3236,22374
 	.no_dead_strip plt__rgctx_fetch_227
 plt__rgctx_fetch_227:
 _p_465:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3240,22402
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3240,22405
 	.no_dead_strip plt__rgctx_fetch_228
 plt__rgctx_fetch_228:
 _p_466:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3244,22428
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3244,22431
 	.no_dead_strip plt__rgctx_fetch_229
 plt__rgctx_fetch_229:
 _p_467:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3248,22454
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3248,22457
 	.no_dead_strip plt__rgctx_fetch_230
 plt__rgctx_fetch_230:
 _p_468:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3252,22464
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3252,22467
 	.no_dead_strip plt__rgctx_fetch_231
 plt__rgctx_fetch_231:
 _p_469:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3256,22474
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3256,22477
 	.no_dead_strip plt__rgctx_fetch_232
 plt__rgctx_fetch_232:
 _p_470:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3260,22502
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3260,22505
 	.no_dead_strip plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type
 plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type:
 _p_471:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3264,22512
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3264,22515
 	.no_dead_strip plt__rgctx_fetch_233
 plt__rgctx_fetch_233:
 _p_472:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3268,22517
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3268,22520
 	.no_dead_strip plt_System_ThrowHelper_ThrowWrongKeyTypeArgumentException_object_System_Type
 plt_System_ThrowHelper_ThrowWrongKeyTypeArgumentException_object_System_Type:
 _p_473:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3272,22527
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3272,22530
 	.no_dead_strip plt__rgctx_fetch_234
 plt__rgctx_fetch_234:
 _p_474:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3276,22553
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3276,22556
 	.no_dead_strip plt__rgctx_fetch_235
 plt__rgctx_fetch_235:
 _p_475:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3280,22584
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3280,22587
 	.no_dead_strip plt__rgctx_fetch_236
 plt__rgctx_fetch_236:
 _p_476:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3284,22610
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3284,22613
 	.no_dead_strip plt__rgctx_fetch_237
 plt__rgctx_fetch_237:
 _p_477:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3288,22636
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3288,22639
 	.no_dead_strip plt__rgctx_fetch_238
 plt__rgctx_fetch_238:
 _p_478:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3292,22646
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3292,22649
 	.no_dead_strip plt__rgctx_fetch_239
 plt__rgctx_fetch_239:
 _p_479:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3296,22656
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3296,22659
 	.no_dead_strip plt__rgctx_fetch_240
 plt__rgctx_fetch_240:
 _p_480:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3300,22684
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3300,22687
 	.no_dead_strip plt__rgctx_fetch_241
 plt__rgctx_fetch_241:
 _p_481:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3304,22694
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3304,22697
 	.no_dead_strip plt__rgctx_fetch_242
 plt__rgctx_fetch_242:
 _p_482:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3308,22725
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3308,22728
 	.no_dead_strip plt__rgctx_fetch_243
 plt__rgctx_fetch_243:
 _p_483:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3312,22735
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3312,22738
 	.no_dead_strip plt__rgctx_fetch_244
 plt__rgctx_fetch_244:
 _p_484:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3316,22763
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3316,22766
 	.no_dead_strip plt__rgctx_fetch_245
 plt__rgctx_fetch_245:
 _p_485:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3320,22773
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3320,22776
 	.no_dead_strip plt__rgctx_fetch_246
 plt__rgctx_fetch_246:
 _p_486:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3324,22822
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3324,22825
 	.no_dead_strip plt__rgctx_fetch_247
 plt__rgctx_fetch_247:
 _p_487:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3328,22834
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3328,22837
 	.no_dead_strip plt__rgctx_fetch_248
 plt__rgctx_fetch_248:
 _p_488:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3332,22885
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3332,22888
 	.no_dead_strip plt__rgctx_fetch_249
 plt__rgctx_fetch_249:
 _p_489:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3336,22895
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3336,22898
 	.no_dead_strip plt__rgctx_fetch_250
 plt__rgctx_fetch_250:
 _p_490:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3340,22923
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3340,22926
 	.no_dead_strip plt__rgctx_fetch_251
 plt__rgctx_fetch_251:
 _p_491:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3344,22933
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3344,22936
 	.no_dead_strip plt__rgctx_fetch_252
 plt__rgctx_fetch_252:
 _p_492:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3348,22994
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3348,22997
 	.no_dead_strip plt__rgctx_fetch_253
 plt__rgctx_fetch_253:
 _p_493:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3352,23006
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3352,23009
 	.no_dead_strip plt__rgctx_fetch_254
 plt__rgctx_fetch_254:
 _p_494:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3356,23069
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3356,23072
 	.no_dead_strip plt__rgctx_fetch_255
 plt__rgctx_fetch_255:
 _p_495:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3360,23120
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3360,23123
 	.no_dead_strip plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource:
 _p_496:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3364,23150
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3364,23153
 	.no_dead_strip plt__rgctx_fetch_256
 plt__rgctx_fetch_256:
 _p_497:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3368,23176
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3368,23179
 	.no_dead_strip plt__rgctx_fetch_257
 plt__rgctx_fetch_257:
 _p_498:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3372,23227
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3372,23230
 	.no_dead_strip plt__rgctx_fetch_258
 plt__rgctx_fetch_258:
 _p_499:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3376,23239
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3376,23242
 	.no_dead_strip plt__rgctx_fetch_259
 plt__rgctx_fetch_259:
 _p_500:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3380,23290
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3380,23293
 	.no_dead_strip plt__rgctx_fetch_260
 plt__rgctx_fetch_260:
 _p_501:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3384,23302
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3384,23305
 	.no_dead_strip plt__rgctx_fetch_261
 plt__rgctx_fetch_261:
 _p_502:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3388,23353
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3388,23356
 	.no_dead_strip plt__rgctx_fetch_262
 plt__rgctx_fetch_262:
 _p_503:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3392,23383
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3392,23386
 	.no_dead_strip plt__rgctx_fetch_263
 plt__rgctx_fetch_263:
 _p_504:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3396,23395
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3396,23398
 	.no_dead_strip plt__rgctx_fetch_264
 plt__rgctx_fetch_264:
 _p_505:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3400,23456
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3400,23459
 	.no_dead_strip plt__rgctx_fetch_265
 plt__rgctx_fetch_265:
 _p_506:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3404,23468
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3404,23471
 	.no_dead_strip plt__rgctx_fetch_266
 plt__rgctx_fetch_266:
 _p_507:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3408,23531
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3408,23534
 	.no_dead_strip plt__rgctx_fetch_267
 plt__rgctx_fetch_267:
 _p_508:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3412,23582
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3412,23585
 	.no_dead_strip plt__rgctx_fetch_268
 plt__rgctx_fetch_268:
 _p_509:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3416,23633
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3416,23636
 	.no_dead_strip plt__rgctx_fetch_269
 plt__rgctx_fetch_269:
 _p_510:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3420,23684
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3420,23687
 	.no_dead_strip plt__rgctx_fetch_270
 plt__rgctx_fetch_270:
 _p_511:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3424,23696
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3424,23699
 	.no_dead_strip plt__rgctx_fetch_271
 plt__rgctx_fetch_271:
 _p_512:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3428,23747
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3428,23750
 	.no_dead_strip plt__rgctx_fetch_272
 plt__rgctx_fetch_272:
 _p_513:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3432,23759
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3432,23762
 	.no_dead_strip plt__rgctx_fetch_273
 plt__rgctx_fetch_273:
 _p_514:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3436,23810
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3436,23813
 	.no_dead_strip plt__rgctx_fetch_274
 plt__rgctx_fetch_274:
 _p_515:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3440,23840
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3440,23843
 	.no_dead_strip plt__rgctx_fetch_275
 plt__rgctx_fetch_275:
 _p_516:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3444,23852
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3444,23855
 	.no_dead_strip plt__rgctx_fetch_276
 plt__rgctx_fetch_276:
 _p_517:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3448,23880
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3448,23883
 	.no_dead_strip plt__rgctx_fetch_277
 plt__rgctx_fetch_277:
 _p_518:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3452,23909
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3452,23912
 	.no_dead_strip plt__rgctx_fetch_278
 plt__rgctx_fetch_278:
 _p_519:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3456,23958
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3456,23961
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_520:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3460,23968
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3460,23971
 	.no_dead_strip plt__rgctx_fetch_279
 plt__rgctx_fetch_279:
 _p_521:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3464,23976
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3464,23979
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_522:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3468,23986
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3468,23989
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_523:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3472,23991
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3472,23994
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_524:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3476,23996
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3476,23999
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_525:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3480,24030
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3480,24033
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_526:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3484,24035
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3484,24038
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_MoveNext
 plt_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_MoveNext:
 _p_527:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3488,24040
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3488,24043
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_MoveNext
 plt_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_MoveNext:
 _p_528:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3492,24042
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3492,24045
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_MoveNext
 plt_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_MoveNext:
 _p_529:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3496,24044
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3496,24047
 	.no_dead_strip plt__rgctx_fetch_280
 plt__rgctx_fetch_280:
 _p_530:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3500,24074
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3500,24077
 	.no_dead_strip plt__rgctx_fetch_281
 plt__rgctx_fetch_281:
 _p_531:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3504,24086
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3504,24089
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_MoveNext
 plt_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_MoveNext:
 _p_532:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3508,24113
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3508,24116
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_MoveNext
 plt_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_MoveNext:
 _p_533:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3512,24115
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3512,24118
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_MoveNext
 plt_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_MoveNext:
 _p_534:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3516,24117
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3516,24120
 	.no_dead_strip plt__rgctx_fetch_282
 plt__rgctx_fetch_282:
 _p_535:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3520,24141
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3520,24144
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_536:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3524,24193
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3524,24196
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_537:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3528,24198
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3528,24201
 	.no_dead_strip plt__rgctx_fetch_283
 plt__rgctx_fetch_283:
 _p_538:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3532,24203
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3532,24206
 	.no_dead_strip plt__rgctx_fetch_284
 plt__rgctx_fetch_284:
 _p_539:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3536,24213
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3536,24216
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_540:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3540,24223
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3540,24226
 	.no_dead_strip plt__rgctx_fetch_285
 plt__rgctx_fetch_285:
 _p_541:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3544,24228
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3544,24231
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_542:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3548,24238
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3548,24241
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_543:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3552,24243
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3552,24246
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_544:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3556,24270
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3556,24273
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_545:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3560,24297
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3560,24300
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_546:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3564,24324
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3564,24327
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_:
 _p_547:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3568,24350
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3568,24353
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action:
 _p_548:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3572,24377
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3572,24380
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_UnsafeOnCompleted_System_Action:
 _p_549:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3576,24398
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3576,24401
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_:
 _p_550:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3580,24421
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3580,24424
 	.no_dead_strip plt__rgctx_fetch_286
 plt__rgctx_fetch_286:
 _p_551:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3584,24467
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3584,24470
 	.no_dead_strip plt__rgctx_fetch_287
 plt__rgctx_fetch_287:
 _p_552:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3588,24520
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3588,24523
 	.no_dead_strip plt__rgctx_fetch_288
 plt__rgctx_fetch_288:
 _p_553:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3592,24532
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3592,24535
 	.no_dead_strip plt__rgctx_fetch_289
 plt__rgctx_fetch_289:
 _p_554:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3596,24586
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3596,24589
 	.no_dead_strip plt__rgctx_fetch_290
 plt__rgctx_fetch_290:
 _p_555:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3600,24598
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3600,24601
 	.no_dead_strip plt__rgctx_fetch_291
 plt__rgctx_fetch_291:
 _p_556:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3604,24643
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3604,24646
 	.no_dead_strip plt__rgctx_fetch_292
 plt__rgctx_fetch_292:
 _p_557:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3608,24653
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3608,24656
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 _p_558:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3612,24663
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3612,24666
 	.no_dead_strip plt__rgctx_fetch_293
 plt__rgctx_fetch_293:
 _p_559:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3616,24700
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3616,24703
 	.no_dead_strip plt__rgctx_fetch_294
 plt__rgctx_fetch_294:
 _p_560:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3620,24710
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3620,24713
 	.no_dead_strip plt__rgctx_fetch_295
 plt__rgctx_fetch_295:
 _p_561:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3624,24720
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3624,24723
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_562:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3628,24745
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3628,24748
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action:
 _p_563:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3632,24756
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3632,24759
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_564:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3636,24779
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3636,24782
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_565:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3640,24799
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3640,24802
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_566:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3644,24819
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3644,24822
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_567:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3648,24839
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3648,24842
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_568:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3652,24859
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3652,24862
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_569:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3656,24879
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3656,24882
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_570:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3660,24899
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3660,24902
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_571:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3664,24919
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3664,24922
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
 _p_572:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3668,24939
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3668,24942
 	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
 _p_573:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3672,24959
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3672,24962
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_574:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3676,24979
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3676,24982
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_575:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3680,24999
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3680,25002
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_576:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3684,25019
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3684,25022
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
 _p_577:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3688,25039
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3688,25042
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_578:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3692,25059
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3692,25062
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_579:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3696,25079
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3696,25082
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_580:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3700,25099
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3700,25102
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_581:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3704,25119
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3704,25122
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_582:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3708,25139
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3708,25142
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_583:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3712,25144
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3712,25147
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_584:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3716,25164
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3716,25167
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_585:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3720,25184
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3720,25187
 	.no_dead_strip plt_System_Decimal__ctor_int
 plt_System_Decimal__ctor_int:
 _p_586:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3724,25204
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3724,25207
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_587:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3728,25209
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3728,25212
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_588:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3732,25229
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3732,25232
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action:
 _p_589:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3736,25250
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3736,25253
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_590:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3740,25270
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3740,25273
 	.no_dead_strip plt__rgctx_fetch_296
 plt__rgctx_fetch_296:
 _p_591:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3744,25293
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3744,25296
 	.no_dead_strip plt_System_Type_op_Equality_System_Type_System_Type
 plt_System_Type_op_Equality_System_Type_System_Type:
 _p_592:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3748,25303
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3748,25306
 	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
 plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_593:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3752,25308
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3752,25311
 	.no_dead_strip plt__rgctx_fetch_297
 plt__rgctx_fetch_297:
 _p_594:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3756,25313
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3756,25316
 	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
 plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_595:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3760,25323
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3760,25326
 	.no_dead_strip plt__rgctx_fetch_298
 plt__rgctx_fetch_298:
 _p_596:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3764,25337
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3764,25340
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_597:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3768,25349
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3768,25352
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_598:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3772,25354
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3772,25357
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_599:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3776,25359
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3776,25362
 	.no_dead_strip plt__rgctx_fetch_299
 plt__rgctx_fetch_299:
 _p_600:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3780,25373
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3780,25376
 	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 _p_601:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3784,25385
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3784,25388
 	.no_dead_strip plt__rgctx_fetch_300
 plt__rgctx_fetch_300:
 _p_602:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3788,25424
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3788,25427
 	.no_dead_strip plt__rgctx_fetch_301
 plt__rgctx_fetch_301:
 _p_603:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3792,25434
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3792,25437
 	.no_dead_strip plt__rgctx_fetch_302
 plt__rgctx_fetch_302:
 _p_604:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3796,25453
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3796,25456
 	.no_dead_strip plt__rgctx_fetch_303
 plt__rgctx_fetch_303:
 _p_605:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3800,25474
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3800,25477
 	.no_dead_strip plt__rgctx_fetch_304
 plt__rgctx_fetch_304:
 _p_606:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3804,25486
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3804,25489
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_607:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3808,25513
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3808,25516
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_608:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3812,25533
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3812,25536
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
 _p_609:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3816,25562
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3816,25565
 	.no_dead_strip plt__rgctx_fetch_305
 plt__rgctx_fetch_305:
 _p_610:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_DocumentDBTodo_iOS_got - . + 3820,25610
+	.long mono_aot_DocumentDBTodo_iOS_got - . + 3820,25613
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -20172,7 +20182,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "905FBB1B-18A0-4B2E-A171-5D741E4D5C81"
+	.asciz "4F025BEB-B5D5-4622-AF0A-48E44C24CC73"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -20249,13 +20259,13 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampoline_addresses
 
-	.long 346,3828,611,460,66,923871743,0,34935
+	.long 346,3828,611,460,66,923871743,0,34938
 	.long 128,4,4,10,0,15,49392,14448
 	.long 13464,12024,0,12664,13400,12192,0,8952
 	.long 640,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 201,222,80,18,182,12,121,122,116,124,185,102,51,183,83,255
+	.byte 176,78,216,40,228,207,247,193,90,157,144,225,252,109,174,31
 	.globl _mono_aot_module_DocumentDBTodo_iOS_info
 	.align 2
 _mono_aot_module_DocumentDBTodo_iOS_info:
@@ -25039,7 +25049,7 @@ Lfde3_start:
 
 LDIFF_SYM847=Lme_3 - DocumentDBTodo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.long LDIFF_SYM847
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,100,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,2,228,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde3_end:
 

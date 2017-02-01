@@ -170,7 +170,7 @@ Lme_2:
 DocumentDBTodo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 .file 2 "/Users/microsoftdx/Desktop/TechSummitHK/iOS/AppDelegate.cs"
 .loc 2 18 0 prologue_end
-.word 0xa9bc7bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
@@ -181,26 +181,59 @@ bl _p_3
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #128]
-bl _p_4
-.loc 2 22 0
+.word 0xf9001fa0
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #136]
+.word 0xd2800041
+bl _p_4
+.word 0xaa0003e3
+.word 0xaa0303e0
+.word 0xf90027a0
+
+adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
+add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
+ldr x2, [x16, #144]
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9407c70
+.word 0xd63f0200
+.word 0xf94027a3
+.word 0xaa0303e0
+.word 0xf90023a0
+
+adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
+add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
+ldr x2, [x16, #152]
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9407c70
+.word 0xd63f0200
+.word 0xf9401fa0
+.word 0xf94023a1
 bl _p_5
-.word 0xf9001ba0
+.loc 2 23 0
+
+adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
+add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
+ldr x0, [x16, #160]
 bl _p_6
+.word 0xf9001ba0
+bl _p_7
 .word 0xf9401ba1
 .word 0xf9400ba0
-bl _p_7
-.loc 2 24 0
+bl _p_8
+.loc 2 25 0
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf94013a2
-bl _p_8
+bl _p_9
 .word 0x53001c00
 .word 0x910003bf
-.word 0xa8c47bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 
 Lme_3:
@@ -214,35 +247,35 @@ DocumentDBTodo_App__ctor:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-bl _p_9
+bl _p_10
 .loc 3 12 0
 .word 0xf9400ba0
-bl _p_10
+bl _p_11
 .loc 3 14 0
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
-ldr x0, [x16, #144]
-bl _p_5
+ldr x0, [x16, #168]
+bl _p_6
 .word 0xf9001ba0
-bl _p_11
+bl _p_12
 .word 0xf9401ba1
 .word 0xf9400ba0
-bl _p_12
+bl _p_13
 .loc 3 16 0
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
-ldr x0, [x16, #152]
+ldr x0, [x16, #136]
 .word 0xd2800041
-bl _p_13
+bl _p_4
 .word 0xaa0003e3
 .word 0xaa0303e0
 .word 0xf90017a0
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
-ldr x2, [x16, #160]
+ldr x2, [x16, #144]
 .word 0xaa0303e0
 .word 0xd2800001
 .word 0xf9400063
@@ -254,7 +287,7 @@ ldr x2, [x16, #160]
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
-ldr x2, [x16, #168]
+ldr x2, [x16, #152]
 .word 0xaa0303e0
 .word 0xd2800021
 .word 0xf9400063
@@ -385,7 +418,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #216]
-bl _p_5
+bl _p_6
 .word 0xf900101a
 .word 0xf9001ba0
 .word 0x91008000
@@ -424,7 +457,7 @@ bl _p_22
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #216]
-bl _p_5
+bl _p_6
 .word 0xf900101a
 .word 0xf90013a0
 .word 0x91008000
@@ -1489,7 +1522,7 @@ DocumentDBTodo_DocumentDBTodoPage_ActivityIndicatorScope_Dispose:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #488]
-bl _p_5
+bl _p_6
 .word 0xf900101a
 .word 0xf9001ba0
 .word 0x91008000
@@ -1697,7 +1730,7 @@ ldr x0, [x16, #536]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #544]
-bl _p_5
+bl _p_6
 .word 0xf94023a1
 .word 0xf9001ba0
 bl _p_52
@@ -2036,7 +2069,7 @@ DocumentDBTodo_TodoItemManager__cctor:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #200]
-bl _p_5
+bl _p_6
 .word 0xf9000ba0
 bl _p_60
 .word 0xf9400ba1
@@ -2088,7 +2121,7 @@ bl _p_19
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #216]
-bl _p_5
+bl _p_6
 .word 0xf900101a
 .word 0xf90013a0
 .word 0x91008000
@@ -2967,7 +3000,7 @@ ldr x0, [x16, #792]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #800]
-bl _p_5
+bl _p_6
 .word 0xaa0003fa
 .word 0xf9004fa0
 .word 0xf9400fa0
@@ -4239,7 +4272,7 @@ bl _p_72
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1056]
-bl _p_5
+bl _p_6
 .word 0xf94057a1
 .word 0xf9405ba2
 .word 0xf90053a0
@@ -4574,15 +4607,15 @@ ldr x0, [x16, #1152]
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
-ldr x0, [x16, #144]
-bl _p_5
+ldr x0, [x16, #168]
+bl _p_6
 .word 0xf9003ba0
-bl _p_11
+bl _p_12
 .word 0xf9403ba1
 .word 0xf9403fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_12
+bl _p_13
 .word 0x14000013
 .word 0xf90023a0
 .word 0xf94023a0
@@ -4883,7 +4916,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1240]
-bl _p_5
+bl _p_6
 .word 0xaa0003f9
 .word 0xf9007ba0
 .word 0xd2800000
@@ -4945,7 +4978,7 @@ bl _p_116
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1280]
-bl _p_5
+bl _p_6
 .word 0x3900401f
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
@@ -4961,7 +4994,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1296]
 .word 0xd2800021
-bl _p_13
+bl _p_4
 .word 0xaa0003e3
 .word 0xaa0303e0
 .word 0xf90077a0
@@ -5033,7 +5066,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1336]
-bl _p_5
+bl _p_6
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
@@ -5973,14 +6006,14 @@ ldr x0, [x16, #1152]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1536]
-bl _p_5
+bl _p_6
 .word 0xf9004ba0
 bl _p_144
 .word 0xf9404ba1
 .word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_12
+bl _p_13
 .word 0x1400006f
 .loc 9 36 0
 
@@ -8837,7 +8870,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1656]
 .word 0xd2800021
-bl _p_13
+bl _p_4
 .word 0xf90027a0
 .word 0xf90023a0
 .word 0xf94017a0
@@ -8977,7 +9010,7 @@ System_Tuple_2_T1_INT_T2_INT_ToString:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1680]
-bl _p_5
+bl _p_6
 .word 0xf90017a0
 bl _p_173
 .word 0xf94017a0
@@ -12127,7 +12160,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1768]
-bl _p_5
+bl _p_6
 .word 0xf9004ba0
 bl _p_269
 .word 0xf94047a0
@@ -12145,7 +12178,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1776]
-bl _p_5
+bl _p_6
 .word 0xf900101a
 .word 0xf9003fa0
 .word 0x91008000
@@ -12228,7 +12261,7 @@ bl _p_274
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1776]
-bl _p_5
+bl _p_6
 .word 0xf94047a1
 .word 0xf90043a1
 .word 0xf9001001
@@ -12721,7 +12754,7 @@ System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Equals_System_Nulla
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1816]
-bl _p_5
+bl _p_6
 .word 0xf94023a1
 .word 0xb9001001
 .word 0xf9001fa0
@@ -12731,7 +12764,7 @@ bl _p_5
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1816]
-bl _p_5
+bl _p_6
 .word 0xaa0003e2
 .word 0xf9401ba0
 .word 0xf9401fa1
@@ -12771,7 +12804,7 @@ System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_GetHashCode:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1816]
-bl _p_5
+bl _p_6
 .word 0xaa0003e1
 .word 0xf94013a0
 .word 0xb9001020
@@ -12852,7 +12885,7 @@ System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_ToString:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1816]
-bl _p_5
+bl _p_6
 .word 0xaa0003e1
 .word 0xf94013a0
 .word 0xb9001020
@@ -12895,7 +12928,7 @@ System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Box_System_Nullable
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1816]
-bl _p_5
+bl _p_6
 .word 0xf94013a1
 .word 0xb9001001
 .word 0x910003bf
@@ -14698,7 +14731,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1768]
-bl _p_5
+bl _p_6
 .word 0xf9004ba0
 bl _p_269
 .word 0xf94047a0
@@ -14716,7 +14749,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1776]
-bl _p_5
+bl _p_6
 .word 0xf900101a
 .word 0xf9003fa0
 .word 0x91008000
@@ -14799,7 +14832,7 @@ bl _p_336
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1776]
-bl _p_5
+bl _p_6
 .word 0xf94047a1
 .word 0xf90043a1
 .word 0xf9001001
@@ -15178,7 +15211,7 @@ System_Nullable_1_int_Equals_System_Nullable_1_int:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1832]
-bl _p_5
+bl _p_6
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xf9401fa2
@@ -15316,7 +15349,7 @@ System_Nullable_1_int_Box_System_Nullable_1_int:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1832]
-bl _p_5
+bl _p_6
 .word 0xf94013a1
 .word 0xb9001001
 .word 0x910003bf
@@ -17004,7 +17037,7 @@ bl _p_412
 .word 0xf9400000
 bl _p_413
 .word 0xf94033a1
-bl _p_13
+bl _p_4
 .word 0xaa0003f9
 .loc 18 292 0
 .word 0xf94017a0
@@ -17232,7 +17265,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1880]
 .word 0xaa1a03e1
-bl _p_13
+bl _p_4
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba1
@@ -17269,7 +17302,7 @@ bl _p_21
 .word 0xf9400000
 bl _p_419
 .word 0xaa1a03e1
-bl _p_13
+bl _p_4
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba1
@@ -17760,7 +17793,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1880]
 .word 0xaa1903e1
-bl _p_13
+bl _p_4
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xf90023a1
@@ -17797,7 +17830,7 @@ bl _p_21
 .word 0xf9400000
 bl _p_430
 .word 0xaa1903e1
-bl _p_13
+bl _p_4
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xf9002fa1
@@ -18019,7 +18052,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1880]
 .word 0xaa1903e1
-bl _p_13
+bl _p_4
 .word 0xaa0003f8
 .loc 18 446 0
 .word 0xd2800017
@@ -18044,7 +18077,7 @@ bl _p_13
 .word 0xf9400000
 bl _p_441
 .word 0xaa1903e1
-bl _p_13
+bl _p_4
 .word 0xaa0003f7
 .loc 18 448 0
 .word 0xf9401fa0
@@ -19151,7 +19184,7 @@ System_Collections_Generic_Dictionary_2_TKey_REF_TValue_LONG_System_Collections_
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1896]
-bl _p_5
+bl _p_6
 .word 0xf9001ba0
 bl _p_456
 .word 0xf94017a0
@@ -22876,7 +22909,7 @@ bl _p_524
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1992]
-bl _p_5
+bl _p_6
 .word 0x9100e3a1
 .word 0xf90063a0
 .word 0x91004000
@@ -22991,7 +23024,7 @@ bl _p_58
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2000]
-bl _p_5
+bl _p_6
 .word 0x9100e3a1
 .word 0xf9005ba0
 .word 0x91004000
@@ -23860,7 +23893,7 @@ bl _p_524
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2024]
-bl _p_5
+bl _p_6
 .word 0x9100e3a1
 .word 0xf90063a0
 .word 0x91004000
@@ -24221,7 +24254,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_Sys
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2032]
-bl _p_5
+bl _p_6
 .word 0xf9402fa5
 .word 0xf9002ba0
 .word 0xf94013a1
@@ -24865,7 +24898,7 @@ bl _p_227
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2088]
-bl _p_5
+bl _p_6
 .word 0xf94037a4
 .word 0xf9403ba5
 .word 0xf90033a0
@@ -24920,7 +24953,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2096]
-bl _p_5
+bl _p_6
 .word 0xf9000ba0
 bl _p_573
 .word 0xf9400ba1
@@ -24934,7 +24967,7 @@ ldr x0, [x16, #2040]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2104]
-bl _p_5
+bl _p_6
 .word 0xaa0003e1
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
@@ -25342,7 +25375,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2152]
-bl _p_5
+bl _p_6
 .word 0xf90023a0
 .word 0xf94023a0
 .word 0xf94017a1
@@ -25375,7 +25408,7 @@ bl _p_260
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2032]
-bl _p_5
+bl _p_6
 .word 0xf9004ba0
 .word 0xaa1903e1
 .word 0xaa1a03e2
@@ -25422,7 +25455,7 @@ ldr x0, [x16, #2168]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2176]
-bl _p_5
+bl _p_6
 .word 0xaa0003fa
 .word 0xf94023a1
 .word 0xf9004fa1
@@ -25436,7 +25469,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1768]
-bl _p_5
+bl _p_6
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xf90047a1
@@ -25452,7 +25485,7 @@ bl _p_21
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1776]
-bl _p_5
+bl _p_6
 .word 0xf900101a
 .word 0xf90043a0
 .word 0x91008000
@@ -25527,7 +25560,7 @@ bl _p_580
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #1776]
-bl _p_5
+bl _p_6
 .word 0xf9404ba1
 .word 0xf90043a1
 .word 0xf9001001
@@ -25801,7 +25834,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2032]
-bl _p_5
+bl _p_6
 .word 0xf90017a0
 bl _p_582
 .word 0xf94017a0
@@ -26055,7 +26088,7 @@ ldr x1, [x16, #2248]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26113,7 +26146,7 @@ ldr x1, [x16, #2296]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26182,7 +26215,7 @@ ldr x1, [x16, #2312]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26217,7 +26250,7 @@ ldr x1, [x16, #2328]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26252,7 +26285,7 @@ ldr x1, [x16, #2344]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26287,7 +26320,7 @@ ldr x1, [x16, #2360]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26332,7 +26365,7 @@ bl _p_585
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26396,7 +26429,7 @@ ldr x1, [x16, #2392]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26431,7 +26464,7 @@ ldr x1, [x16, #2408]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26466,7 +26499,7 @@ ldr x1, [x16, #2424]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26501,7 +26534,7 @@ ldr x1, [x16, #2440]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26536,7 +26569,7 @@ ldr x1, [x16, #2456]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26574,7 +26607,7 @@ ldr x1, [x16, #2472]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2256]
-bl _p_5
+bl _p_6
 .word 0x91004001
 .word 0x3980a3a2
 .word 0x39000022
@@ -26618,7 +26651,7 @@ ldr x0, [x16, #2488]
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2032]
-bl _p_5
+bl _p_6
 .word 0xf9004ba0
 .word 0xf94017a1
 bl _p_586
@@ -26732,7 +26765,7 @@ bl _p_524
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2024]
-bl _p_5
+bl _p_6
 .word 0x9100e3a1
 .word 0xf90063a0
 .word 0x91004000
@@ -26834,7 +26867,7 @@ bl _p_524
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2504]
-bl _p_5
+bl _p_6
 .word 0x9100e3a1
 .word 0xf90063a0
 .word 0x91004000
@@ -26936,7 +26969,7 @@ bl _p_524
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2504]
-bl _p_5
+bl _p_6
 .word 0x9100e3a1
 .word 0xf90063a0
 .word 0x91004000
@@ -27034,7 +27067,7 @@ bl _p_524
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2512]
-bl _p_5
+bl _p_6
 .word 0x9100e3a1
 .word 0xf90063a0
 .word 0x91004000
@@ -27147,7 +27180,7 @@ bl _p_561
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2520]
-bl _p_5
+bl _p_6
 .word 0x9100e3a1
 .word 0xf9005ba0
 .word 0x91004000
@@ -27288,7 +27321,7 @@ bl _p_591
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2544]
-bl _p_5
+bl _p_6
 .word 0xaa0003fa
 .word 0xaa1a03e0
 bl _p_592
@@ -27319,7 +27352,7 @@ bl _p_591
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2560]
-bl _p_5
+bl _p_6
 .word 0xaa0003fa
 .word 0xaa1a03e0
 bl _p_594
@@ -27418,9 +27451,9 @@ ldr x0, [x16, #2584]
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
-ldr x0, [x16, #152]
+ldr x0, [x16, #136]
 .word 0xd2800021
-bl _p_13
+bl _p_4
 .word 0xaa0003e3
 .word 0xaa0303e0
 .word 0xf9001ba0
@@ -27637,7 +27670,7 @@ bl _p_591
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2544]
-bl _p_5
+bl _p_6
 .word 0xaa0003fa
 .word 0xaa1a03e0
 bl _p_592
@@ -27668,7 +27701,7 @@ bl _p_591
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2560]
-bl _p_5
+bl _p_6
 .word 0xaa0003fa
 .word 0xaa1a03e0
 bl _p_594
@@ -27767,9 +27800,9 @@ ldr x0, [x16, #2672]
 
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
-ldr x0, [x16, #152]
+ldr x0, [x16, #136]
 .word 0xd2800021
-bl _p_13
+bl _p_4
 .word 0xaa0003e3
 .word 0xaa0303e0
 .word 0xf9001ba0
@@ -28702,7 +28735,7 @@ System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Thread
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x0, [x16, #2032]
-bl _p_5
+bl _p_6
 .word 0xf9001ba0
 .word 0xd2800001
 .word 0xf9400ba2
@@ -29394,28 +29427,28 @@ bl ut_442
 	.align 3
 unwind_info:
 
-	.byte 0,13,12,31,0,68,14,32,157,4,158,3,68,13,29,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31
-	.byte 0,68,14,80,157,10,158,9,68,13,29,68,154,8,14,12,31,0,68,14,176,1,157,22,158,21,68,13,29,14,12,31
-	.byte 0,68,14,208,1,157,26,158,25,68,13,29,14,12,31,0,68,14,224,1,157,28,158,27,68,13,29,14,12,31,0,68
-	.byte 14,192,1,157,24,158,23,68,13,29,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,16,12,31,0,68
-	.byte 14,64,157,8,158,7,68,13,29,68,152,6,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,13,12,31
-	.byte 0,68,14,16,157,2,158,1,68,13,29,14,12,31,0,68,14,160,1,157,20,158,19,68,13,29,17,12,31,0,68,14
-	.byte 144,1,157,18,158,17,68,13,29,68,154,16,17,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,154,18,22,12
-	.byte 31,0,68,14,208,1,157,26,158,25,68,13,29,68,152,24,153,23,68,154,22,22,12,31,0,68,14,144,1,157,18,158
-	.byte 17,68,13,29,68,152,16,153,15,68,154,14,19,12,31,0,68,14,192,2,157,40,158,39,68,13,29,68,153,38,154,37
-	.byte 19,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21,17,12,31,0,68,14,128,1,157,16,158,15
-	.byte 68,13,29,68,154,14,24,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,151,32,152,31,68,153,30,154,29,17
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,154,24,26,12,31,0,68,14,80,157,10,158,9,68,13,29,68
-	.byte 150,8,151,7,68,152,6,153,5,68,154,4,23,12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68
-	.byte 153,4,154,3,28,12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154
-	.byte 3,13,12,31,0,68,14,96,157,12,158,11,68,13,29,13,12,31,0,68,14,48,157,6,158,5,68,13,29,26,12,31
-	.byte 0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154,2,31,12,31,0,68,14,96,157
-	.byte 12,158,11,68,13,29,68,148,10,149,9,68,150,8,151,7,68,152,6,153,5,68,154,4,16,12,31,0,68,14,48,157
-	.byte 6,158,5,68,13,29,68,154,4,13,12,31,0,68,14,112,157,14,158,13,68,13,29,18,12,31,0,68,14,80,157,10
-	.byte 158,9,68,13,29,68,153,8,154,7,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
-	.byte 29,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,149,22,150,21,68,151,20,152,19,68,153,18,154,17,21,12
-	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,13,12,31,0,68,14,80,157,10,158,9,68
-	.byte 13,29,16,12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2,16,12,31,0,68,14,48,157,6,158,5,68,13
+	.byte 0,13,12,31,0,68,14,32,157,4,158,3,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29,13,12,31
+	.byte 0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,14,12,31,0
+	.byte 68,14,176,1,157,22,158,21,68,13,29,14,12,31,0,68,14,208,1,157,26,158,25,68,13,29,14,12,31,0,68,14
+	.byte 224,1,157,28,158,27,68,13,29,14,12,31,0,68,14,192,1,157,24,158,23,68,13,29,16,12,31,0,68,14,96,157
+	.byte 12,158,11,68,13,29,68,154,10,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,16,12,31,0,68,14
+	.byte 64,157,8,158,7,68,13,29,68,154,6,13,12,31,0,68,14,16,157,2,158,1,68,13,29,14,12,31,0,68,14,160
+	.byte 1,157,20,158,19,68,13,29,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,17,12,31,0,68,14
+	.byte 160,1,157,20,158,19,68,13,29,68,154,18,22,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,152,24,153,23
+	.byte 68,154,22,22,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14,19,12,31,0,68,14
+	.byte 192,2,157,40,158,39,68,13,29,68,153,38,154,37,19,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22
+	.byte 154,21,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,24,12,31,0,68,14,144,2,157,34,158,33
+	.byte 68,13,29,68,151,32,152,31,68,153,30,154,29,17,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,154,24,26
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4,23,12,31,0,68,14
+	.byte 64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3,28,12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 68,149,8,150,7,68,151,6,152,5,68,153,4,154,3,13,12,31,0,68,14,96,157,12,158,11,68,13,29,13,12,31
+	.byte 0,68,14,48,157,6,158,5,68,13,29,26,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152
+	.byte 4,153,3,68,154,2,31,12,31,0,68,14,96,157,12,158,11,68,13,29,68,148,10,149,9,68,150,8,151,7,68,152
+	.byte 6,153,5,68,154,4,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,13,12,31,0,68,14,112,157,14
+	.byte 158,13,68,13,29,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,21,12,31,0,68,14,80,157
+	.byte 10,158,9,68,13,29,68,152,8,153,7,68,154,6,29,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,149,22
+	.byte 150,21,68,151,20,152,19,68,153,18,154,17,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68
+	.byte 152,6,16,12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2,16,12,31,0,68,14,48,157,6,158,5,68,13
 	.byte 29,68,153,4,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,17,12,31,0,68,14,128,2,157,32,158
 	.byte 31,68,13,29,68,153,30,22,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,68,153,19,154,18,19,12
 	.byte 31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5,16,12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -29450,7 +29483,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 13383
+.word 13386
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_2:
@@ -29458,7 +29491,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 13388
+.word 13391
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_3:
@@ -29466,87 +29499,87 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 13393
-	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_Configure_string
-plt_Microsoft_Azure_Mobile_MobileCenter_Configure_string:
+.word 13396
+	.no_dead_strip plt__jit_icall_ves_icall_array_new_specific
+plt__jit_icall_ves_icall_array_new_specific:
 _p_4:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 13398
-	.no_dead_strip plt__jit_icall_ves_icall_object_new_fast
-plt__jit_icall_ves_icall_object_new_fast:
+.word 13401
+	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_Start_string_System_Type__
+plt_Microsoft_Azure_Mobile_MobileCenter_Start_string_System_Type__:
 _p_5:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 13403
-	.no_dead_strip plt_DocumentDBTodo_App__ctor
-plt_DocumentDBTodo_App__ctor:
+.word 13432
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_fast
+plt__jit_icall_ves_icall_object_new_fast:
 _p_6:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 13431
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+.word 13437
+	.no_dead_strip plt_DocumentDBTodo_App__ctor
+plt_DocumentDBTodo_App__ctor:
 _p_7:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 13433
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+.word 13465
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_8:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 13438
-	.no_dead_strip plt_Xamarin_Forms_Application__ctor
-plt_Xamarin_Forms_Application__ctor:
+.word 13467
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_9:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 13443
-	.no_dead_strip plt_DocumentDBTodo_App_InitializeComponent
-plt_DocumentDBTodo_App_InitializeComponent:
+.word 13472
+	.no_dead_strip plt_Xamarin_Forms_Application__ctor
+plt_Xamarin_Forms_Application__ctor:
 _p_10:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 13448
-	.no_dead_strip plt_DocumentDBTodo_LoginPage__ctor
-plt_DocumentDBTodo_LoginPage__ctor:
+.word 13477
+	.no_dead_strip plt_DocumentDBTodo_App_InitializeComponent
+plt_DocumentDBTodo_App_InitializeComponent:
 _p_11:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 13450
-	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
-plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
+.word 13482
+	.no_dead_strip plt_DocumentDBTodo_LoginPage__ctor
+plt_DocumentDBTodo_LoginPage__ctor:
 _p_12:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 13452
-	.no_dead_strip plt__jit_icall_ves_icall_array_new_specific
-plt__jit_icall_ves_icall_array_new_specific:
+.word 13484
+	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
+plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_13:
 adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 13457
+.word 13486
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_Start_System_Type__
 plt_Microsoft_Azure_Mobile_MobileCenter_Start_System_Type__:
 _p_14:
@@ -29554,7 +29587,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 13488
+.word 13491
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_App_DocumentDBTodo_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_App_DocumentDBTodo_App_System_Type:
 _p_15:
@@ -29562,7 +29595,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 13493
+.word 13496
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_16:
@@ -29570,7 +29603,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 13505
+.word 13508
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_InitializeComponent
 plt_DocumentDBTodo_DocumentDBTodoPage_InitializeComponent:
 _p_17:
@@ -29578,7 +29611,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 13510
+.word 13513
 	.no_dead_strip plt_Xamarin_Forms_ImageSource_FromFile_string
 plt_Xamarin_Forms_ImageSource_FromFile_string:
 _p_18:
@@ -29586,7 +29619,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 13512
+.word 13515
 	.no_dead_strip plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource
 plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource:
 _p_19:
@@ -29594,7 +29627,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 13517
+.word 13520
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_20:
@@ -29602,7 +29635,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 13522
+.word 13525
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
 plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_21:
@@ -29610,7 +29643,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 13548
+.word 13551
 	.no_dead_strip plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler
 plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler:
 _p_22:
@@ -29618,7 +29651,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 13555
+.word 13558
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_23:
@@ -29626,7 +29659,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 13560
+.word 13563
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_24:
@@ -29634,7 +29667,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 13595
+.word 13598
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_:
 _p_25:
@@ -29642,7 +29675,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 13600
+.word 13603
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_26:
@@ -29650,7 +29683,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 13612
+.word 13615
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_27:
@@ -29658,7 +29691,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 13617
+.word 13620
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_28:
@@ -29666,7 +29699,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 13629
+.word 13632
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_29:
@@ -29674,7 +29707,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 13634
+.word 13637
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_:
 _p_30:
@@ -29682,7 +29715,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 13646
+.word 13649
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_:
 _p_31:
@@ -29690,7 +29723,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 13658
+.word 13661
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_:
 _p_32:
@@ -29698,7 +29731,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 13670
+.word 13673
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_:
 _p_33:
@@ -29706,7 +29739,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 13682
+.word 13685
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_:
 _p_34:
@@ -29714,7 +29747,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 13694
+.word 13697
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_:
 _p_35:
@@ -29722,7 +29755,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 13706
+.word 13709
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_:
 _p_36:
@@ -29730,7 +29763,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 13718
+.word 13721
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_:
 _p_37:
@@ -29738,7 +29771,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 13730
+.word 13733
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_DocumentDBTodoPage_DocumentDBTodo_DocumentDBTodoPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_DocumentDBTodoPage_DocumentDBTodo_DocumentDBTodoPage_System_Type:
 _p_38:
@@ -29746,7 +29779,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 13742
+.word 13745
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ActivityIndicator_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ActivityIndicator_Xamarin_Forms_Element_string:
 _p_39:
@@ -29754,7 +29787,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 13754
+.word 13757
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string:
 _p_40:
@@ -29762,7 +29795,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 13766
+.word 13769
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string:
 _p_41:
@@ -29770,7 +29803,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 13778
+.word 13781
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string:
 _p_42:
@@ -29778,7 +29811,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 13790
+.word 13793
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
 _p_43:
@@ -29786,7 +29819,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 13802
+.word 13805
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ListView_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ListView_Xamarin_Forms_Element_string:
 _p_44:
@@ -29794,7 +29827,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 13814
+.word 13817
 	.no_dead_strip plt_System_Threading_Tasks_Task_Delay_int
 plt_System_Threading_Tasks_Task_Delay_int:
 _p_45:
@@ -29802,7 +29835,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 13826
+.word 13829
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_int_int
 plt_System_Threading_Tasks_Task_FromResult_int_int:
 _p_46:
@@ -29810,7 +29843,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 13831
+.word 13834
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_IsVisible_bool
 plt_Xamarin_Forms_VisualElement_set_IsVisible_bool:
 _p_47:
@@ -29818,7 +29851,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 13843
+.word 13846
 	.no_dead_strip plt_Xamarin_Forms_ActivityIndicator_set_IsRunning_bool
 plt_Xamarin_Forms_ActivityIndicator_set_IsRunning_bool:
 _p_48:
@@ -29826,7 +29859,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 13848
+.word 13851
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_FromCurrentSynchronizationContext
 plt_System_Threading_Tasks_TaskScheduler_FromCurrentSynchronizationContext:
 _p_49:
@@ -29834,7 +29867,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 13853
+.word 13856
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWith_System_Action_1_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_ContinueWith_System_Action_1_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler:
 _p_50:
@@ -29842,7 +29875,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 13858
+.word 13861
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_UriFactory_CreateDocumentCollectionUri_string_string
 plt_Microsoft_Azure_Documents_Client_UriFactory_CreateDocumentCollectionUri_string_string:
 _p_51:
@@ -29850,7 +29883,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 13863
+.word 13866
 	.no_dead_strip plt_System_Uri__ctor_string
 plt_System_Uri__ctor_string:
 _p_52:
@@ -29858,7 +29891,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 13868
+.word 13871
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_53:
@@ -29866,7 +29899,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 13873
+.word 13876
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_DocumentClient__ctor_System_Uri_string_Microsoft_Azure_Documents_Client_ConnectionPolicy_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel
 plt_Microsoft_Azure_Documents_Client_DocumentClient__ctor_System_Uri_string_Microsoft_Azure_Documents_Client_ConnectionPolicy_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel:
 _p_54:
@@ -29874,7 +29907,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 13905
+.word 13908
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Start_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Start_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_:
 _p_55:
@@ -29882,7 +29915,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 13910
+.word 13913
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_get_Task:
 _p_56:
@@ -29890,7 +29923,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 13922
+.word 13925
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_Start_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_Start_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_:
 _p_57:
@@ -29898,7 +29931,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 13933
+.word 13936
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_get_Task:
 _p_58:
@@ -29906,7 +29939,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 13945
+.word 13948
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_:
 _p_59:
@@ -29914,7 +29947,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 13956
+.word 13959
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager__ctor
 plt_DocumentDBTodo_TodoItemManager__ctor:
 _p_60:
@@ -29922,7 +29955,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 13968
+.word 13971
 	.no_dead_strip plt_DocumentDBTodo_LoginPage_InitializeComponent
 plt_DocumentDBTodo_LoginPage_InitializeComponent:
 _p_61:
@@ -29930,7 +29963,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 13970
+.word 13973
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_:
 _p_62:
@@ -29938,7 +29971,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 13972
+.word 13975
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_LoginPage_DocumentDBTodo_LoginPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_DocumentDBTodo_LoginPage_DocumentDBTodo_LoginPage_System_Type:
 _p_63:
@@ -29946,7 +29979,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 13984
+.word 13987
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_RefreshItems_bool
 plt_DocumentDBTodo_DocumentDBTodoPage_RefreshItems_bool:
 _p_64:
@@ -29954,7 +29987,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 13996
+.word 13999
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnAppearingc__async0_:
 _p_65:
@@ -29962,7 +29995,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 13998
+.word 14001
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
 _p_66:
@@ -29970,7 +30003,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 14010
+.word 14013
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_67:
@@ -29978,7 +30011,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 14015
+.word 14018
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_68:
@@ -29986,7 +30019,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 14020
+.word 14023
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_69:
@@ -29994,7 +30027,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 14059
+.word 14062
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_70:
@@ -30002,7 +30035,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 14087
+.word 14090
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_71:
@@ -30010,7 +30043,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 14092
+.word 14095
 	.no_dead_strip plt_Microsoft_Azure_Mobile_Analytics_Analytics_TrackEvent_string_System_Collections_Generic_IDictionary_2_string_string
 plt_Microsoft_Azure_Mobile_Analytics_Analytics_TrackEvent_string_System_Collections_Generic_IDictionary_2_string_string:
 _p_72:
@@ -30018,7 +30051,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 14097
+.word 14100
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager_InsertItemAsync_DocumentDBTodo_TodoItem
 plt_DocumentDBTodo_TodoItemManager_InsertItemAsync_DocumentDBTodo_TodoItem:
 _p_73:
@@ -30026,7 +30059,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 14102
+.word 14105
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_DocumentDBTodo_TodoItem_GetAwaiter
 plt_System_Threading_Tasks_Task_1_DocumentDBTodo_TodoItem_GetAwaiter:
 _p_74:
@@ -30034,7 +30067,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 14104
+.word 14107
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_75:
@@ -30042,7 +30075,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 14115
+.word 14118
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_GetResult:
 _p_76:
@@ -30050,7 +30083,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 14127
+.word 14130
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager_GetTodoItemsAsync
 plt_DocumentDBTodo_TodoItemManager_GetTodoItemsAsync:
 _p_77:
@@ -30058,7 +30091,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 14138
+.word 14141
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_GetAwaiter
 plt_System_Threading_Tasks_Task_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_GetAwaiter:
 _p_78:
@@ -30066,7 +30099,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 14140
+.word 14143
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_79:
@@ -30074,7 +30107,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 14151
+.word 14154
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_GetResult:
 _p_80:
@@ -30082,7 +30115,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 14163
+.word 14166
 	.no_dead_strip plt_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_set_ItemsSource_System_Collections_IEnumerable
 plt_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_set_ItemsSource_System_Collections_IEnumerable:
 _p_81:
@@ -30090,7 +30123,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 14174
+.word 14177
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_82:
@@ -30098,7 +30131,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 14185
+.word 14188
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_83:
@@ -30106,7 +30139,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 14190
+.word 14193
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_84:
@@ -30114,7 +30147,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 14195
+.word 14198
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager_CompleteItemAsync_DocumentDBTodo_TodoItem
 plt_DocumentDBTodo_TodoItemManager_CompleteItemAsync_DocumentDBTodo_TodoItem:
 _p_85:
@@ -30122,7 +30155,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 14200
+.word 14203
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_86:
@@ -30130,7 +30163,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 14202
+.word 14205
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_87:
@@ -30138,7 +30171,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 14214
+.word 14217
 	.no_dead_strip plt_Xamarin_Forms_Entry_get_Text
 plt_Xamarin_Forms_Entry_get_Text:
 _p_88:
@@ -30146,7 +30179,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 14226
+.word 14229
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_AddItem_DocumentDBTodo_TodoItem
 plt_DocumentDBTodo_DocumentDBTodoPage_AddItem_DocumentDBTodo_TodoItem:
 _p_89:
@@ -30154,7 +30187,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 14231
+.word 14234
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnAddc__async3_:
 _p_90:
@@ -30162,7 +30195,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 14233
+.word 14236
 	.no_dead_strip plt_Xamarin_Forms_Entry_set_Text_string
 plt_Xamarin_Forms_Entry_set_Text_string:
 _p_91:
@@ -30170,7 +30203,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 14245
+.word 14248
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_Unfocus
 plt_Xamarin_Forms_VisualElement_Unfocus:
 _p_92:
@@ -30178,7 +30211,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 14250
+.word 14253
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_93:
@@ -30186,7 +30219,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 14255
+.word 14258
 	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string
 plt_Xamarin_Forms_Page_DisplayAlert_string_string_string:
 _p_94:
@@ -30194,7 +30227,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 14260
+.word 14263
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_:
 _p_95:
@@ -30202,7 +30235,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 14265
+.word 14268
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_96:
@@ -30210,7 +30243,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 14277
+.word 14280
 	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string
 plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string:
 _p_97:
@@ -30218,7 +30251,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 14282
+.word 14285
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_GetAwaiter
 plt_System_Threading_Tasks_Task_1_bool_GetAwaiter:
 _p_98:
@@ -30226,7 +30259,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 14287
+.word 14290
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_DocumentDBTodoPage__OnSelectedc__async4_:
 _p_99:
@@ -30234,7 +30267,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 14298
+.word 14301
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
 _p_100:
@@ -30242,7 +30275,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 14310
+.word 14313
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_CompleteItem_DocumentDBTodo_TodoItem
 plt_DocumentDBTodo_DocumentDBTodoPage_CompleteItem_DocumentDBTodo_TodoItem:
 _p_101:
@@ -30250,7 +30283,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 14321
+.word 14324
 	.no_dead_strip plt_Xamarin_Forms_ListView_set_SelectedItem_object
 plt_Xamarin_Forms_ListView_set_SelectedItem_object:
 _p_102:
@@ -30258,7 +30291,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 14323
+.word 14326
 	.no_dead_strip plt_Xamarin_Forms_MenuItem_get_CommandParameter
 plt_Xamarin_Forms_MenuItem_get_CommandParameter:
 _p_103:
@@ -30266,7 +30299,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 14328
+.word 14331
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnCompletec__async5_:
 _p_104:
@@ -30274,7 +30307,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 14333
+.word 14336
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnRefreshc__async6_:
 _p_105:
@@ -30282,7 +30315,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 14345
+.word 14348
 	.no_dead_strip plt_Xamarin_Forms_ListView_EndRefresh
 plt_Xamarin_Forms_ListView_EndRefresh:
 _p_106:
@@ -30290,7 +30323,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 14357
+.word 14360
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__OnSyncItemsc__async7_:
 _p_107:
@@ -30298,7 +30331,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 14362
+.word 14365
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage_ActivityIndicatorScope__ctor_Xamarin_Forms_ActivityIndicator_bool
 plt_DocumentDBTodo_DocumentDBTodoPage_ActivityIndicatorScope__ctor_Xamarin_Forms_ActivityIndicator_bool:
 _p_108:
@@ -30306,7 +30339,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 14374
+.word 14377
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_:
 _p_109:
@@ -30314,7 +30347,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 14376
+.word 14379
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_DocumentDBTodoPage__logoutBtn_Clickedc__async9_:
 _p_110:
@@ -30322,7 +30355,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 14388
+.word 14391
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__BrowseBtn_Clickedc__asyncA_:
 _p_111:
@@ -30330,7 +30363,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 14400
+.word 14403
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Parameter_System_Type_string
 plt_System_Linq_Expressions_Expression_Parameter_System_Type_string:
 _p_112:
@@ -30338,7 +30371,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 14412
+.word 14415
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_113:
@@ -30346,7 +30379,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 14417
+.word 14420
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_DocumentClient_CreateDocumentQuery_DocumentDBTodo_TodoItem_System_Uri_Microsoft_Azure_Documents_Client_FeedOptions
 plt_Microsoft_Azure_Documents_Client_DocumentClient_CreateDocumentQuery_DocumentDBTodo_TodoItem_System_Uri_Microsoft_Azure_Documents_Client_FeedOptions:
 _p_114:
@@ -30354,7 +30387,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 14428
+.word 14431
 	.no_dead_strip plt_System_Reflection_MethodBase_GetMethodFromHandle_System_RuntimeMethodHandle
 plt_System_Reflection_MethodBase_GetMethodFromHandle_System_RuntimeMethodHandle:
 _p_115:
@@ -30362,7 +30395,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 14440
+.word 14443
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Property_System_Linq_Expressions_Expression_System_Reflection_MethodInfo
 plt_System_Linq_Expressions_Expression_Property_System_Linq_Expressions_Expression_System_Reflection_MethodInfo:
 _p_116:
@@ -30370,7 +30403,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 14445
+.word 14448
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Constant_object_System_Type
 plt_System_Linq_Expressions_Expression_Constant_object_System_Type:
 _p_117:
@@ -30378,7 +30411,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 14450
+.word 14453
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Equal_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression
 plt_System_Linq_Expressions_Expression_Equal_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression:
 _p_118:
@@ -30386,7 +30419,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 14455
+.word 14458
 	.no_dead_strip plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_DocumentDBTodo_TodoItem_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__
 plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_DocumentDBTodo_TodoItem_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__:
 _p_119:
@@ -30394,7 +30427,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 14460
+.word 14463
 	.no_dead_strip plt_System_Linq_Queryable_Where_DocumentDBTodo_TodoItem_System_Linq_IQueryable_1_DocumentDBTodo_TodoItem_System_Linq_Expressions_Expression_1_System_Func_2_DocumentDBTodo_TodoItem_bool
 plt_System_Linq_Queryable_Where_DocumentDBTodo_TodoItem_System_Linq_IQueryable_1_DocumentDBTodo_TodoItem_System_Linq_Expressions_Expression_1_System_Func_2_DocumentDBTodo_TodoItem_bool:
 _p_120:
@@ -30402,7 +30435,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 14472
+.word 14475
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_GetAwaiter:
 _p_121:
@@ -30410,7 +30443,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 14484
+.word 14487
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem__DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem__DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_:
 _p_122:
@@ -30418,7 +30451,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 14495
+.word 14498
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_GetResult:
 _p_123:
@@ -30426,7 +30459,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 14507
+.word 14510
 	.no_dead_strip plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_AddRange_System_Collections_Generic_IEnumerable_1_DocumentDBTodo_TodoItem
 plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_AddRange_System_Collections_Generic_IEnumerable_1_DocumentDBTodo_TodoItem:
 _p_124:
@@ -30434,7 +30467,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 14518
+.word 14521
 	.no_dead_strip plt_System_Console_get_Error
 plt_System_Console_get_Error:
 _p_125:
@@ -30442,7 +30475,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 14529
+.word 14532
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetException_System_Exception:
 _p_126:
@@ -30450,7 +30483,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 14534
+.word 14537
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetResult_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetResult_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem:
 _p_127:
@@ -30458,7 +30491,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 14545
+.word 14548
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_128:
@@ -30466,7 +30499,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 14556
+.word 14559
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_DocumentClient_CreateDocumentAsync_System_Uri_object_Microsoft_Azure_Documents_Client_RequestOptions_bool
 plt_Microsoft_Azure_Documents_Client_DocumentClient_CreateDocumentAsync_System_Uri_object_Microsoft_Azure_Documents_Client_RequestOptions_bool:
 _p_129:
@@ -30474,7 +30507,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 14567
+.word 14570
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_GetAwaiter:
 _p_130:
@@ -30482,7 +30515,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 14572
+.word 14575
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_:
 _p_131:
@@ -30490,7 +30523,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 14583
+.word 14586
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_GetResult:
 _p_132:
@@ -30498,7 +30531,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 14595
+.word 14598
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_get_Resource
 plt_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_get_Resource:
 _p_133:
@@ -30506,7 +30539,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 14606
+.word 14609
 	.no_dead_strip plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Add_DocumentDBTodo_TodoItem
 plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Add_DocumentDBTodo_TodoItem:
 _p_134:
@@ -30514,7 +30547,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 14617
+.word 14620
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetException_System_Exception:
 _p_135:
@@ -30522,7 +30555,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 14628
+.word 14631
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetResult_DocumentDBTodo_TodoItem
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetResult_DocumentDBTodo_TodoItem:
 _p_136:
@@ -30530,7 +30563,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 14639
+.word 14642
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_DocumentDBTodo_TodoItem_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_137:
@@ -30538,7 +30571,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 14650
+.word 14653
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_UriFactory_CreateDocumentUri_string_string_string
 plt_Microsoft_Azure_Documents_Client_UriFactory_CreateDocumentUri_string_string_string:
 _p_138:
@@ -30546,7 +30579,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 14661
+.word 14664
 	.no_dead_strip plt_Microsoft_Azure_Documents_Client_DocumentClient_ReplaceDocumentAsync_System_Uri_object_Microsoft_Azure_Documents_Client_RequestOptions
 plt_Microsoft_Azure_Documents_Client_DocumentClient_ReplaceDocumentAsync_System_Uri_object_Microsoft_Azure_Documents_Client_RequestOptions:
 _p_139:
@@ -30554,7 +30587,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 14666
+.word 14669
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_:
 _p_140:
@@ -30562,7 +30595,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 14671
+.word 14674
 	.no_dead_strip plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Remove_DocumentDBTodo_TodoItem
 plt_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_Remove_DocumentDBTodo_TodoItem:
 _p_141:
@@ -30570,7 +30603,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 14683
+.word 14686
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_142:
@@ -30578,7 +30611,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 14694
+.word 14697
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_:
 _p_143:
@@ -30586,7 +30619,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 14699
+.word 14702
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage__ctor
 plt_DocumentDBTodo_DocumentDBTodoPage__ctor:
 _p_144:
@@ -30594,7 +30627,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 14711
+.word 14714
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_LoginPage__LoginBtn_Clickedc__async0_:
 _p_145:
@@ -30602,7 +30635,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 14713
+.word 14716
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_146:
@@ -30610,7 +30643,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 14725
+.word 14728
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_147:
@@ -30618,7 +30651,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 14791
+.word 14794
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_148:
@@ -30626,7 +30659,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 14799
+.word 14802
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_149:
@@ -30634,7 +30667,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 14818
+.word 14821
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_150:
@@ -30642,7 +30675,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 14866
+.word 14869
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_151:
@@ -30650,7 +30683,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 14890
+.word 14893
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_152:
@@ -30658,7 +30691,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 14895
+.word 14898
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_153:
@@ -30666,7 +30699,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 14918
+.word 14921
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_154:
@@ -30674,7 +30707,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 14942
+.word 14945
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_155:
@@ -30682,7 +30715,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 14984
+.word 14987
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_156:
@@ -30690,7 +30723,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 14992
+.word 14995
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_157:
@@ -30698,7 +30731,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 15015
+.word 15018
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_158:
@@ -30706,7 +30739,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 15051
+.word 15054
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_159:
@@ -30714,7 +30747,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 15059
+.word 15062
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_object_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_object_get_Default:
 _p_160:
@@ -30722,7 +30755,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 15082
+.word 15085
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_161:
@@ -30730,7 +30763,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 15123
+.word 15126
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_162:
@@ -30738,7 +30771,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 15131
+.word 15134
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_163:
@@ -30746,7 +30779,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 15139
+.word 15142
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_164:
@@ -30754,7 +30787,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 15147
+.word 15150
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_object_get_Default
 plt_System_Collections_Generic_Comparer_1_object_get_Default:
 _p_165:
@@ -30762,7 +30795,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+0
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 15155
+.word 15158
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_166:
@@ -30770,7 +30803,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 15196
+.word 15199
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_167:
@@ -30778,7 +30811,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 15204
+.word 15207
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_168:
@@ -30786,7 +30819,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 15212
+.word 15215
 	.no_dead_strip plt_System_Environment_GetResourceString_string_object__
 plt_System_Environment_GetResourceString_string_object__:
 _p_169:
@@ -30794,7 +30827,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 15220
+.word 15223
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_170:
@@ -30802,7 +30835,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 15246
+.word 15249
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_171:
@@ -30810,7 +30843,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 15254
+.word 15257
 	.no_dead_strip plt_System_Tuple_CombineHashCodes_int_int
 plt_System_Tuple_CombineHashCodes_int_int:
 _p_172:
@@ -30818,7 +30851,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 15262
+.word 15265
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_173:
@@ -30826,7 +30859,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 15267
+.word 15270
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_174:
@@ -30834,7 +30867,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 15272
+.word 15275
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_175:
@@ -30842,7 +30875,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 15298
+.word 15301
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_176:
@@ -30850,7 +30883,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 15306
+.word 15309
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_177:
@@ -30858,7 +30891,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 15311
+.word 15314
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_178:
@@ -30866,7 +30899,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 15338
+.word 15341
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_179:
@@ -30874,7 +30907,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 15362
+.word 15365
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_180:
@@ -30882,7 +30915,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 15370
+.word 15373
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_181:
@@ -30890,7 +30923,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 15384
+.word 15387
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_182:
@@ -30898,7 +30931,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 15417
+.word 15420
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_183:
@@ -30906,7 +30939,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 15460
+.word 15463
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_184:
@@ -30914,7 +30947,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 15503
+.word 15506
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_185:
@@ -30922,7 +30955,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 15527
+.word 15530
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_186:
@@ -30930,7 +30963,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 15532
+.word 15535
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_187:
@@ -30938,7 +30971,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 15537
+.word 15540
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_188:
@@ -30946,7 +30979,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 15560
+.word 15563
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_189:
@@ -30954,7 +30987,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 15583
+.word 15586
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_190:
@@ -30962,7 +30995,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 15588
+.word 15591
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_191:
@@ -30970,7 +31003,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 15611
+.word 15614
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_192:
@@ -30978,7 +31011,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 15652
+.word 15655
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_193:
@@ -30986,7 +31019,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 15675
+.word 15678
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_194:
@@ -30994,7 +31027,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 15680
+.word 15683
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_195:
@@ -31002,7 +31035,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 15703
+.word 15706
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_196:
@@ -31010,7 +31043,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 15711
+.word 15714
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_197:
@@ -31018,7 +31051,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 15734
+.word 15737
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_198:
@@ -31026,7 +31059,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 15739
+.word 15742
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_199:
@@ -31034,7 +31067,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 15744
+.word 15747
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_200:
@@ -31042,7 +31075,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 15749
+.word 15752
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_201:
@@ -31050,7 +31083,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 15754
+.word 15757
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_202:
@@ -31058,7 +31091,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 15777
+.word 15780
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_203:
@@ -31066,7 +31099,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 15800
+.word 15803
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_204:
@@ -31074,7 +31107,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 15823
+.word 15826
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_205:
@@ -31082,7 +31115,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 15846
+.word 15849
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_206:
@@ -31090,7 +31123,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 15851
+.word 15854
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_207:
@@ -31098,7 +31131,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 15856
+.word 15859
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_208:
@@ -31106,7 +31139,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 15861
+.word 15864
 	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
 plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_209:
@@ -31114,7 +31147,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 15866
+.word 15869
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
 plt_System_Threading_Tasks_Task_AddException_object:
 _p_210:
@@ -31122,7 +31155,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 15871
+.word 15874
 	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
 plt_System_Threading_Tasks_Task_Finish_bool:
 _p_211:
@@ -31130,7 +31163,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 15876
+.word 15879
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_212:
@@ -31138,7 +31171,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 15899
+.word 15902
 	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_213:
@@ -31146,7 +31179,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 15922
+.word 15925
 	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
 plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_214:
@@ -31154,7 +31187,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 15927
+.word 15930
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_215:
@@ -31162,7 +31195,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 15950
+.word 15953
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_216:
@@ -31170,7 +31203,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 15958
+.word 15961
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_217:
@@ -31178,7 +31211,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 15992
+.word 15995
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_218:
@@ -31186,7 +31219,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 16012
+.word 16015
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_219:
@@ -31194,7 +31227,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 16047
+.word 16050
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_220:
@@ -31202,7 +31235,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 16055
+.word 16058
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_221:
@@ -31210,7 +31243,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 16105
+.word 16108
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_222:
@@ -31218,7 +31251,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 16113
+.word 16116
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_223:
@@ -31226,7 +31259,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 16136
+.word 16139
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_224:
@@ -31234,7 +31267,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 16159
+.word 16162
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_225:
@@ -31242,7 +31275,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 16200
+.word 16203
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_226:
@@ -31250,7 +31283,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 16241
+.word 16244
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_227:
@@ -31258,7 +31291,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 16264
+.word 16267
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_228:
@@ -31266,7 +31299,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 16296
+.word 16299
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_229:
@@ -31274,7 +31307,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 16304
+.word 16307
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_230:
@@ -31282,7 +31315,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 16327
+.word 16330
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_231:
@@ -31290,7 +31323,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 16359
+.word 16362
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_232:
@@ -31298,7 +31331,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 16367
+.word 16370
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_233:
@@ -31306,7 +31339,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 16390
+.word 16393
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_234:
@@ -31314,7 +31347,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 16398
+.word 16401
 	.no_dead_strip plt__jit_icall_mono_ldftn
 plt__jit_icall_mono_ldftn:
 _p_235:
@@ -31322,7 +31355,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 16421
+.word 16424
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_236:
@@ -31330,7 +31363,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 16445
+.word 16448
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr:
 _p_237:
@@ -31338,7 +31371,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 16455
+.word 16458
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
 _p_238:
@@ -31346,7 +31379,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 16479
+.word 16482
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_239:
@@ -31354,7 +31387,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 16517
+.word 16520
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_240:
@@ -31362,7 +31395,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 16545
+.word 16548
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_241:
@@ -31370,7 +31403,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 16570
+.word 16573
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_242:
@@ -31378,7 +31411,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 16575
+.word 16578
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_243:
@@ -31386,7 +31419,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 16607
+.word 16610
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_244:
@@ -31394,7 +31427,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 16619
+.word 16622
 	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
 plt_System_OperationCanceledException_get_CancellationToken:
 _p_245:
@@ -31402,7 +31435,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 16646
+.word 16649
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_246:
@@ -31410,7 +31443,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 16669
+.word 16672
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_247:
@@ -31418,7 +31451,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 16681
+.word 16684
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_248:
@@ -31426,7 +31459,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 16708
+.word 16711
 	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
 plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
 _p_249:
@@ -31434,7 +31467,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 16735
+.word 16738
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_250:
@@ -31442,7 +31475,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 16740
+.word 16743
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_251:
@@ -31450,7 +31483,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 16745
+.word 16748
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_252:
@@ -31458,7 +31491,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 16750
+.word 16753
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_253:
@@ -31466,7 +31499,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 16755
+.word 16758
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_254:
@@ -31474,7 +31507,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 16760
+.word 16763
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_255:
@@ -31482,7 +31515,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 16787
+.word 16790
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_256:
@@ -31490,7 +31523,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 16832
+.word 16835
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_257:
@@ -31498,7 +31531,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 16842
+.word 16845
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_258:
@@ -31506,7 +31539,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 16894
+.word 16897
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_259:
@@ -31514,7 +31547,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 16906
+.word 16909
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_260:
@@ -31522,7 +31555,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 16933
+.word 16936
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_261:
@@ -31530,7 +31563,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 16938
+.word 16941
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_262:
@@ -31538,7 +31571,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 16950
+.word 16953
 	.no_dead_strip plt_System_Delegate_get_Method
 plt_System_Delegate_get_Method:
 _p_263:
@@ -31546,7 +31579,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 16977
+.word 16980
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_264:
@@ -31554,7 +31587,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 16982
+.word 16985
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_265:
@@ -31562,7 +31595,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 16987
+.word 16990
 	.no_dead_strip plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5
 plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5:
 _p_266:
@@ -31570,7 +31603,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 16992
+.word 16995
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_267:
@@ -31578,7 +31611,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 17006
+.word 17009
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_268:
@@ -31586,7 +31619,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 17018
+.word 17021
 	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
 plt_System_Threading_AtomicBoolean__ctor:
 _p_269:
@@ -31594,7 +31627,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 17045
+.word 17048
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_270:
@@ -31602,7 +31635,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 17050
+.word 17053
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_271:
@@ -31610,7 +31643,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 17077
+.word 17080
 	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
 plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_272:
@@ -31618,7 +31651,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 17104
+.word 17107
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_273:
@@ -31626,7 +31659,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 17109
+.word 17112
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_274:
@@ -31634,7 +31667,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 17119
+.word 17122
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_275:
@@ -31642,7 +31675,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 17144
+.word 17147
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_276:
@@ -31650,7 +31683,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 17171
+.word 17174
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_277:
@@ -31658,7 +31691,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 17198
+.word 17201
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_278:
@@ -31666,7 +31699,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 17225
+.word 17228
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_279:
@@ -31674,7 +31707,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 17255
+.word 17258
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_280:
@@ -31682,7 +31715,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 17260
+.word 17263
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_281:
@@ -31690,7 +31723,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 17292
+.word 17295
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_282:
@@ -31698,7 +31731,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 17304
+.word 17307
 	.no_dead_strip plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Unbox_object
 plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Unbox_object:
 _p_283:
@@ -31706,7 +31739,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 17331
+.word 17334
 	.no_dead_strip plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Equals_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel
 plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel_Equals_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel:
 _p_284:
@@ -31714,7 +31747,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 17352
+.word 17355
 	.no_dead_strip plt_System_Enum_Equals_object
 plt_System_Enum_Equals_object:
 _p_285:
@@ -31722,7 +31755,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 17373
+.word 17376
 	.no_dead_strip plt_System_Enum_GetHashCode
 plt_System_Enum_GetHashCode:
 _p_286:
@@ -31730,7 +31763,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 17378
+.word 17381
 	.no_dead_strip plt_System_Enum_ToString
 plt_System_Enum_ToString:
 _p_287:
@@ -31738,7 +31771,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 17383
+.word 17386
 	.no_dead_strip plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel__ctor_Microsoft_Azure_Documents_ConsistencyLevel
 plt_System_Nullable_1_Microsoft_Azure_Documents_ConsistencyLevel__ctor_Microsoft_Azure_Documents_ConsistencyLevel:
 _p_288:
@@ -31746,7 +31779,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 17388
+.word 17391
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_289:
@@ -31754,7 +31787,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 17427
+.word 17430
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_290:
@@ -31762,7 +31795,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 17470
+.word 17473
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_291:
@@ -31770,7 +31803,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 17513
+.word 17516
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_292:
@@ -31778,7 +31811,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 17556
+.word 17559
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_293:
@@ -31786,7 +31819,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 17566
+.word 17569
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_294:
@@ -31794,7 +31827,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 17609
+.word 17612
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_295:
@@ -31802,7 +31835,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 17652
+.word 17655
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_296:
@@ -31810,7 +31843,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 17695
+.word 17698
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_297:
@@ -31818,7 +31851,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 17738
+.word 17741
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_298:
@@ -31826,7 +31859,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 17748
+.word 17751
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_299:
@@ -31834,7 +31867,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 17784
+.word 17787
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_300:
@@ -31842,7 +31875,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 17808
+.word 17811
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_301:
@@ -31850,7 +31883,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 17847
+.word 17850
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_302:
@@ -31858,7 +31891,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 17859
+.word 17862
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_303:
@@ -31866,7 +31899,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 17913
+.word 17916
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_304:
@@ -31874,7 +31907,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 17925
+.word 17928
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_305:
@@ -31882,7 +31915,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 17970
+.word 17973
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_306:
@@ -31890,7 +31923,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 18013
+.word 18016
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_307:
@@ -31898,7 +31931,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 18056
+.word 18059
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_308:
@@ -31906,7 +31939,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 18108
+.word 18111
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_309:
@@ -31914,7 +31947,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 18120
+.word 18123
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_310:
@@ -31922,7 +31955,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 18174
+.word 18177
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_311:
@@ -31930,7 +31963,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 18186
+.word 18189
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_312:
@@ -31938,7 +31971,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 18213
+.word 18216
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_313:
@@ -31946,7 +31979,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 18223
+.word 18226
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_314:
@@ -31954,7 +31987,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 18259
+.word 18262
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr:
 _p_315:
@@ -31962,7 +31995,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 18271
+.word 18274
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_316:
@@ -31970,7 +32003,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 18313
+.word 18316
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_317:
@@ -31978,7 +32011,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 18341
+.word 18344
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_318:
@@ -31986,7 +32019,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 18393
+.word 18396
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_319:
@@ -31994,7 +32027,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 18405
+.word 18408
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_320:
@@ -32002,7 +32035,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 18450
+.word 18453
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_321:
@@ -32010,7 +32043,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 18462
+.word 18465
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_322:
@@ -32018,7 +32051,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 18489
+.word 18492
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_323:
@@ -32026,7 +32059,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 18516
+.word 18519
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_324:
@@ -32034,7 +32067,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 18543
+.word 18546
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_325:
@@ -32042,7 +32075,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 18588
+.word 18591
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_326:
@@ -32050,7 +32083,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 18598
+.word 18601
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_327:
@@ -32058,7 +32091,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 18650
+.word 18653
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_328:
@@ -32066,7 +32099,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 18662
+.word 18665
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_329:
@@ -32074,7 +32107,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 18689
+.word 18692
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_330:
@@ -32082,7 +32115,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 18701
+.word 18704
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_331:
@@ -32090,7 +32123,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 18737
+.word 18740
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_332:
@@ -32098,7 +32131,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 18749
+.word 18752
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_333:
@@ -32106,7 +32139,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 18776
+.word 18779
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_334:
@@ -32114,7 +32147,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 18803
+.word 18806
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_335:
@@ -32122,7 +32155,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 18830
+.word 18833
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_336:
@@ -32130,7 +32163,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 18840
+.word 18843
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_337:
@@ -32138,7 +32171,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 18865
+.word 18868
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_338:
@@ -32146,7 +32179,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 18892
+.word 18895
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_339:
@@ -32154,7 +32187,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 18919
+.word 18922
 	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
 plt_System_Nullable_1_int_Unbox_object:
 _p_340:
@@ -32162,7 +32195,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 18946
+.word 18949
 	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
 plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
 _p_341:
@@ -32170,7 +32203,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 18968
+.word 18971
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_342:
@@ -32178,7 +32211,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 18990
+.word 18993
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_343:
@@ -32186,7 +32219,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 18995
+.word 18998
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_344:
@@ -32194,7 +32227,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 19021
+.word 19024
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_345:
@@ -32202,7 +32235,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 19070
+.word 19073
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_346:
@@ -32210,7 +32243,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 19119
+.word 19122
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument:
 _p_347:
@@ -32218,7 +32251,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 19147
+.word 19150
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_348:
@@ -32226,7 +32259,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 19173
+.word 19176
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_349:
@@ -32234,7 +32267,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 19210
+.word 19213
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TKey_REF_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_TKey_REF_get_Default:
 _p_350:
@@ -32242,7 +32275,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 19222
+.word 19225
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_351:
@@ -32250,7 +32283,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 19264
+.word 19267
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_352:
@@ -32258,7 +32291,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 19336
+.word 19339
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_353:
@@ -32266,7 +32299,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 19365
+.word 19368
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_354:
@@ -32274,7 +32307,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 19393
+.word 19396
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_355:
@@ -32282,7 +32315,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 19409
+.word 19412
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_356:
@@ -32290,7 +32323,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 19449
+.word 19452
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_357:
@@ -32298,7 +32331,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 19478
+.word 19481
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_358:
@@ -32306,7 +32339,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 19490
+.word 19493
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_359:
@@ -32314,7 +32347,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 19520
+.word 19523
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_360:
@@ -32322,7 +32355,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 19550
+.word 19553
 	.no_dead_strip plt_System_Collections_HashHelpers_get_SerializationInfoTable
 plt_System_Collections_HashHelpers_get_SerializationInfoTable:
 _p_361:
@@ -32330,7 +32363,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 19578
+.word 19581
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Add_object_System_Runtime_Serialization_SerializationInfo
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Add_object_System_Runtime_Serialization_SerializationInfo:
 _p_362:
@@ -32338,7 +32371,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 19597
+.word 19600
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_363:
@@ -32346,7 +32379,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 19656
+.word 19659
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_364:
@@ -32354,7 +32387,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 19668
+.word 19671
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_365:
@@ -32362,7 +32395,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 19719
+.word 19722
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_366:
@@ -32370,7 +32403,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 19731
+.word 19734
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_367:
@@ -32378,7 +32411,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 19782
+.word 19785
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_368:
@@ -32386,7 +32419,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 19794
+.word 19797
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_369:
@@ -32394,7 +32427,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 19857
+.word 19860
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_370:
@@ -32402,7 +32435,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 19869
+.word 19872
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_371:
@@ -32410,7 +32443,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 19920
+.word 19923
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_372:
@@ -32418,7 +32451,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 19932
+.word 19935
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_373:
@@ -32426,7 +32459,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 19983
+.word 19986
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_374:
@@ -32434,7 +32467,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 19995
+.word 19998
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_375:
@@ -32442,7 +32475,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 20046
+.word 20049
 	.no_dead_strip plt_System_ThrowHelper_ThrowKeyNotFoundException
 plt_System_ThrowHelper_ThrowKeyNotFoundException:
 _p_376:
@@ -32450,7 +32483,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 20074
+.word 20077
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_377:
@@ -32458,7 +32491,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 20100
+.word 20103
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_378:
@@ -32466,7 +32499,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 20149
+.word 20152
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_379:
@@ -32474,7 +32507,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 20198
+.word 20201
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_380:
@@ -32482,7 +32515,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 20210
+.word 20213
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_381:
@@ -32490,7 +32523,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 20240
+.word 20243
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_382:
@@ -32498,7 +32531,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 20270
+.word 20273
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_383:
@@ -32506,7 +32539,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 20319
+.word 20322
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_384:
@@ -32514,7 +32547,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 20331
+.word 20334
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_385:
@@ -32522,7 +32555,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 20361
+.word 20364
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_386:
@@ -32530,7 +32563,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 20398
+.word 20401
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_387:
@@ -32538,7 +32571,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 20410
+.word 20413
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_388:
@@ -32546,7 +32579,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 20437
+.word 20440
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_389:
@@ -32554,7 +32587,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 20488
+.word 20491
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_390:
@@ -32562,7 +32595,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 20500
+.word 20503
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_391:
@@ -32570,7 +32603,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 20530
+.word 20533
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_392:
@@ -32578,7 +32611,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 20558
+.word 20561
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_393:
@@ -32586,7 +32619,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 20570
+.word 20573
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_394:
@@ -32594,7 +32627,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 20597
+.word 20600
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_395:
@@ -32602,7 +32635,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 20627
+.word 20630
 	.no_dead_strip plt_System_Array_Clear_System_Array_int_int
 plt_System_Array_Clear_System_Array_int_int:
 _p_396:
@@ -32610,7 +32643,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 20655
+.word 20658
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_397:
@@ -32618,7 +32651,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 20681
+.word 20684
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_398:
@@ -32626,7 +32659,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 20730
+.word 20733
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_399:
@@ -32634,7 +32667,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 20742
+.word 20745
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_400:
@@ -32642,7 +32675,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 20769
+.word 20772
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_401:
@@ -32650,7 +32683,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 20795
+.word 20798
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_402:
@@ -32658,7 +32691,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 20823
+.word 20826
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_403:
@@ -32666,7 +32699,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 20828
+.word 20831
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_404:
@@ -32674,7 +32707,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 20840
+.word 20843
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_405:
@@ -32682,7 +32715,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 20903
+.word 20906
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_406:
@@ -32690,7 +32723,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 20915
+.word 20918
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_407:
@@ -32698,7 +32731,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 20966
+.word 20969
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_408:
@@ -32706,7 +32739,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 20978
+.word 20981
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_int
 plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_int:
 _p_409:
@@ -32714,7 +32747,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 21008
+.word 21011
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_410:
@@ -32722,7 +32755,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 21043
+.word 21046
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_object_System_Type
 plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_object_System_Type:
 _p_411:
@@ -32730,7 +32763,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 21055
+.word 21058
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_412:
@@ -32738,7 +32771,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 21060
+.word 21063
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_413:
@@ -32746,7 +32779,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 21088
+.word 21091
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_414:
@@ -32754,7 +32787,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 21102
+.word 21105
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_415:
@@ -32762,7 +32795,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 21130
+.word 21133
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_416:
@@ -32770,7 +32803,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 21165
+.word 21168
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_417:
@@ -32778,7 +32811,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 21192
+.word 21195
 	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
 plt_System_Collections_HashHelpers_GetPrime_int:
 _p_418:
@@ -32786,7 +32819,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 21219
+.word 21222
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_419:
@@ -32794,7 +32827,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 21257
+.word 21260
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_420:
@@ -32802,7 +32835,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 21292
+.word 21295
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_421:
@@ -32810,7 +32843,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 21320
+.word 21323
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_422:
@@ -32818,7 +32851,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 21347
+.word 21350
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_423:
@@ -32826,7 +32859,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 21374
+.word 21377
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_TryGetValue_object_System_Runtime_Serialization_SerializationInfo_
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_TryGetValue_object_System_Runtime_Serialization_SerializationInfo_:
 _p_424:
@@ -32834,7 +32867,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 21402
+.word 21405
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_GetInt32_string
 plt_System_Runtime_Serialization_SerializationInfo_GetInt32_string:
 _p_425:
@@ -32842,7 +32875,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 21428
+.word 21431
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_426:
@@ -32850,7 +32883,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 21454
+.word 21457
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_GetValue_string_System_Type
 plt_System_Runtime_Serialization_SerializationInfo_GetValue_string_System_Type:
 _p_427:
@@ -32858,7 +32891,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 21466
+.word 21469
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_428:
@@ -32866,7 +32899,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 21471
+.word 21474
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_429:
@@ -32874,7 +32907,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 21483
+.word 21486
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_430:
@@ -32882,7 +32915,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 21491
+.word 21494
 	.no_dead_strip plt__rgctx_fetch_199
 plt__rgctx_fetch_199:
 _p_431:
@@ -32890,7 +32923,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 21505
+.word 21508
 	.no_dead_strip plt__rgctx_fetch_200
 plt__rgctx_fetch_200:
 _p_432:
@@ -32898,7 +32931,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 21519
+.word 21522
 	.no_dead_strip plt_System_ThrowHelper_ThrowSerializationException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowSerializationException_System_ExceptionResource:
 _p_433:
@@ -32906,7 +32939,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 21533
+.word 21536
 	.no_dead_strip plt__rgctx_fetch_201
 plt__rgctx_fetch_201:
 _p_434:
@@ -32914,7 +32947,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 21538
+.word 21541
 	.no_dead_strip plt__rgctx_fetch_202
 plt__rgctx_fetch_202:
 _p_435:
@@ -32922,7 +32955,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 21550
+.word 21553
 	.no_dead_strip plt__rgctx_fetch_203
 plt__rgctx_fetch_203:
 _p_436:
@@ -32930,7 +32963,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 21580
+.word 21583
 	.no_dead_strip plt__rgctx_fetch_204
 plt__rgctx_fetch_204:
 _p_437:
@@ -32938,7 +32971,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 21610
+.word 21613
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Remove_object
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Remove_object:
 _p_438:
@@ -32946,7 +32979,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 21638
+.word 21641
 	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
 plt_System_Collections_HashHelpers_ExpandPrime_int:
 _p_439:
@@ -32954,7 +32987,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 21664
+.word 21667
 	.no_dead_strip plt__rgctx_fetch_205
 plt__rgctx_fetch_205:
 _p_440:
@@ -32962,7 +32995,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 21690
+.word 21693
 	.no_dead_strip plt__rgctx_fetch_206
 plt__rgctx_fetch_206:
 _p_441:
@@ -32970,7 +33003,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 21739
+.word 21742
 	.no_dead_strip plt__rgctx_fetch_207
 plt__rgctx_fetch_207:
 _p_442:
@@ -32978,7 +33011,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 21753
+.word 21756
 	.no_dead_strip plt__rgctx_fetch_208
 plt__rgctx_fetch_208:
 _p_443:
@@ -32986,7 +33019,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 21801
+.word 21804
 	.no_dead_strip plt__rgctx_fetch_209
 plt__rgctx_fetch_209:
 _p_444:
@@ -32994,7 +33027,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 21828
+.word 21831
 	.no_dead_strip plt__rgctx_fetch_210
 plt__rgctx_fetch_210:
 _p_445:
@@ -33002,7 +33035,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 21876
+.word 21879
 	.no_dead_strip plt__rgctx_fetch_211
 plt__rgctx_fetch_211:
 _p_446:
@@ -33010,7 +33043,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 21925
+.word 21928
 	.no_dead_strip plt__rgctx_fetch_212
 plt__rgctx_fetch_212:
 _p_447:
@@ -33018,7 +33051,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 21974
+.word 21977
 	.no_dead_strip plt__rgctx_fetch_213
 plt__rgctx_fetch_213:
 _p_448:
@@ -33026,7 +33059,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 22002
+.word 22005
 	.no_dead_strip plt__rgctx_fetch_214
 plt__rgctx_fetch_214:
 _p_449:
@@ -33034,7 +33067,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 22016
+.word 22019
 	.no_dead_strip plt__rgctx_fetch_215
 plt__rgctx_fetch_215:
 _p_450:
@@ -33042,7 +33075,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 22044
+.word 22047
 	.no_dead_strip plt_System_Collections_DictionaryEntry__ctor_object_object
 plt_System_Collections_DictionaryEntry__ctor_object_object:
 _p_451:
@@ -33050,7 +33083,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 22054
+.word 22057
 	.no_dead_strip plt__rgctx_fetch_216
 plt__rgctx_fetch_216:
 _p_452:
@@ -33058,7 +33091,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 22059
+.word 22062
 	.no_dead_strip plt__rgctx_fetch_217
 plt__rgctx_fetch_217:
 _p_453:
@@ -33066,7 +33099,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 22071
+.word 22074
 	.no_dead_strip plt__rgctx_fetch_218
 plt__rgctx_fetch_218:
 _p_454:
@@ -33074,7 +33107,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 22122
+.word 22125
 	.no_dead_strip plt__rgctx_fetch_219
 plt__rgctx_fetch_219:
 _p_455:
@@ -33082,7 +33115,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 22134
+.word 22137
 	.no_dead_strip plt_object__ctor
 plt_object__ctor:
 _p_456:
@@ -33090,7 +33123,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 22164
+.word 22167
 	.no_dead_strip plt__rgctx_fetch_220
 plt__rgctx_fetch_220:
 _p_457:
@@ -33098,7 +33131,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 22190
+.word 22193
 	.no_dead_strip plt__rgctx_fetch_221
 plt__rgctx_fetch_221:
 _p_458:
@@ -33106,7 +33139,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 22239
+.word 22242
 	.no_dead_strip plt__rgctx_fetch_222
 plt__rgctx_fetch_222:
 _p_459:
@@ -33114,7 +33147,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 22288
+.word 22291
 	.no_dead_strip plt__rgctx_fetch_223
 plt__rgctx_fetch_223:
 _p_460:
@@ -33122,7 +33155,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 22298
+.word 22301
 	.no_dead_strip plt__rgctx_fetch_224
 plt__rgctx_fetch_224:
 _p_461:
@@ -33130,7 +33163,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 22326
+.word 22329
 	.no_dead_strip plt__rgctx_fetch_225
 plt__rgctx_fetch_225:
 _p_462:
@@ -33138,7 +33171,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 22336
+.word 22339
 	.no_dead_strip plt__rgctx_fetch_226
 plt__rgctx_fetch_226:
 _p_463:
@@ -33146,7 +33179,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 22364
+.word 22367
 	.no_dead_strip plt__rgctx_fetch_227
 plt__rgctx_fetch_227:
 _p_464:
@@ -33154,7 +33187,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 22395
+.word 22398
 	.no_dead_strip plt__rgctx_fetch_228
 plt__rgctx_fetch_228:
 _p_465:
@@ -33162,7 +33195,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 22421
+.word 22424
 	.no_dead_strip plt__rgctx_fetch_229
 plt__rgctx_fetch_229:
 _p_466:
@@ -33170,7 +33203,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 22447
+.word 22450
 	.no_dead_strip plt__rgctx_fetch_230
 plt__rgctx_fetch_230:
 _p_467:
@@ -33178,7 +33211,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 22457
+.word 22460
 	.no_dead_strip plt__rgctx_fetch_231
 plt__rgctx_fetch_231:
 _p_468:
@@ -33186,7 +33219,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 22467
+.word 22470
 	.no_dead_strip plt__rgctx_fetch_232
 plt__rgctx_fetch_232:
 _p_469:
@@ -33194,7 +33227,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 22495
+.word 22498
 	.no_dead_strip plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type
 plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type:
 _p_470:
@@ -33202,7 +33235,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 22505
+.word 22508
 	.no_dead_strip plt__rgctx_fetch_233
 plt__rgctx_fetch_233:
 _p_471:
@@ -33210,7 +33243,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 22510
+.word 22513
 	.no_dead_strip plt_System_ThrowHelper_ThrowWrongKeyTypeArgumentException_object_System_Type
 plt_System_ThrowHelper_ThrowWrongKeyTypeArgumentException_object_System_Type:
 _p_472:
@@ -33218,7 +33251,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 22520
+.word 22523
 	.no_dead_strip plt__rgctx_fetch_234
 plt__rgctx_fetch_234:
 _p_473:
@@ -33226,7 +33259,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 22546
+.word 22549
 	.no_dead_strip plt__rgctx_fetch_235
 plt__rgctx_fetch_235:
 _p_474:
@@ -33234,7 +33267,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 22577
+.word 22580
 	.no_dead_strip plt__rgctx_fetch_236
 plt__rgctx_fetch_236:
 _p_475:
@@ -33242,7 +33275,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 22603
+.word 22606
 	.no_dead_strip plt__rgctx_fetch_237
 plt__rgctx_fetch_237:
 _p_476:
@@ -33250,7 +33283,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 22629
+.word 22632
 	.no_dead_strip plt__rgctx_fetch_238
 plt__rgctx_fetch_238:
 _p_477:
@@ -33258,7 +33291,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 22639
+.word 22642
 	.no_dead_strip plt__rgctx_fetch_239
 plt__rgctx_fetch_239:
 _p_478:
@@ -33266,7 +33299,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 22649
+.word 22652
 	.no_dead_strip plt__rgctx_fetch_240
 plt__rgctx_fetch_240:
 _p_479:
@@ -33274,7 +33307,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 22677
+.word 22680
 	.no_dead_strip plt__rgctx_fetch_241
 plt__rgctx_fetch_241:
 _p_480:
@@ -33282,7 +33315,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 22687
+.word 22690
 	.no_dead_strip plt__rgctx_fetch_242
 plt__rgctx_fetch_242:
 _p_481:
@@ -33290,7 +33323,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 22718
+.word 22721
 	.no_dead_strip plt__rgctx_fetch_243
 plt__rgctx_fetch_243:
 _p_482:
@@ -33298,7 +33331,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 22728
+.word 22731
 	.no_dead_strip plt__rgctx_fetch_244
 plt__rgctx_fetch_244:
 _p_483:
@@ -33306,7 +33339,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 22756
+.word 22759
 	.no_dead_strip plt__rgctx_fetch_245
 plt__rgctx_fetch_245:
 _p_484:
@@ -33314,7 +33347,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 22766
+.word 22769
 	.no_dead_strip plt__rgctx_fetch_246
 plt__rgctx_fetch_246:
 _p_485:
@@ -33322,7 +33355,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 22815
+.word 22818
 	.no_dead_strip plt__rgctx_fetch_247
 plt__rgctx_fetch_247:
 _p_486:
@@ -33330,7 +33363,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 22827
+.word 22830
 	.no_dead_strip plt__rgctx_fetch_248
 plt__rgctx_fetch_248:
 _p_487:
@@ -33338,7 +33371,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 22878
+.word 22881
 	.no_dead_strip plt__rgctx_fetch_249
 plt__rgctx_fetch_249:
 _p_488:
@@ -33346,7 +33379,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 22888
+.word 22891
 	.no_dead_strip plt__rgctx_fetch_250
 plt__rgctx_fetch_250:
 _p_489:
@@ -33354,7 +33387,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 22916
+.word 22919
 	.no_dead_strip plt__rgctx_fetch_251
 plt__rgctx_fetch_251:
 _p_490:
@@ -33362,7 +33395,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 22926
+.word 22929
 	.no_dead_strip plt__rgctx_fetch_252
 plt__rgctx_fetch_252:
 _p_491:
@@ -33370,7 +33403,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 22987
+.word 22990
 	.no_dead_strip plt__rgctx_fetch_253
 plt__rgctx_fetch_253:
 _p_492:
@@ -33378,7 +33411,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 22999
+.word 23002
 	.no_dead_strip plt__rgctx_fetch_254
 plt__rgctx_fetch_254:
 _p_493:
@@ -33386,7 +33419,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 23062
+.word 23065
 	.no_dead_strip plt__rgctx_fetch_255
 plt__rgctx_fetch_255:
 _p_494:
@@ -33394,7 +33427,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 23113
+.word 23116
 	.no_dead_strip plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource:
 _p_495:
@@ -33402,7 +33435,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 23143
+.word 23146
 	.no_dead_strip plt__rgctx_fetch_256
 plt__rgctx_fetch_256:
 _p_496:
@@ -33410,7 +33443,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 23169
+.word 23172
 	.no_dead_strip plt__rgctx_fetch_257
 plt__rgctx_fetch_257:
 _p_497:
@@ -33418,7 +33451,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 23220
+.word 23223
 	.no_dead_strip plt__rgctx_fetch_258
 plt__rgctx_fetch_258:
 _p_498:
@@ -33426,7 +33459,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 23232
+.word 23235
 	.no_dead_strip plt__rgctx_fetch_259
 plt__rgctx_fetch_259:
 _p_499:
@@ -33434,7 +33467,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 23283
+.word 23286
 	.no_dead_strip plt__rgctx_fetch_260
 plt__rgctx_fetch_260:
 _p_500:
@@ -33442,7 +33475,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 23295
+.word 23298
 	.no_dead_strip plt__rgctx_fetch_261
 plt__rgctx_fetch_261:
 _p_501:
@@ -33450,7 +33483,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 23346
+.word 23349
 	.no_dead_strip plt__rgctx_fetch_262
 plt__rgctx_fetch_262:
 _p_502:
@@ -33458,7 +33491,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 23376
+.word 23379
 	.no_dead_strip plt__rgctx_fetch_263
 plt__rgctx_fetch_263:
 _p_503:
@@ -33466,7 +33499,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 23388
+.word 23391
 	.no_dead_strip plt__rgctx_fetch_264
 plt__rgctx_fetch_264:
 _p_504:
@@ -33474,7 +33507,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 23449
+.word 23452
 	.no_dead_strip plt__rgctx_fetch_265
 plt__rgctx_fetch_265:
 _p_505:
@@ -33482,7 +33515,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 23461
+.word 23464
 	.no_dead_strip plt__rgctx_fetch_266
 plt__rgctx_fetch_266:
 _p_506:
@@ -33490,7 +33523,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 23524
+.word 23527
 	.no_dead_strip plt__rgctx_fetch_267
 plt__rgctx_fetch_267:
 _p_507:
@@ -33498,7 +33531,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 23575
+.word 23578
 	.no_dead_strip plt__rgctx_fetch_268
 plt__rgctx_fetch_268:
 _p_508:
@@ -33506,7 +33539,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 23626
+.word 23629
 	.no_dead_strip plt__rgctx_fetch_269
 plt__rgctx_fetch_269:
 _p_509:
@@ -33514,7 +33547,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 23677
+.word 23680
 	.no_dead_strip plt__rgctx_fetch_270
 plt__rgctx_fetch_270:
 _p_510:
@@ -33522,7 +33555,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 23689
+.word 23692
 	.no_dead_strip plt__rgctx_fetch_271
 plt__rgctx_fetch_271:
 _p_511:
@@ -33530,7 +33563,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 23740
+.word 23743
 	.no_dead_strip plt__rgctx_fetch_272
 plt__rgctx_fetch_272:
 _p_512:
@@ -33538,7 +33571,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 23752
+.word 23755
 	.no_dead_strip plt__rgctx_fetch_273
 plt__rgctx_fetch_273:
 _p_513:
@@ -33546,7 +33579,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 23803
+.word 23806
 	.no_dead_strip plt__rgctx_fetch_274
 plt__rgctx_fetch_274:
 _p_514:
@@ -33554,7 +33587,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 23833
+.word 23836
 	.no_dead_strip plt__rgctx_fetch_275
 plt__rgctx_fetch_275:
 _p_515:
@@ -33562,7 +33595,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 23845
+.word 23848
 	.no_dead_strip plt__rgctx_fetch_276
 plt__rgctx_fetch_276:
 _p_516:
@@ -33570,7 +33603,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 23873
+.word 23876
 	.no_dead_strip plt__rgctx_fetch_277
 plt__rgctx_fetch_277:
 _p_517:
@@ -33578,7 +33611,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 23902
+.word 23905
 	.no_dead_strip plt__rgctx_fetch_278
 plt__rgctx_fetch_278:
 _p_518:
@@ -33586,7 +33619,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 23951
+.word 23954
 	.no_dead_strip plt__rgctx_fetch_279
 plt__rgctx_fetch_279:
 _p_519:
@@ -33594,7 +33627,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 23961
+.word 23964
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_520:
@@ -33602,7 +33635,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 23971
+.word 23974
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_521:
@@ -33610,7 +33643,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 23976
+.word 23979
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_522:
@@ -33618,7 +33651,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 23981
+.word 23984
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_523:
@@ -33626,7 +33659,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 24015
+.word 24018
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_524:
@@ -33634,7 +33667,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 24020
+.word 24023
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_MoveNext
 plt_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_MoveNext:
 _p_525:
@@ -33642,7 +33675,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 24025
+.word 24028
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_MoveNext
 plt_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_MoveNext:
 _p_526:
@@ -33650,7 +33683,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 24027
+.word 24030
 	.no_dead_strip plt_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_MoveNext
 plt_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_MoveNext:
 _p_527:
@@ -33658,7 +33691,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 24029
+.word 24032
 	.no_dead_strip plt__rgctx_fetch_280
 plt__rgctx_fetch_280:
 _p_528:
@@ -33666,7 +33699,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 24059
+.word 24062
 	.no_dead_strip plt__rgctx_fetch_281
 plt__rgctx_fetch_281:
 _p_529:
@@ -33674,7 +33707,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 24071
+.word 24074
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_MoveNext
 plt_DocumentDBTodo_TodoItemManager__GetTodoItemsAsyncc__async0_MoveNext:
 _p_530:
@@ -33682,7 +33715,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 24098
+.word 24101
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_MoveNext
 plt_DocumentDBTodo_TodoItemManager__InsertItemAsyncc__async1_MoveNext:
 _p_531:
@@ -33690,7 +33723,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 24100
+.word 24103
 	.no_dead_strip plt_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_MoveNext
 plt_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_MoveNext:
 _p_532:
@@ -33698,7 +33731,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 24102
+.word 24105
 	.no_dead_strip plt__rgctx_fetch_282
 plt__rgctx_fetch_282:
 _p_533:
@@ -33706,7 +33739,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 24126
+.word 24129
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_534:
@@ -33714,7 +33747,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 24178
+.word 24181
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_535:
@@ -33722,7 +33755,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 24183
+.word 24186
 	.no_dead_strip plt__rgctx_fetch_283
 plt__rgctx_fetch_283:
 _p_536:
@@ -33730,7 +33763,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 24188
+.word 24191
 	.no_dead_strip plt__rgctx_fetch_284
 plt__rgctx_fetch_284:
 _p_537:
@@ -33738,7 +33771,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 24198
+.word 24201
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_538:
@@ -33746,7 +33779,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 24208
+.word 24211
 	.no_dead_strip plt__rgctx_fetch_285
 plt__rgctx_fetch_285:
 _p_539:
@@ -33754,7 +33787,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 24213
+.word 24216
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_540:
@@ -33762,7 +33795,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 24223
+.word 24226
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_541:
@@ -33770,7 +33803,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 24228
+.word 24231
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__AddItemc__async1_:
 _p_542:
@@ -33778,7 +33811,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 24255
+.word 24258
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_543:
@@ -33786,7 +33819,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 24282
+.word 24285
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_System_Runtime_CompilerServices_TaskAwaiter__DocumentDBTodo_DocumentDBTodoPage__CompleteItemc__async2_:
 _p_544:
@@ -33794,7 +33827,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 24309
+.word 24312
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem__DocumentDBTodo_DocumentDBTodoPage__RefreshItemsc__async8_:
 _p_545:
@@ -33802,7 +33835,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 24335
+.word 24338
 	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
 plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_546:
@@ -33810,7 +33843,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 24362
+.word 24365
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_FeedResponse_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action:
 _p_547:
@@ -33818,7 +33851,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 24399
+.word 24402
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_UnsafeOnCompleted_System_Action:
 _p_548:
@@ -33826,7 +33859,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 24420
+.word 24423
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document_DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_Azure_Documents_Client_ResourceResponse_1_Microsoft_Azure_Documents_Document__DocumentDBTodo_TodoItemManager__CompleteItemAsyncc__async2_:
 _p_549:
@@ -33834,7 +33867,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 24443
+.word 24446
 	.no_dead_strip plt__rgctx_fetch_286
 plt__rgctx_fetch_286:
 _p_550:
@@ -33842,7 +33875,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 24489
+.word 24492
 	.no_dead_strip plt__rgctx_fetch_287
 plt__rgctx_fetch_287:
 _p_551:
@@ -33850,7 +33883,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 24542
+.word 24545
 	.no_dead_strip plt__rgctx_fetch_288
 plt__rgctx_fetch_288:
 _p_552:
@@ -33858,7 +33891,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 24554
+.word 24557
 	.no_dead_strip plt__rgctx_fetch_289
 plt__rgctx_fetch_289:
 _p_553:
@@ -33866,7 +33899,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 24608
+.word 24611
 	.no_dead_strip plt__rgctx_fetch_290
 plt__rgctx_fetch_290:
 _p_554:
@@ -33874,7 +33907,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 24620
+.word 24623
 	.no_dead_strip plt__rgctx_fetch_291
 plt__rgctx_fetch_291:
 _p_555:
@@ -33882,7 +33915,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 24665
+.word 24668
 	.no_dead_strip plt__rgctx_fetch_292
 plt__rgctx_fetch_292:
 _p_556:
@@ -33890,7 +33923,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 24675
+.word 24678
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 _p_557:
@@ -33898,7 +33931,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 24685
+.word 24688
 	.no_dead_strip plt__rgctx_fetch_293
 plt__rgctx_fetch_293:
 _p_558:
@@ -33906,7 +33939,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 24722
+.word 24725
 	.no_dead_strip plt__rgctx_fetch_294
 plt__rgctx_fetch_294:
 _p_559:
@@ -33914,7 +33947,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 24732
+.word 24735
 	.no_dead_strip plt__rgctx_fetch_295
 plt__rgctx_fetch_295:
 _p_560:
@@ -33922,7 +33955,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 24742
+.word 24745
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_561:
@@ -33930,7 +33963,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 24767
+.word 24770
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action:
 _p_562:
@@ -33938,7 +33971,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 24778
+.word 24781
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_563:
@@ -33946,7 +33979,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 24801
+.word 24804
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_564:
@@ -33954,7 +33987,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 24821
+.word 24824
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_565:
@@ -33962,7 +33995,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 24841
+.word 24844
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_566:
@@ -33970,7 +34003,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 24861
+.word 24864
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_567:
@@ -33978,7 +34011,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 24881
+.word 24884
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_568:
@@ -33986,7 +34019,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 24901
+.word 24904
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_569:
@@ -33994,7 +34027,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 24921
+.word 24924
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_570:
@@ -34002,7 +34035,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 24941
+.word 24944
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
 _p_571:
@@ -34010,7 +34043,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 24961
+.word 24964
 	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
 _p_572:
@@ -34018,7 +34051,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 24981
+.word 24984
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_573:
@@ -34026,7 +34059,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 25001
+.word 25004
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_574:
@@ -34034,7 +34067,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 25021
+.word 25024
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_575:
@@ -34042,7 +34075,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 25041
+.word 25044
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
 _p_576:
@@ -34050,7 +34083,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 25061
+.word 25064
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_577:
@@ -34058,7 +34091,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 25081
+.word 25084
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_578:
@@ -34066,7 +34099,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 25101
+.word 25104
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_579:
@@ -34074,7 +34107,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 25121
+.word 25124
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_580:
@@ -34082,7 +34115,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 25141
+.word 25144
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_581:
@@ -34090,7 +34123,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 25161
+.word 25164
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_582:
@@ -34098,7 +34131,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 25166
+.word 25169
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_583:
@@ -34106,7 +34139,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 25186
+.word 25189
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_584:
@@ -34114,7 +34147,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 25206
+.word 25209
 	.no_dead_strip plt_System_Decimal__ctor_int
 plt_System_Decimal__ctor_int:
 _p_585:
@@ -34122,7 +34155,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 25226
+.word 25229
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_586:
@@ -34130,7 +34163,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 25231
+.word 25234
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_587:
@@ -34138,7 +34171,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 25251
+.word 25254
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_DocumentDBTodo_TodoItem_UnsafeOnCompleted_System_Action:
 _p_588:
@@ -34146,7 +34179,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 25272
+.word 25275
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_589:
@@ -34154,7 +34187,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 25292
+.word 25295
 	.no_dead_strip plt__rgctx_fetch_296
 plt__rgctx_fetch_296:
 _p_590:
@@ -34162,7 +34195,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 25315
+.word 25318
 	.no_dead_strip plt_System_Type_op_Equality_System_Type_System_Type
 plt_System_Type_op_Equality_System_Type_System_Type:
 _p_591:
@@ -34170,7 +34203,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 25325
+.word 25328
 	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
 plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_592:
@@ -34178,7 +34211,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 25330
+.word 25333
 	.no_dead_strip plt__rgctx_fetch_297
 plt__rgctx_fetch_297:
 _p_593:
@@ -34186,7 +34219,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 25335
+.word 25338
 	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
 plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_594:
@@ -34194,7 +34227,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 25345
+.word 25348
 	.no_dead_strip plt__rgctx_fetch_298
 plt__rgctx_fetch_298:
 _p_595:
@@ -34202,7 +34235,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 25359
+.word 25362
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_596:
@@ -34210,7 +34243,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 25371
+.word 25374
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_597:
@@ -34218,7 +34251,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 25376
+.word 25379
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_598:
@@ -34226,7 +34259,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 25381
+.word 25384
 	.no_dead_strip plt__rgctx_fetch_299
 plt__rgctx_fetch_299:
 _p_599:
@@ -34234,7 +34267,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 25395
+.word 25398
 	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 _p_600:
@@ -34242,7 +34275,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 25407
+.word 25410
 	.no_dead_strip plt__rgctx_fetch_300
 plt__rgctx_fetch_300:
 _p_601:
@@ -34250,7 +34283,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 25446
+.word 25449
 	.no_dead_strip plt__rgctx_fetch_301
 plt__rgctx_fetch_301:
 _p_602:
@@ -34258,7 +34291,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 25456
+.word 25459
 	.no_dead_strip plt__rgctx_fetch_302
 plt__rgctx_fetch_302:
 _p_603:
@@ -34266,7 +34299,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 25475
+.word 25478
 	.no_dead_strip plt__rgctx_fetch_303
 plt__rgctx_fetch_303:
 _p_604:
@@ -34274,7 +34307,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 25496
+.word 25499
 	.no_dead_strip plt__rgctx_fetch_304
 plt__rgctx_fetch_304:
 _p_605:
@@ -34282,7 +34315,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 25508
+.word 25511
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_606:
@@ -34290,7 +34323,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 25535
+.word 25538
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_607:
@@ -34298,7 +34331,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 25555
+.word 25558
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
 _p_608:
@@ -34306,7 +34339,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 25584
+.word 25587
 	.no_dead_strip plt__rgctx_fetch_305
 plt__rgctx_fetch_305:
 _p_609:
@@ -34314,7 +34347,7 @@ adrp x16, mono_aot_DocumentDBTodo_iOS_got@PAGE+4096
 add x16, x16, mono_aot_DocumentDBTodo_iOS_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 25632
+.word 25635
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -34349,7 +34382,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "905FBB1B-18A0-4B2E-A171-5D741E4D5C81"
+	.asciz "4F025BEB-B5D5-4622-AF0A-48E44C24CC73"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -34426,13 +34459,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 346,7648,610,460,66,923871743,0,34807
-	.long 128,8,8,10,0,15,49264,14448
+	.long 346,7648,610,460,66,923871743,0,34791
+	.long 128,8,8,10,0,15,49248,14448
 	.long 13464,12024,0,12664,13400,12192,0,8952
 	.long 640,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 239,227,24,111,107,15,149,211,194,28,118,145,172,94,70,188
+	.byte 76,157,253,68,53,100,101,9,202,83,182,246,15,220,117,77
 	.globl _mono_aot_module_DocumentDBTodo_iOS_info
 	.align 3
 _mono_aot_module_DocumentDBTodo_iOS_info:
@@ -39220,7 +39253,7 @@ Lfde3_start:
 LDIFF_SYM847=Lme_3 - DocumentDBTodo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.long LDIFF_SYM847
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde3_end:
 

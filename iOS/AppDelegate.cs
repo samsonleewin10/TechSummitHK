@@ -17,7 +17,8 @@ namespace DocumentDBTodo.iOS
 		{
 			global::Xamarin.Forms.Forms.Init ();
 
-			MobileCenter.Configure("e9e0d8ef-f8da-4fe4-bb51-97d4f50c43c6");
+			MobileCenter.Start("e9e0d8ef-f8da-4fe4-bb51-97d4f50c43c6",
+					typeof(Analytics), typeof(Crashes));
 
 			LoadApplication (new App ());
 

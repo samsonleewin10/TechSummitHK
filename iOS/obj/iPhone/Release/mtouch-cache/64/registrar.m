@@ -11064,65 +11064,6 @@ exception_handling:;
 	}
 @end
 
-@interface MSWrapperSdk : NSObject {
-}
-	-(BOOL) isEqual:(id)p0;
-	-(NSString *) liveUpdateDeploymentKey;
-	-(NSString *) liveUpdatePackageHash;
-	-(NSString *) liveUpdateReleaseLabel;
-	-(NSString *) wrapperSdkName;
-	-(NSString *) wrapperSdkVersion;
-	-(id) init;
-	-(id) initWithWrapperSdkVersion:(NSString *)p0 wrapperSdkName:(NSString *)p1 liveUpdateReleaseLabel:(NSString *)p2 liveUpdateDeploymentKey:(NSString *)p3 liveUpdatePackageHash:(NSString *)p4;
-@end
-
-@interface MSDevice : MSWrapperSdk {
-}
-	-(BOOL) isEqual:(id)p0;
-	-(NSString *) appBuild;
-	-(NSString *) appNamespace;
-	-(NSString *) appVersion;
-	-(NSString *) carrierCountry;
-	-(NSString *) carrierName;
-	-(NSString *) locale;
-	-(NSString *) model;
-	-(NSString *) oemName;
-	-(NSNumber *) osApiLevel;
-	-(NSString *) osBuild;
-	-(NSString *) osName;
-	-(NSString *) osVersion;
-	-(NSString *) screenSize;
-	-(NSString *) sdkName;
-	-(NSString *) sdkVersion;
-	-(NSNumber *) timeZoneOffset;
-	-(id) init;
-@end
-
-@interface MSLogger : NSObject {
-}
-	-(id) init;
-@end
-
-@interface MSMobileCenter : NSObject {
-}
-	-(id) init;
-@end
-
-@protocol MSService
-	@optional +(BOOL) isEnabled;
-	@optional +(void) setEnabled:(BOOL)p0;
-@end
-
-@interface MSServiceAbstract : NSObject {
-}
-	-(id) init;
-@end
-
-@interface MSWrapperLogger : NSObject {
-}
-	-(id) init;
-@end
-
 @interface MSAnalytics : NSObject {
 }
 	-(id) init;
@@ -11380,6 +11321,65 @@ exception_handling:;
 	}
 @end
 
+@interface MSWrapperSdk : NSObject {
+}
+	-(BOOL) isEqual:(id)p0;
+	-(NSString *) liveUpdateDeploymentKey;
+	-(NSString *) liveUpdatePackageHash;
+	-(NSString *) liveUpdateReleaseLabel;
+	-(NSString *) wrapperSdkName;
+	-(NSString *) wrapperSdkVersion;
+	-(id) init;
+	-(id) initWithWrapperSdkVersion:(NSString *)p0 wrapperSdkName:(NSString *)p1 liveUpdateReleaseLabel:(NSString *)p2 liveUpdateDeploymentKey:(NSString *)p3 liveUpdatePackageHash:(NSString *)p4;
+@end
+
+@interface MSDevice : MSWrapperSdk {
+}
+	-(BOOL) isEqual:(id)p0;
+	-(NSString *) appBuild;
+	-(NSString *) appNamespace;
+	-(NSString *) appVersion;
+	-(NSString *) carrierCountry;
+	-(NSString *) carrierName;
+	-(NSString *) locale;
+	-(NSString *) model;
+	-(NSString *) oemName;
+	-(NSNumber *) osApiLevel;
+	-(NSString *) osBuild;
+	-(NSString *) osName;
+	-(NSString *) osVersion;
+	-(NSString *) screenSize;
+	-(NSString *) sdkName;
+	-(NSString *) sdkVersion;
+	-(NSNumber *) timeZoneOffset;
+	-(id) init;
+@end
+
+@interface MSLogger : NSObject {
+}
+	-(id) init;
+@end
+
+@interface MSMobileCenter : NSObject {
+}
+	-(id) init;
+@end
+
+@protocol MSService
+	@optional +(BOOL) isEnabled;
+	@optional +(void) setEnabled:(BOOL)p0;
+@end
+
+@interface MSServiceAbstract : NSObject {
+}
+	-(id) init;
+@end
+
+@interface MSWrapperLogger : NSObject {
+}
+	-(id) init;
+@end
+
 	static MTClassMap __xamarin_class_map [] = {
 		{"NSObject", "Foundation.NSObject, Xamarin.iOS", NULL },
 		{"UIResponder", "UIKit.UIResponder, Xamarin.iOS", NULL },
@@ -11607,12 +11607,6 @@ exception_handling:;
 		{"UIKit_UISplitViewController__UISplitViewControllerDelegate", "UIKit.UISplitViewController+_UISplitViewControllerDelegate, Xamarin.iOS", NULL },
 		{"UIKit_UITabBarController__UITabBarControllerDelegate", "UIKit.UITabBarController+_UITabBarControllerDelegate, Xamarin.iOS", NULL },
 		{"UIKit_UIWebView__UIWebViewDelegate", "UIKit.UIWebView+_UIWebViewDelegate, Xamarin.iOS", NULL },
-		{"MSWrapperSdk", "Microsoft.Azure.Mobile.iOS.Bindings.MSWrapperSdk, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
-		{"MSDevice", "Microsoft.Azure.Mobile.iOS.Bindings.MSDevice, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
-		{"MSLogger", "Microsoft.Azure.Mobile.iOS.Bindings.MSLogger, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
-		{"MSMobileCenter", "Microsoft.Azure.Mobile.iOS.Bindings.MSMobileCenter, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
-		{"MSServiceAbstract", "Microsoft.Azure.Mobile.iOS.Bindings.MSServiceAbstract, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
-		{"MSWrapperLogger", "Microsoft.Azure.Mobile.iOS.Bindings.MSWrapperLogger, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
 		{"MSAnalytics", "Microsoft.Azure.Mobile.Analytics.iOS.Bindings.MSAnalytics, Microsoft.Azure.Mobile.Analytics.iOS.Bindings", NULL },
 		{"MSLogWithProperties", "Microsoft.Azure.Mobile.Analytics.iOS.Bindings.MSLogWithProperties, Microsoft.Azure.Mobile.Analytics.iOS.Bindings", NULL },
 		{"MSEventLog", "Microsoft.Azure.Mobile.Analytics.iOS.Bindings.MSEventLog, Microsoft.Azure.Mobile.Analytics.iOS.Bindings", NULL },
@@ -11626,6 +11620,12 @@ exception_handling:;
 		{"MSStackFrame", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSStackFrame, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
 		{"MSWrapperExceptionManager", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSWrapperExceptionManager, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
 		{"Microsoft_Azure_Mobile_Crashes_iOS_Bindings_CrashesInitializationDelegate", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.CrashesInitializationDelegate, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
+		{"MSWrapperSdk", "Microsoft.Azure.Mobile.iOS.Bindings.MSWrapperSdk, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSDevice", "Microsoft.Azure.Mobile.iOS.Bindings.MSDevice, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSLogger", "Microsoft.Azure.Mobile.iOS.Bindings.MSLogger, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSMobileCenter", "Microsoft.Azure.Mobile.iOS.Bindings.MSMobileCenter, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSServiceAbstract", "Microsoft.Azure.Mobile.iOS.Bindings.MSServiceAbstract, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSWrapperLogger", "Microsoft.Azure.Mobile.iOS.Bindings.MSWrapperLogger, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
 		{ NULL, NULL, NULL },
 	};
 
@@ -11650,12 +11650,12 @@ exception_handling:;
 		"Mono.CSharp", 
 		"System.Security.SecureString", 
 		"System.Runtime.InteropServices.RuntimeInformation", 
-		"Microsoft.Azure.Mobile", 
-		"Microsoft.Azure.Mobile.iOS.Bindings", 
 		"Microsoft.Azure.Mobile.Analytics", 
 		"Microsoft.Azure.Mobile.Analytics.iOS.Bindings", 
 		"Microsoft.Azure.Mobile.Crashes", 
 		"Microsoft.Azure.Mobile.Crashes.iOS.Bindings", 
+		"Microsoft.Azure.Mobile.iOS.Bindings", 
+		"Microsoft.Azure.Mobile", 
 		"Xamarin.Forms.Xaml"
 	};
 
@@ -11895,25 +11895,25 @@ void xamarin_create_classes () {
 	__xamarin_class_map [223].handle = objc_getClass ("UIKit_UISplitViewController__UISplitViewControllerDelegate");
 	__xamarin_class_map [224].handle = objc_getClass ("UIKit_UITabBarController__UITabBarControllerDelegate");
 	__xamarin_class_map [225].handle = objc_getClass ("UIKit_UIWebView__UIWebViewDelegate");
-	__xamarin_class_map [226].handle = [MSWrapperSdk class];
-	__xamarin_class_map [227].handle = [MSDevice class];
-	__xamarin_class_map [228].handle = [MSLogger class];
-	__xamarin_class_map [229].handle = [MSMobileCenter class];
-	__xamarin_class_map [230].handle = [MSServiceAbstract class];
-	__xamarin_class_map [231].handle = [MSWrapperLogger class];
-	__xamarin_class_map [232].handle = [MSAnalytics class];
-	__xamarin_class_map [233].handle = [MSLogWithProperties class];
-	__xamarin_class_map [234].handle = [MSEventLog class];
-	__xamarin_class_map [235].handle = [MSPageLog class];
-	__xamarin_class_map [236].handle = [Microsoft_Azure_Mobile_Crashes_CrashesDelegate class];
-	__xamarin_class_map [237].handle = [MSCrashes class];
-	__xamarin_class_map [238].handle = [MSErrorAttachment class];
-	__xamarin_class_map [239].handle = [MSErrorBinaryAttachment class];
-	__xamarin_class_map [240].handle = [MSErrorReport class];
-	__xamarin_class_map [241].handle = [MSException class];
-	__xamarin_class_map [242].handle = [MSStackFrame class];
-	__xamarin_class_map [243].handle = [MSWrapperExceptionManager class];
-	__xamarin_class_map [244].handle = [Microsoft_Azure_Mobile_Crashes_iOS_Bindings_CrashesInitializationDelegate class];
+	__xamarin_class_map [226].handle = [MSAnalytics class];
+	__xamarin_class_map [227].handle = [MSLogWithProperties class];
+	__xamarin_class_map [228].handle = [MSEventLog class];
+	__xamarin_class_map [229].handle = [MSPageLog class];
+	__xamarin_class_map [230].handle = [Microsoft_Azure_Mobile_Crashes_CrashesDelegate class];
+	__xamarin_class_map [231].handle = [MSCrashes class];
+	__xamarin_class_map [232].handle = [MSErrorAttachment class];
+	__xamarin_class_map [233].handle = [MSErrorBinaryAttachment class];
+	__xamarin_class_map [234].handle = [MSErrorReport class];
+	__xamarin_class_map [235].handle = [MSException class];
+	__xamarin_class_map [236].handle = [MSStackFrame class];
+	__xamarin_class_map [237].handle = [MSWrapperExceptionManager class];
+	__xamarin_class_map [238].handle = [Microsoft_Azure_Mobile_Crashes_iOS_Bindings_CrashesInitializationDelegate class];
+	__xamarin_class_map [239].handle = [MSWrapperSdk class];
+	__xamarin_class_map [240].handle = [MSDevice class];
+	__xamarin_class_map [241].handle = [MSLogger class];
+	__xamarin_class_map [242].handle = [MSMobileCenter class];
+	__xamarin_class_map [243].handle = [MSServiceAbstract class];
+	__xamarin_class_map [244].handle = [MSWrapperLogger class];
 	xamarin_add_registration_map (&__xamarin_registration_map);
 }
 

@@ -117,13 +117,6 @@
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;
-@class MSWrapperSdk;
-@class MSDevice;
-@class MSLogger;
-@class MSMobileCenter;
-@protocol MSService;
-@class MSServiceAbstract;
-@class MSWrapperLogger;
 @class MSAnalytics;
 @protocol MSAnalyticsDelegate;
 @class MSLogWithProperties;
@@ -140,4 +133,11 @@
 @protocol MSWrapperCrashesInitializationDelegate;
 @class MSWrapperExceptionManager;
 @class Microsoft_Azure_Mobile_Crashes_iOS_Bindings_CrashesInitializationDelegate;
+@class MSWrapperSdk;
+@class MSDevice;
+@class MSLogger;
+@class MSMobileCenter;
+@protocol MSService;
+@class MSServiceAbstract;
+@class MSWrapperLogger;
 
