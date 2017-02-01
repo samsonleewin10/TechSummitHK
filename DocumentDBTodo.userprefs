@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{86E5BC60-1CA5-4EEB-94BF-6414F840DB58}|Default">
+  <MonoDevelop.Ide.ItemProperties.DocumentDBTodo.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.DocumentDBTodo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3f312ddc88578554200055518687f7a1e4ca0236" />
+  <MonoDevelop.Ide.ItemProperties.DocumentDBTodo HideGettingStarted="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
