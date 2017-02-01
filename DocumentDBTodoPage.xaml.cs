@@ -2,6 +2,8 @@
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+using Microsoft.Azure.Mobile.Analytics;
+
 namespace DocumentDBTodo
 {
 	public partial class DocumentDBTodoPage : ContentPage
@@ -31,12 +33,14 @@ namespace DocumentDBTodo
 		// Data methods
 		async Task AddItem (TodoItem item)
 		{
+			Analytics.TrackEvent("Added Event Item");
 			await manager.InsertItemAsync (item);
 			todoList.ItemsSource = await manager.GetTodoItemsAsync ();
 		}
 
 		async Task CompleteItem (TodoItem item)
 		{
+			Analytics.TrackEvent("Completed Event Item");
 			item.Complete = true;
 			await manager.CompleteItemAsync (item);
 			todoList.ItemsSource = await manager.GetTodoItemsAsync ();
@@ -54,6 +58,7 @@ namespace DocumentDBTodo
 		// Event handlers
 		public async void OnSelected (object sender, SelectedItemChangedEventArgs e)
 		{
+			Analytics.TrackEvent("Selected Event Item");
 			var todo = e.SelectedItem as TodoItem;
 			if (Device.OS != TargetPlatform.iOS && todo != null) {
 				// Not iOS - the swipe-to-delete is discoverable there
@@ -104,6 +109,7 @@ namespace DocumentDBTodo
 
 		private async Task RefreshItems (bool showActivityIndicator)
 		{
+			Analytics.TrackEvent("Refreshing Event Item");
 			using (var scope = new ActivityIndicatorScope (syncIndicator, showActivityIndicator)) {
 				todoList.ItemsSource = await manager.GetTodoItemsAsync ();
 			}
@@ -111,15 +117,18 @@ namespace DocumentDBTodo
 
 		public async void logoutBtn_Clicked(object sender, EventArgs e)
 		{
+			Analytics.TrackEvent("Attempt to logout");
 			var selection = await DisplayAlert("Logout Confirmation","Are you sure you would like to logout?","Yes","No");
 			if (selection == true)
 			{
+				Analytics.TrackEvent("Logout Succeed");
 				App.Current.MainPage = new LoginPage();
 			}
 		}
 
 		public async void BrowseBtn_Clicked(object sender, EventArgs e)
 		{
+			Analytics.TrackEvent("Browse Event Catalog");
 			await DisplayAlert("Notice", "Event catalog to be updated...", "Back");
 		}
 

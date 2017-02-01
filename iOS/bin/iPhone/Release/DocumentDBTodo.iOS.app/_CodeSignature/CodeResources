@@ -6,255 +6,327 @@
 	<dict>
 		<key>.monotouch-32/DocumentDBTodo.iOS.armv7.aotdata</key>
 		<data>
-		LSCM2rPG0MnMouEFbjXbBtKrLNk=
+		KyJ3FMEuJN0fxxTk73hEZ7hj0xI=
 		</data>
 		<key>.monotouch-32/Microsoft.Azure.DocumentDB.Core.armv7.aotdata</key>
 		<data>
-		59GdQMCnjnAhwm83AklFPSh/WeQ=
+		ZYhd8QSOX3g9oLjUlFOuQy2jC64=
+		</data>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Analytics.armv7.aotdata</key>
+		<data>
+		5o0TQHjKxh8iEERfUMBEJHi2kv0=
+		</data>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.armv7.aotdata</key>
+		<data>
+		9l09MRqxsGSE2M9Bd8cQ6eRlIT4=
+		</data>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Crashes.armv7.aotdata</key>
+		<data>
+		qLeb2mRURnyVxqaT+xTlIoNCLu0=
+		</data>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.armv7.aotdata</key>
+		<data>
+		vOsLo+uk0j40AZvmiYEQwvXIzgU=
+		</data>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.armv7.aotdata</key>
+		<data>
+		S9GOgLpSXMPWtUvoZtSWpCm8ISk=
+		</data>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.iOS.Bindings.armv7.aotdata</key>
+		<data>
+		XaFTUw25LsQ1QuAWbmVx0wqb4HA=
 		</data>
 		<key>.monotouch-32/Microsoft.CSharp.armv7.aotdata</key>
 		<data>
-		Yij8hAxVGs+6BhCctti86HOVqmQ=
+		nL6DVYDaUvQcg+djVm3kSqjsRTs=
 		</data>
 		<key>.monotouch-32/Mono.CSharp.armv7.aotdata</key>
 		<data>
-		ni2561K4BsTzbLMspBGeDFgMVAg=
+		xDpeFrcrHzSiCiDUkwn1WUj6nHM=
 		</data>
 		<key>.monotouch-32/Mono.Dynamic.Interpreter.armv7.aotdata</key>
 		<data>
-		SmOkaWpzWuKZIWNDvuA4GeZkMAA=
+		MDGPzwn9xRThCqDR0D/gk6feCgg=
 		</data>
 		<key>.monotouch-32/Newtonsoft.Json.armv7.aotdata</key>
 		<data>
-		V43YvzFdTRgi3v13OM/yOaNCtUA=
+		MOPTofUiiMCNxi+hA3Y/JSUj+3Y=
 		</data>
 		<key>.monotouch-32/System.Core.armv7.aotdata</key>
 		<data>
-		a9fyvqH9LSqbj+XYb+l3ZTA+rhg=
+		6OkbBrS6ZLdR3RtsuRFqNFLwy/Y=
 		</data>
 		<key>.monotouch-32/System.Net.Http.armv7.aotdata</key>
 		<data>
-		R1FMCSkF5pNqI80wZr+DzX50EgA=
+		9vmvlUl8UdXGiiwdx3qfsTMwbLI=
 		</data>
 		<key>.monotouch-32/System.Runtime.InteropServices.RuntimeInformation.armv7.aotdata</key>
 		<data>
-		pHFUI7GZyQQWeAVI0xgT7Mryj50=
+		TMbMz6hoEkNbRGwRfulCRnD4WO4=
 		</data>
 		<key>.monotouch-32/System.Runtime.Serialization.armv7.aotdata</key>
 		<data>
-		ZmTPhyvzUd1jBw2kmszivyRCiCk=
+		rTNYobVDxy21CReR6qx7uVX/pX4=
 		</data>
 		<key>.monotouch-32/System.Security.SecureString.armv7.aotdata</key>
 		<data>
-		y3sFc0dNSB9jdiFKdEDeUS/evmg=
+		o+/FEAhsAl2x5KzSL8DdgfQFm20=
 		</data>
 		<key>.monotouch-32/System.ServiceModel.Internals.armv7.aotdata</key>
 		<data>
-		7wh6EKOUizWZ4aUA29PPrFS4DAU=
+		tjzGc0vTHfm+koc/KpdMY6miL68=
 		</data>
 		<key>.monotouch-32/System.Xml.Linq.armv7.aotdata</key>
 		<data>
-		IAdxKCFERA+FLKhSY1tATT1VlY0=
+		OaV2d8K251ZbTzUwfFT578ymD6U=
 		</data>
 		<key>.monotouch-32/System.Xml.armv7.aotdata</key>
 		<data>
-		FR/vX46+olZu03QgQPG9XWOgpVc=
+		MQ5vk59oLp32rrM3o5JkeXCYpcs=
 		</data>
 		<key>.monotouch-32/System.armv7.aotdata</key>
 		<data>
-		yV9zU4j6EzfCOyByksD73G5JXNs=
+		7LRuKiOwIXFPdBObVjbOtY61R+8=
 		</data>
 		<key>.monotouch-32/Xamarin.Forms.Core.armv7.aotdata</key>
 		<data>
-		i4Rq+qAZbMzDLs3b0+cT+Ee7/sU=
+		b8TioKRrqm4s394+wn+ACHans60=
 		</data>
 		<key>.monotouch-32/Xamarin.Forms.Platform.armv7.aotdata</key>
 		<data>
-		Sf2VHaltGiezMmqU/bHNskz9tOI=
+		DBKFszpDuKvxsl0y1fGs6B8rbkI=
 		</data>
 		<key>.monotouch-32/Xamarin.Forms.Platform.iOS.armv7.aotdata</key>
 		<data>
-		zGKIWLMnFb/q9SVacXx+92WpnQI=
+		WAv0Q5ILDIMx3Of11GttFEMMvUs=
 		</data>
 		<key>.monotouch-32/Xamarin.Forms.Platform.iOS.dll</key>
 		<data>
-		gEEqEW95IK33NB9EceBKnGchye8=
+		l37AVPGR+oPNmpdfOzvS4fL6h9w=
 		</data>
 		<key>.monotouch-32/Xamarin.Forms.Xaml.armv7.aotdata</key>
 		<data>
-		0RWm6qLp2bBf7chiqfT5aSQ1IPc=
+		h2fzP9DY9liOfXj4HO7Rm+2VBsA=
 		</data>
 		<key>.monotouch-32/Xamarin.iOS.armv7.aotdata</key>
 		<data>
-		MqPe6Di+ekG8xng1eEXud0Zmeuo=
+		JFa949x4oC8Un+JzS6KbmIrkmW8=
 		</data>
 		<key>.monotouch-32/Xamarin.iOS.dll</key>
 		<data>
-		jHMTBq2QfAcTPSn3TNj5YJeMhFE=
+		VqrZ81qcBFH9AYG+iieI4zDy8vY=
 		</data>
 		<key>.monotouch-32/mscorlib.armv7.aotdata</key>
 		<data>
-		FoWYaUgdBSrfBMskl4vn30kwxs0=
+		asj18EITBltDP+v5O0ClBQvZg+Q=
 		</data>
 		<key>.monotouch-64/DocumentDBTodo.iOS.arm64.aotdata</key>
 		<data>
-		quwaudpZF0j1MnDCRd6Z+iRmJHw=
+		aGvJ50+XwkMXi9nYVWeOlGJACwg=
 		</data>
 		<key>.monotouch-64/DocumentDBTodo.iOS.exe</key>
 		<data>
-		0JBzsVmzqpWBWyjDjLH1x+V5YjY=
+		R2in6eRyam3Z1uu5ysb8iz7MLbY=
 		</data>
 		<key>.monotouch-64/Microsoft.Azure.DocumentDB.Core.arm64.aotdata</key>
 		<data>
-		T+3H2Rok6koVGmYYNDPcMRtIgGg=
+		3lftuNL9wHVS1XFHQ2iNY/YpkXI=
 		</data>
 		<key>.monotouch-64/Microsoft.Azure.DocumentDB.Core.dll</key>
 		<data>
-		O6tzlPPM1N4uX409u2JoPgq7yRU=
+		cwGfVmeZZu/3oGWbovXR8LGlgTc=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Analytics.arm64.aotdata</key>
+		<data>
+		MnxzlGALjwEq8nQXLagaBWu17SQ=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Analytics.dll</key>
+		<data>
+		rQ68MEzkZA4MOcmQBDEtCRDQlsM=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.arm64.aotdata</key>
+		<data>
+		E/GJzhxtvdtsxrsk9CTJ833WDKU=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll</key>
+		<data>
+		Ni2G1U2eZmCA4sSlfKxMkkZLNTY=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Crashes.arm64.aotdata</key>
+		<data>
+		bM9Z12u/fd/B71Gmc6H4Z64W45Y=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Crashes.dll</key>
+		<data>
+		KKE86+4POKXMaEcoSqKvWxm8v1I=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.arm64.aotdata</key>
+		<data>
+		sK1A+DD3ycw7yRDdmOfFkBqSfHI=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</key>
+		<data>
+		fzrlZDR9SX73DYC930Ox+FL2GzU=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.arm64.aotdata</key>
+		<data>
+		DBhwKFUTLrDe0XkfNajvkc9rGTw=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.dll</key>
+		<data>
+		SxMfTnjI0FQjNNhLqpfcmDE1/xA=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.iOS.Bindings.arm64.aotdata</key>
+		<data>
+		Tw9Z9JrV2MEvHtj8zcWpA8JhKgM=
+		</data>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.iOS.Bindings.dll</key>
+		<data>
+		CVyzXX8lmPTSyQrvXnuV3rxP6sk=
 		</data>
 		<key>.monotouch-64/Microsoft.CSharp.arm64.aotdata</key>
 		<data>
-		imvPfCaD7BKp5QLlyMHWpe4V+Jc=
+		YfCAiE/5RBZA4Xsl92NuBiGgMrs=
 		</data>
 		<key>.monotouch-64/Microsoft.CSharp.dll</key>
 		<data>
-		1n9JlhdBM9UFL9twqft4JcH3vBg=
+		+AhfnjXNa3ABUMtVZA5yCFJYA8U=
 		</data>
 		<key>.monotouch-64/Mono.CSharp.arm64.aotdata</key>
 		<data>
-		9ourMQzEsS4Gs6TwUzjcYILZ6ug=
+		B8SAWjEGcPPFZyT9/tfM9RwF/c8=
 		</data>
 		<key>.monotouch-64/Mono.CSharp.dll</key>
 		<data>
-		umuS53GHmaA1d9hOs2Cc+6VuspU=
+		+NzsqDb+Km/KSCLQHDuOODUjjIg=
 		</data>
 		<key>.monotouch-64/Mono.Dynamic.Interpreter.arm64.aotdata</key>
 		<data>
-		tiUkfu+VjnydeIScTU+zf4igFb0=
+		x2bsoxbpRdt0xk0yO6C7Exw5JrU=
 		</data>
 		<key>.monotouch-64/Mono.Dynamic.Interpreter.dll</key>
 		<data>
-		NAXq4AcDGNZWLN1YrMoEdAteEAo=
+		1/Infl7AqsaRtdO4f5uzWOE8VHk=
 		</data>
 		<key>.monotouch-64/Newtonsoft.Json.arm64.aotdata</key>
 		<data>
-		YrT7oR30pT8Jy+jzsMyoDmHYvJs=
+		JnliyI3DqbFg/lynq7bV4x0KUuk=
 		</data>
 		<key>.monotouch-64/Newtonsoft.Json.dll</key>
 		<data>
-		yKO2rqfZVs1ipBNYtEHDh2OYK/w=
+		lnGYk0Tv9e3uCZd9OXNHbtPNmeY=
 		</data>
 		<key>.monotouch-64/System.Core.arm64.aotdata</key>
 		<data>
-		C1DvFFc+R+tBivYxrBySdGfSpoc=
+		eJnV/yuTSlXMZKxCYa8TV3VIa0c=
 		</data>
 		<key>.monotouch-64/System.Core.dll</key>
 		<data>
-		EdqOdAsfyZ1vjoyF9LebNU8z+og=
+		KBs5hcL8PQV8x3Vzophz+CsD4wQ=
 		</data>
 		<key>.monotouch-64/System.Net.Http.arm64.aotdata</key>
 		<data>
-		vnrRoR17pjK6k2uOCO6AIWdPKOo=
+		UNxyzsoeXe7D5oX0DWX6jntIJ64=
 		</data>
 		<key>.monotouch-64/System.Net.Http.dll</key>
 		<data>
-		6NpJ/alVwOrC9DpDNFwZE6Ty97o=
+		oA0SWuY2FkSEFaxJ6QWqvSjjmck=
 		</data>
 		<key>.monotouch-64/System.Runtime.InteropServices.RuntimeInformation.arm64.aotdata</key>
 		<data>
-		kA7+NE4YJqHkZEoOfxVyM75M6c8=
+		DqFMNZzhZIJyt07w+9ztKel96sw=
 		</data>
 		<key>.monotouch-64/System.Runtime.InteropServices.RuntimeInformation.dll</key>
 		<data>
-		6X7/tCCuCbXBYwgLMBcMbsd9QYY=
+		QOLQnJ0n+4qWpNM1m7rTcD7zn9M=
 		</data>
 		<key>.monotouch-64/System.Runtime.Serialization.arm64.aotdata</key>
 		<data>
-		xTV4/eaXWvJriAEK0QUL0K1GD3g=
+		/zfI7eyikgN6FoekrP0O/4e5j5I=
 		</data>
 		<key>.monotouch-64/System.Runtime.Serialization.dll</key>
 		<data>
-		Iv3b8VyUY+qX8zzpR2l5grHof6o=
+		FQo3OZf7aNzuxjrldMIzJe9xL2k=
 		</data>
 		<key>.monotouch-64/System.Security.SecureString.arm64.aotdata</key>
 		<data>
-		SnaJ2am7tU011Q9pXOokLzbPAnE=
+		SFTyRyiO4ein6tU4tGjsZEw0jd0=
 		</data>
 		<key>.monotouch-64/System.Security.SecureString.dll</key>
 		<data>
-		nYu4tB/rwvoxHmgWZL2pHDryad0=
+		iTF+U8M3XM0Y1pyqyWhRWBKzi/0=
 		</data>
 		<key>.monotouch-64/System.ServiceModel.Internals.arm64.aotdata</key>
 		<data>
-		3yjsQNAZ8cXPe21ecLdbKkumorE=
+		hWW0Itht1ufzMQhbnsfy6Vn9iJI=
 		</data>
 		<key>.monotouch-64/System.ServiceModel.Internals.dll</key>
 		<data>
-		sIFAQIoaPY+4n9LTyucRt63FvTw=
+		fwJ18xSEmxjSN6OfPu2Bog7vgA0=
 		</data>
 		<key>.monotouch-64/System.Xml.Linq.arm64.aotdata</key>
 		<data>
-		DkJIABIYi9AiWH566yLbp/F/p54=
+		MuVJkxxTDRFhDzZuLaMQXTENNl8=
 		</data>
 		<key>.monotouch-64/System.Xml.Linq.dll</key>
 		<data>
-		jbpgjekSA7uM7ZzbRNDuTdk9KGo=
+		6S8su1t9kc7lpxglJbTgk3l5uas=
 		</data>
 		<key>.monotouch-64/System.Xml.arm64.aotdata</key>
 		<data>
-		PnROPgCrLl9X2drwlw0MpX/EGE4=
+		MhxkiaOihH5E9d+Zmwsyyk6R5DA=
 		</data>
 		<key>.monotouch-64/System.Xml.dll</key>
 		<data>
-		x7fu0l5J5KZZ2VkaieNSnMD76jQ=
+		Ozodrqg98TH9IQBrFT75VNwSOoY=
 		</data>
 		<key>.monotouch-64/System.arm64.aotdata</key>
 		<data>
-		QH0YQ6xPW6ZjlZ6my6mH4JHzn9E=
+		QnQ+Mk8sdKP8YzGmyMVspFY9kt0=
 		</data>
 		<key>.monotouch-64/System.dll</key>
 		<data>
-		iSf2WkXUkUG8W4qhv4fPe4ePMzI=
+		8cRiPYelxg4iEAHRwYHHk9rX7/M=
 		</data>
 		<key>.monotouch-64/Xamarin.Forms.Core.arm64.aotdata</key>
 		<data>
-		18+xn5alq4Yz6ktqMnpoqaOFa6s=
+		oGs9IHXIcE2qFpvlkGCMlpjiWW0=
 		</data>
 		<key>.monotouch-64/Xamarin.Forms.Core.dll</key>
 		<data>
-		6UcA3gK7UjzQFjywSrixcq2zEHI=
+		XrxZpjNjFRM6lhp9kC8GqJ2S9xM=
 		</data>
 		<key>.monotouch-64/Xamarin.Forms.Platform.arm64.aotdata</key>
 		<data>
-		SMfrun1Dzv87ZHJugWSleqbM244=
+		F7PU//OyqdytDlXJOJ6uw4mkKAM=
 		</data>
 		<key>.monotouch-64/Xamarin.Forms.Platform.dll</key>
 		<data>
-		GJpdbC7FLgoOYz2iLXIJmKsI45w=
+		qJBOnAdawBI5wSKjz+uMh4bgQps=
 		</data>
 		<key>.monotouch-64/Xamarin.Forms.Platform.iOS.arm64.aotdata</key>
 		<data>
-		1+0BBbumGlwLkOsGZx1qRNXQzks=
+		LuhN+DCyyJXr+uR7e+p04pvE6jU=
 		</data>
 		<key>.monotouch-64/Xamarin.Forms.Platform.iOS.dll</key>
 		<data>
-		yYVMhQpmcyNuQajdL1WZKBgFgfE=
+		7VvYApIx77SbL+JxIwpYsMh/ukw=
 		</data>
 		<key>.monotouch-64/Xamarin.Forms.Xaml.arm64.aotdata</key>
 		<data>
-		cTxHl0oc4N+jlKnO+U6WXvyOQTg=
+		cFU1QSaPzLHx6JA7jVf5nHVOoDM=
 		</data>
 		<key>.monotouch-64/Xamarin.Forms.Xaml.dll</key>
 		<data>
-		VAwkVMO7e5Rwq+WZjWQRKag9/bo=
+		alidW3rlcZovQoSh37ZfVqbDr7E=
 		</data>
 		<key>.monotouch-64/Xamarin.iOS.arm64.aotdata</key>
 		<data>
-		+vGBGAhED8xVsC24GM6i+/qf1T8=
+		kU1xA3sK0arZgQdvNMh4qCOVQBM=
 		</data>
 		<key>.monotouch-64/Xamarin.iOS.dll</key>
 		<data>
-		Jg2E1VW9RXlWewSb5LyAWt+4WJo=
+		rcfm4eHy3vt7APltg6heFn+wdtA=
 		</data>
 		<key>.monotouch-64/ar/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -330,11 +402,11 @@
 		</data>
 		<key>.monotouch-64/mscorlib.arm64.aotdata</key>
 		<data>
-		jA4d0S8Sf4xaBvv7jlsHajM+I+s=
+		9cuti4vNgb4Y0/ZH0+p7ppk0lgg=
 		</data>
 		<key>.monotouch-64/mscorlib.dll</key>
 		<data>
-		JYCer3ZmaRLj3uO4wKvlPpwethI=
+		0sIKS6ZUn1HkFrfN3dVfzX7fMEE=
 		</data>
 		<key>.monotouch-64/nb/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -430,7 +502,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		VKHBexMIiRk2ExXcdcbhgp+EVpo=
+		1HrnvIkFAMIV2T0iA8O7v3S0T8Q=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -438,7 +510,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		s8CFTGQYglX4Afy9gFItJG+7rE0=
+		7/Vb95XG9R7j0EIR7t4fQQAas+M=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -467,11 +539,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LSCM2rPG0MnMouEFbjXbBtKrLNk=
+			KyJ3FMEuJN0fxxTk73hEZ7hj0xI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/+aee2DPEfuxs6e9+0khpyrYhlmNptrGhQLHQePHzqA=
+			t5ng3R9rJ3T3Tm6mASkQ3SaN6u4td6ECHM7UuA69lxM=
 			</data>
 		</dict>
 		<key>.monotouch-32/DocumentDBTodo.iOS.exe</key>
@@ -483,11 +555,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			59GdQMCnjnAhwm83AklFPSh/WeQ=
+			ZYhd8QSOX3g9oLjUlFOuQy2jC64=
 			</data>
 			<key>hash2</key>
 			<data>
-			R9mjssJal8AiDEPPguvJL42IhS0dHkYCe/ySzAr3mi8=
+			qrPRS01JT9GaL7kRseRaytZjZ9VX+zC4rNl38EPTM+s=
 			</data>
 		</dict>
 		<key>.monotouch-32/Microsoft.Azure.DocumentDB.Core.dll</key>
@@ -495,15 +567,111 @@
 			<key>symlink</key>
 			<string>../.monotouch-64/Microsoft.Azure.DocumentDB.Core.dll</string>
 		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Analytics.armv7.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5o0TQHjKxh8iEERfUMBEJHi2kv0=
+			</data>
+			<key>hash2</key>
+			<data>
+			jKq8G9ivQiifXzTTHbcBuI0IF0wRhCdS9aQojlSpgHo=
+			</data>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Analytics.dll</key>
+		<dict>
+			<key>symlink</key>
+			<string>../.monotouch-64/Microsoft.Azure.Mobile.Analytics.dll</string>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.armv7.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9l09MRqxsGSE2M9Bd8cQ6eRlIT4=
+			</data>
+			<key>hash2</key>
+			<data>
+			kDZ+MDmcfuGBgf1nQaCEkAcy/EXr9UU1MVAopSZH2xM=
+			</data>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll</key>
+		<dict>
+			<key>symlink</key>
+			<string>../.monotouch-64/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll</string>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Crashes.armv7.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qLeb2mRURnyVxqaT+xTlIoNCLu0=
+			</data>
+			<key>hash2</key>
+			<data>
+			jGhGiJVw5/WUdr6gbOX8WjNiTiTMB/ofNGgJMSgwZZE=
+			</data>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Crashes.dll</key>
+		<dict>
+			<key>symlink</key>
+			<string>../.monotouch-64/Microsoft.Azure.Mobile.Crashes.dll</string>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.armv7.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vOsLo+uk0j40AZvmiYEQwvXIzgU=
+			</data>
+			<key>hash2</key>
+			<data>
+			coddKAGRpk5vLe+6nmTfPhKBAjnQTsvjhiZF6Ph/h3w=
+			</data>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</key>
+		<dict>
+			<key>symlink</key>
+			<string>../.monotouch-64/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</string>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.armv7.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S9GOgLpSXMPWtUvoZtSWpCm8ISk=
+			</data>
+			<key>hash2</key>
+			<data>
+			SGPrfeJ9NxFMWTe5439m9DMhw7PNpwv1iUKOAi/SFW4=
+			</data>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.dll</key>
+		<dict>
+			<key>symlink</key>
+			<string>../.monotouch-64/Microsoft.Azure.Mobile.dll</string>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.iOS.Bindings.armv7.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XaFTUw25LsQ1QuAWbmVx0wqb4HA=
+			</data>
+			<key>hash2</key>
+			<data>
+			HJctqxW+3P9yw1+wXVKP2gkfjXb5GpbyhA+t4WmdGBk=
+			</data>
+		</dict>
+		<key>.monotouch-32/Microsoft.Azure.Mobile.iOS.Bindings.dll</key>
+		<dict>
+			<key>symlink</key>
+			<string>../.monotouch-64/Microsoft.Azure.Mobile.iOS.Bindings.dll</string>
+		</dict>
 		<key>.monotouch-32/Microsoft.CSharp.armv7.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Yij8hAxVGs+6BhCctti86HOVqmQ=
+			nL6DVYDaUvQcg+djVm3kSqjsRTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			xWjngP344KW93k1gzaQ9hBQzd/0e7hiqGWqc5CWJeAc=
+			DTwzMlMKI0ZVeKa5EeEfWs+9iQWK4PfAaqdxyDIxKiQ=
 			</data>
 		</dict>
 		<key>.monotouch-32/Microsoft.CSharp.dll</key>
@@ -515,11 +683,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ni2561K4BsTzbLMspBGeDFgMVAg=
+			xDpeFrcrHzSiCiDUkwn1WUj6nHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			HGDfAomp7KlGsJ3eH3TWHYQ90YY1CdRN8XNuufIN7Es=
+			/Wq6aRkbCb+XnfAI2snuWnVW5MvwnpyP/p2JVB/IVXE=
 			</data>
 		</dict>
 		<key>.monotouch-32/Mono.CSharp.dll</key>
@@ -531,11 +699,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SmOkaWpzWuKZIWNDvuA4GeZkMAA=
+			MDGPzwn9xRThCqDR0D/gk6feCgg=
 			</data>
 			<key>hash2</key>
 			<data>
-			NBT18lekIgoCtPOxUajq6fPGxFnF8FxEFfuAnt+rWzY=
+			U/gIII9tBEWZ2eGx8kOP3spqqOZPg1bTYOVl5MxhTcI=
 			</data>
 		</dict>
 		<key>.monotouch-32/Mono.Dynamic.Interpreter.dll</key>
@@ -547,11 +715,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V43YvzFdTRgi3v13OM/yOaNCtUA=
+			MOPTofUiiMCNxi+hA3Y/JSUj+3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			1kBcHeY1kDSxUb66FAflaqja4NEB3SmDuX+jHiIrBmw=
+			M6rLCY02TEfLkFQSUVE6yiNYcSpNH5F2uINYvbWk3Yo=
 			</data>
 		</dict>
 		<key>.monotouch-32/Newtonsoft.Json.dll</key>
@@ -563,11 +731,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a9fyvqH9LSqbj+XYb+l3ZTA+rhg=
+			6OkbBrS6ZLdR3RtsuRFqNFLwy/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			NSqJTUuB0ICLGntCJoOD9OcpxYjaaTh9FcFzxhBLA38=
+			QSy4o1fQIkZ7LvoVPs4cVa2+fuLSdME2xYGBjk+u17A=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.Core.dll</key>
@@ -579,11 +747,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R1FMCSkF5pNqI80wZr+DzX50EgA=
+			9vmvlUl8UdXGiiwdx3qfsTMwbLI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZDNTzF9Q4H5i/bU/8Oe/b0DU517k3yXryAElTfIHatQ=
+			BHxy3ZxCX2AmjMlMg7RQmkOis5Sfnv94aseXx4ulddY=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.Net.Http.dll</key>
@@ -595,11 +763,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pHFUI7GZyQQWeAVI0xgT7Mryj50=
+			TMbMz6hoEkNbRGwRfulCRnD4WO4=
 			</data>
 			<key>hash2</key>
 			<data>
-			SWdsyNf0EzzC6+voAPYflT66lzoUzeSdxQJkC+9dY4E=
+			dlP43qztcCQf53tbaY9YU/zF6IF2N0v7UtWLtRn4t4c=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.Runtime.InteropServices.RuntimeInformation.dll</key>
@@ -611,11 +779,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZmTPhyvzUd1jBw2kmszivyRCiCk=
+			rTNYobVDxy21CReR6qx7uVX/pX4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LaqYHLO9r8rKkXidy/mBUkb1/E9anRhiXz/VWZXLx7M=
+			WL9D2EJYn+4RNsWKbmz0eHf0BS5LKme7l7jWQu9Mm10=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.Runtime.Serialization.dll</key>
@@ -627,11 +795,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y3sFc0dNSB9jdiFKdEDeUS/evmg=
+			o+/FEAhsAl2x5KzSL8DdgfQFm20=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Ndl1f+aRF86NwtosIuN32GomufwL6WvfUtxiDfVhmg=
+			S4r6KCLWA2oGU+478tFYI+gsf5X5VYDprmII1QFk2W8=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.Security.SecureString.dll</key>
@@ -643,11 +811,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7wh6EKOUizWZ4aUA29PPrFS4DAU=
+			tjzGc0vTHfm+koc/KpdMY6miL68=
 			</data>
 			<key>hash2</key>
 			<data>
-			P75khN4AcTpWkNeg9ABBAT9IFmWdbrbilN/aUbXPEu4=
+			ycs0k06ldXKUIOrhYqoQee4kj60UkhdnmnYyzJnkugs=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.ServiceModel.Internals.dll</key>
@@ -659,11 +827,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IAdxKCFERA+FLKhSY1tATT1VlY0=
+			OaV2d8K251ZbTzUwfFT578ymD6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			1ogkL8G7RALleOs6Au1LNgi0kaXUBWdUC4LmhyCn0pI=
+			NJdLgf0p4ZWb+HQmNGaeQigftv0emjJOUDeQIqK4yZc=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.Xml.Linq.dll</key>
@@ -675,11 +843,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FR/vX46+olZu03QgQPG9XWOgpVc=
+			MQ5vk59oLp32rrM3o5JkeXCYpcs=
 			</data>
 			<key>hash2</key>
 			<data>
-			xv/NRMQAYB0NKaitk8YMfLx3+mEIIkK4/9IBktvbgaQ=
+			rBE8rVL7fG4D9XxgPsvvW16YYAv762eGZ9tmDGga4yE=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.Xml.dll</key>
@@ -691,11 +859,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yV9zU4j6EzfCOyByksD73G5JXNs=
+			7LRuKiOwIXFPdBObVjbOtY61R+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			igIDH6TyDZ5IqXmvqEL6W6+r73AHxNsWhx2SKyPQRek=
+			16en6ivE7GbxEpprBnUZmNEzI9XqzNJlEJ3NxdlO00M=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.dll</key>
@@ -707,11 +875,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i4Rq+qAZbMzDLs3b0+cT+Ee7/sU=
+			b8TioKRrqm4s394+wn+ACHans60=
 			</data>
 			<key>hash2</key>
 			<data>
-			MjQ0+vyq33F3vNxPuPbSpQQROgUqqyvXaIcfF0Fm0+o=
+			hqClKuGXDxtDjcWeorw+GuM6P9Z95wfyT8oE3PQ8n5U=
 			</data>
 		</dict>
 		<key>.monotouch-32/Xamarin.Forms.Core.dll</key>
@@ -723,11 +891,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Sf2VHaltGiezMmqU/bHNskz9tOI=
+			DBKFszpDuKvxsl0y1fGs6B8rbkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			89QK/J0M0B/8p7Rnm8ORh78Dz03YHhYHbnMnGUvITrc=
+			RNrj8QCgk7yZFHXCMXv/CAczsJXjSIP1/739ep7oMLo=
 			</data>
 		</dict>
 		<key>.monotouch-32/Xamarin.Forms.Platform.dll</key>
@@ -739,33 +907,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zGKIWLMnFb/q9SVacXx+92WpnQI=
+			WAv0Q5ILDIMx3Of11GttFEMMvUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			UUI1HHu/KMossMgXcRJL4UcCy/8NHXvSGk8wp51ollg=
+			7HuyY3t3d3k796gPaWWOkoQS6BXIAygXK3WNOoLsymg=
 			</data>
 		</dict>
 		<key>.monotouch-32/Xamarin.Forms.Platform.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gEEqEW95IK33NB9EceBKnGchye8=
+			l37AVPGR+oPNmpdfOzvS4fL6h9w=
 			</data>
 			<key>hash2</key>
 			<data>
-			oJo3PaFQu9OqswJMvGa8LxgCEUOxjJHEmiQLkDMQjz8=
+			TS8RO50k3Gt9hHGWmzbSwQJs1lm0te/JNcgI4WPM5mw=
 			</data>
 		</dict>
 		<key>.monotouch-32/Xamarin.Forms.Xaml.armv7.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0RWm6qLp2bBf7chiqfT5aSQ1IPc=
+			h2fzP9DY9liOfXj4HO7Rm+2VBsA=
 			</data>
 			<key>hash2</key>
 			<data>
-			H0A8RzlbS7vRbobUAGfS/KOwaey/3F+d+YXpK81BQIo=
+			FUlG/MOYOOl8JIMInehKHqG/WMaor58M4ihCX8Ypf90=
 			</data>
 		</dict>
 		<key>.monotouch-32/Xamarin.Forms.Xaml.dll</key>
@@ -777,22 +945,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MqPe6Di+ekG8xng1eEXud0Zmeuo=
+			JFa949x4oC8Un+JzS6KbmIrkmW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ay5SaHnPGLqrD8lP48t8ycIj4OjkVEKWUU3FCrROJAI=
+			WFxd6h/tsVKhQ/4UY9mwMuiLgJamVjr58meBqWkkNRs=
 			</data>
 		</dict>
 		<key>.monotouch-32/Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jHMTBq2QfAcTPSn3TNj5YJeMhFE=
+			VqrZ81qcBFH9AYG+iieI4zDy8vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0afV0kzDM49AHWCH6pqH19tGT0/cmZxV9OEvAiM3HrQ=
+			yZhX3UkrLi0RLUBpOYmCRMJI1xZT+kPd9aaRe3zo4ZU=
 			</data>
 		</dict>
 		<key>.monotouch-32/ar/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -889,11 +1057,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FoWYaUgdBSrfBMskl4vn30kwxs0=
+			asj18EITBltDP+v5O0ClBQvZg+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			OqPNY1xieWnWfdAV7+siwG+FFHeApC4r23pUpEH3a70=
+			HnHkCE17FtHcA0eMQiYhJFJAgqzBi0+RSFkK55S3m3s=
 			</data>
 		</dict>
 		<key>.monotouch-32/mscorlib.dll</key>
@@ -985,440 +1153,572 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			quwaudpZF0j1MnDCRd6Z+iRmJHw=
+			aGvJ50+XwkMXi9nYVWeOlGJACwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			dr63i5ZpF50Ot5SfX8wsfsUMISPnmz3yvUIAvqHGa7I=
+			WnRbaB03P5TO43oA3ajc1TJNS+k3g5hK0IZtkcfZc+g=
 			</data>
 		</dict>
 		<key>.monotouch-64/DocumentDBTodo.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0JBzsVmzqpWBWyjDjLH1x+V5YjY=
+			R2in6eRyam3Z1uu5ysb8iz7MLbY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6bkQeAfAVsipp1FXuovAgdJ6JCZxqgC6aPNtAQfeKa8=
+			JQmlzyBm6sc8n/OqKUXk52w+U4K7fE27t5UM7lSwvWY=
 			</data>
 		</dict>
 		<key>.monotouch-64/Microsoft.Azure.DocumentDB.Core.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T+3H2Rok6koVGmYYNDPcMRtIgGg=
+			3lftuNL9wHVS1XFHQ2iNY/YpkXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			wa5lOlxbYRibmp41bBoQrGGviLvVMlDjeIV6w8IEOK8=
+			hCoel5lWemuPninL/j9N2oDvSN6bEebkLhZtiz+axk4=
 			</data>
 		</dict>
 		<key>.monotouch-64/Microsoft.Azure.DocumentDB.Core.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O6tzlPPM1N4uX409u2JoPgq7yRU=
+			cwGfVmeZZu/3oGWbovXR8LGlgTc=
 			</data>
 			<key>hash2</key>
 			<data>
-			nLwyX4myueNlwpuA8pWix5WZ+Dfen69kMabFl0bjjgo=
+			D+viPhgf3dFDU5jroIDcj1zVFT+lQTpmmWgeOmoY1UY=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Analytics.arm64.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MnxzlGALjwEq8nQXLagaBWu17SQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			v/X4MGuR5kJ2GriOTYzOTP5SQgv1hUieHhycxJPicRU=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Analytics.dll</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rQ68MEzkZA4MOcmQBDEtCRDQlsM=
+			</data>
+			<key>hash2</key>
+			<data>
+			VFEdxauwlvFqaQcvy9dgpUuR6oZ8KXNvZ1W0fTHHhBs=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.arm64.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E/GJzhxtvdtsxrsk9CTJ833WDKU=
+			</data>
+			<key>hash2</key>
+			<data>
+			uSIzQshYgUMMddtDsAfjOElu71zOTqr5FQzqG4BZvG0=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ni2G1U2eZmCA4sSlfKxMkkZLNTY=
+			</data>
+			<key>hash2</key>
+			<data>
+			sBG8az8FmcB/mXReFw48z9f6t3xo3QPfDqJeQeVhonE=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Crashes.arm64.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bM9Z12u/fd/B71Gmc6H4Z64W45Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			5HJGjxp55UBkFqQM+3dD8iqbpiPOPmeKgzc7HrcZsAM=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Crashes.dll</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KKE86+4POKXMaEcoSqKvWxm8v1I=
+			</data>
+			<key>hash2</key>
+			<data>
+			KxYBF2PQEnqbW2iZW6nLpSrpHOa+MbQqbtfjzoFPJew=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.arm64.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sK1A+DD3ycw7yRDdmOfFkBqSfHI=
+			</data>
+			<key>hash2</key>
+			<data>
+			rpj6yQem+6Mr+bLwZo+6CNSUEWpOm4Up4wbVQvfn4w4=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fzrlZDR9SX73DYC930Ox+FL2GzU=
+			</data>
+			<key>hash2</key>
+			<data>
+			fmVuXo81E4YYR+ry49DSTaEAIk/sVQUFvnCNv8HdqOg=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.arm64.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DBhwKFUTLrDe0XkfNajvkc9rGTw=
+			</data>
+			<key>hash2</key>
+			<data>
+			17CobaLdnS+H8I0HHStabmC1PBNrOlS7T+7jDx/CoNw=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.dll</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SxMfTnjI0FQjNNhLqpfcmDE1/xA=
+			</data>
+			<key>hash2</key>
+			<data>
+			bWzTDZWoXcxE24KKyjlawGq6l2zEY9+MK9mV9Rlb40U=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.iOS.Bindings.arm64.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Tw9Z9JrV2MEvHtj8zcWpA8JhKgM=
+			</data>
+			<key>hash2</key>
+			<data>
+			NA96L5I+b3LjKcuiCQHsVPbtu6lLWRKP30/lrTvx+oU=
+			</data>
+		</dict>
+		<key>.monotouch-64/Microsoft.Azure.Mobile.iOS.Bindings.dll</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CVyzXX8lmPTSyQrvXnuV3rxP6sk=
+			</data>
+			<key>hash2</key>
+			<data>
+			C4W4vLohVX8yz2ihKHRjnp5/kBzmFFBsZrtfTGIQv9M=
 			</data>
 		</dict>
 		<key>.monotouch-64/Microsoft.CSharp.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			imvPfCaD7BKp5QLlyMHWpe4V+Jc=
+			YfCAiE/5RBZA4Xsl92NuBiGgMrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			vukoR7Lpxwj0w+FV0HhB7XomxpU2F7bZnF0nFVStMgc=
+			uPWVDU2Oq4YuEY6TdIKy9hYa7OiVM0JU+7pK3sRH1gE=
 			</data>
 		</dict>
 		<key>.monotouch-64/Microsoft.CSharp.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1n9JlhdBM9UFL9twqft4JcH3vBg=
+			+AhfnjXNa3ABUMtVZA5yCFJYA8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			w+uk08T0CocHBP5OU/KLzi8cFFH+6lE0OuAubT0gtDE=
+			vcDREO9+vAe0BTRkeOBZHILFb44SKRB04mkvYrsKxj0=
 			</data>
 		</dict>
 		<key>.monotouch-64/Mono.CSharp.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9ourMQzEsS4Gs6TwUzjcYILZ6ug=
+			B8SAWjEGcPPFZyT9/tfM9RwF/c8=
 			</data>
 			<key>hash2</key>
 			<data>
-			JY1GPfawo98Ia9B+Q5DovwAs39ysSyF7yxE8LUwtnEw=
+			ue+RL6/ICeCfmQYgJu9UyQBG9CZx3e67YK+JoxCpewc=
 			</data>
 		</dict>
 		<key>.monotouch-64/Mono.CSharp.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			umuS53GHmaA1d9hOs2Cc+6VuspU=
+			+NzsqDb+Km/KSCLQHDuOODUjjIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			pXLTEvIEOzmVSNtv39Dndq9svhzZdAlhfCpTKPP8QBY=
+			SaB0iEAQMTRew/+FdvX70pcAd1GfAXhrRlm/v3sktK0=
 			</data>
 		</dict>
 		<key>.monotouch-64/Mono.Dynamic.Interpreter.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tiUkfu+VjnydeIScTU+zf4igFb0=
+			x2bsoxbpRdt0xk0yO6C7Exw5JrU=
 			</data>
 			<key>hash2</key>
 			<data>
-			7fHVWMKuJmKEp0+Ks8MM0UQdw1689QL8Eq3dlJ/MIJs=
+			ClJa8grRjetG2T0Bbvff1BKvTlQ8hd4zfy4o0KZOlzI=
 			</data>
 		</dict>
 		<key>.monotouch-64/Mono.Dynamic.Interpreter.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NAXq4AcDGNZWLN1YrMoEdAteEAo=
+			1/Infl7AqsaRtdO4f5uzWOE8VHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uk4Mklsc2LPHTUqe4TzGB4TkR7OuI8ZLYst/ztGWAq8=
+			tb55UJay8Aw9BtnxLl+wF7wByEpid5XtgD8K4lvmmqU=
 			</data>
 		</dict>
 		<key>.monotouch-64/Newtonsoft.Json.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YrT7oR30pT8Jy+jzsMyoDmHYvJs=
+			JnliyI3DqbFg/lynq7bV4x0KUuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			tXFBFmUrvObteNinLvJqetJzgl8HwJGGHg574/LPMcw=
+			ETfd/txhcIEw6gR6mwhKs5/rhdcuwdCzP/2e8DOYPno=
 			</data>
 		</dict>
 		<key>.monotouch-64/Newtonsoft.Json.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yKO2rqfZVs1ipBNYtEHDh2OYK/w=
+			lnGYk0Tv9e3uCZd9OXNHbtPNmeY=
 			</data>
 			<key>hash2</key>
 			<data>
-			IU5VbikydbxcdmjPWAnypuU7okYlRsjeXR306welW30=
+			H6dWDNlpW9EkZ8AghYc/zLaYz3d39TrDMDpnzqs74Ro=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Core.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C1DvFFc+R+tBivYxrBySdGfSpoc=
+			eJnV/yuTSlXMZKxCYa8TV3VIa0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			g7cn64JZ/H7ynhq0c0M9YlcPWPSpCnKaLmkatmsDUAM=
+			2357baf8HtXEgcuCKMkmOEmOKrqLqLEfxRzCSuWqHOk=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Core.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EdqOdAsfyZ1vjoyF9LebNU8z+og=
+			KBs5hcL8PQV8x3Vzophz+CsD4wQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			e6NWTgBYYv7uNHddhi+DNW8fHmyO3vXIw5+eg6NJGvk=
+			GYWFUHdiEOKhUOEjORXASpbWxN5wfuwZfp7WzZpP8Hw=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Net.Http.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vnrRoR17pjK6k2uOCO6AIWdPKOo=
+			UNxyzsoeXe7D5oX0DWX6jntIJ64=
 			</data>
 			<key>hash2</key>
 			<data>
-			M+V4BdFKG7EY1Lgujvd10CHaxStBtYavU/bqmpJJXrA=
+			9Jby2ToQsQDVCPkNgkrYWpI1Y5GMtPBvF/l6RQznWgA=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Net.Http.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6NpJ/alVwOrC9DpDNFwZE6Ty97o=
+			oA0SWuY2FkSEFaxJ6QWqvSjjmck=
 			</data>
 			<key>hash2</key>
 			<data>
-			JZBcT4GmMpkpdtQ7jLOrzH9ZVb7syE+Zj3CLShtNIEY=
+			/lrjxrdcbM0/iy74g1MweqIpEBuE6RLVvpm0C7RxW2g=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Runtime.InteropServices.RuntimeInformation.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kA7+NE4YJqHkZEoOfxVyM75M6c8=
+			DqFMNZzhZIJyt07w+9ztKel96sw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ic9fB/MDnrghspAx9gay7iWAUCnVuXLeCVtG6hrAniY=
+			+v3wFlUMwVi3KtAZEGbOmcUkOgjb5P11ZaHdLD5cqoM=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Runtime.InteropServices.RuntimeInformation.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6X7/tCCuCbXBYwgLMBcMbsd9QYY=
+			QOLQnJ0n+4qWpNM1m7rTcD7zn9M=
 			</data>
 			<key>hash2</key>
 			<data>
-			hvxgS6A8JIks2YJ/sDtwZpJkcy3Opl9C1pXGH1C/Bps=
+			fQpCVzhZ9gYi5zg+iiBvZKUP2xs4OeQsT7GGpHaeHlw=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Runtime.Serialization.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xTV4/eaXWvJriAEK0QUL0K1GD3g=
+			/zfI7eyikgN6FoekrP0O/4e5j5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			zYVqqohspk9Jr+m2x23Uc9lAVL6VTm1xTLrnz0QGn9I=
+			TUQa26nz+14u6hBsxZJHSMcUwY33aYspwEN/Ruge05k=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Runtime.Serialization.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Iv3b8VyUY+qX8zzpR2l5grHof6o=
+			FQo3OZf7aNzuxjrldMIzJe9xL2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			CdJrYui2Ptq2iUj6Ojcqfq14iIF8UfLqfOHZYMPN0Pw=
+			BlvX8FYruPqprB5pUgaE3rjrgt0qYOahy6d5xr9pl8w=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Security.SecureString.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SnaJ2am7tU011Q9pXOokLzbPAnE=
+			SFTyRyiO4ein6tU4tGjsZEw0jd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BHUt12crGx8ofIspwtSUN86nqgzKKD2iWjnS0iq/iQE=
+			rxRYAx7cPZVAete7QuIsjp7HEqLkjlCMEDFjBcIFV8I=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Security.SecureString.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nYu4tB/rwvoxHmgWZL2pHDryad0=
+			iTF+U8M3XM0Y1pyqyWhRWBKzi/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nCicw64VKBVQfL4GImw9oVR5qINnwkkdyuY6Mlcm5VA=
+			ayhIe/0ego2VYqDbW8M4RfmDQTeE2nrx8SKTs8p4o0k=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.ServiceModel.Internals.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3yjsQNAZ8cXPe21ecLdbKkumorE=
+			hWW0Itht1ufzMQhbnsfy6Vn9iJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			lPJHJSA4D3P2DWoG5y5ffvQToRWn/hakr7lWmtV6vCg=
+			tB8/gRFyFSva+rVCUWSE47FwpJYp8oLa8zu6tvi3Y4s=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.ServiceModel.Internals.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sIFAQIoaPY+4n9LTyucRt63FvTw=
+			fwJ18xSEmxjSN6OfPu2Bog7vgA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			lJKZPUvOMgBuP4+DO3KQ3+nBpDLZJAG7eev6LNo6hxY=
+			vjKuugMY5ipgUUqoe1w9gERlGA0F3e4Cal+TgH9K4ZM=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Xml.Linq.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DkJIABIYi9AiWH566yLbp/F/p54=
+			MuVJkxxTDRFhDzZuLaMQXTENNl8=
 			</data>
 			<key>hash2</key>
 			<data>
-			MB0At171THz0AaJra0OdXHyy/9xfXEqxat3WdiHENs0=
+			atz6rvd2mRw8XGFfSsLpcEUf47f1Qxu/osyM+VWllTk=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Xml.Linq.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jbpgjekSA7uM7ZzbRNDuTdk9KGo=
+			6S8su1t9kc7lpxglJbTgk3l5uas=
 			</data>
 			<key>hash2</key>
 			<data>
-			JgmvFme6XDm2oysEszUYA6VfJQwYuvCJ55OOSVYvU7M=
+			YvfO7RD2pOy6rhs6FpeiboqShKZN9gkDePeq/HTRoqI=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Xml.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PnROPgCrLl9X2drwlw0MpX/EGE4=
+			MhxkiaOihH5E9d+Zmwsyyk6R5DA=
 			</data>
 			<key>hash2</key>
 			<data>
-			A1GH3kIkZeUZdjpl0X7VieZc29He+MQmGiyv6L3PEeA=
+			HRyevbKNrbT+mG8vyzFwlCrXPewpRAgluzAT2tBY7eY=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Xml.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x7fu0l5J5KZZ2VkaieNSnMD76jQ=
+			Ozodrqg98TH9IQBrFT75VNwSOoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			jpbs7CaGf58WjQAEEURYUVp8rxv0BPpj9Z+5prC0yzg=
+			odQ5GsBttuq5X/hUwxcjWwiNKNcaTjsKfmkcWuUcMMo=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QH0YQ6xPW6ZjlZ6my6mH4JHzn9E=
+			QnQ+Mk8sdKP8YzGmyMVspFY9kt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			IvAlM8ajqS99zPPCrsZMyJ5yry7e5Q9rm63kRx6E+jI=
+			RQ9Rm/ST78Ge7eXnS1VCmHoYlCEd/2YHK+T2z2Ord28=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iSf2WkXUkUG8W4qhv4fPe4ePMzI=
+			8cRiPYelxg4iEAHRwYHHk9rX7/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			hLa/OuB4gMJikeHnZCN8MFhHjRb3+vIaVtLPCzmGOxM=
+			ywdZ4yW3f5Stg3kCxo8j0e2FaT+MuOIpNURULUC9yK8=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.Forms.Core.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			18+xn5alq4Yz6ktqMnpoqaOFa6s=
+			oGs9IHXIcE2qFpvlkGCMlpjiWW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			GSlVz3TlMDbIx8DfFuBcBkdPSpf3k5o1EqwXiceke+4=
+			yZUGc6QP3INFXtlE/c4I5g/3IKZjJH7PYS++nFbYdOM=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.Forms.Core.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6UcA3gK7UjzQFjywSrixcq2zEHI=
+			XrxZpjNjFRM6lhp9kC8GqJ2S9xM=
 			</data>
 			<key>hash2</key>
 			<data>
-			mmwP6w91mm0LGQja8PzmPZndIqmy2VqRI1MMMblgAJI=
+			uSQ6SWKiCT1Bu73oNtZOX9fi6QzRuQ6Talo26BqBVeI=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.Forms.Platform.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SMfrun1Dzv87ZHJugWSleqbM244=
+			F7PU//OyqdytDlXJOJ6uw4mkKAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			eB5vg1EpxyGxN7FgwsNNzw8nRRzVJiNos/90hEX1Pi0=
+			0uOvGSa0n5j7IPK5yr8YFWvOh6jV/0LYCZbnsnG7vzw=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.Forms.Platform.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GJpdbC7FLgoOYz2iLXIJmKsI45w=
+			qJBOnAdawBI5wSKjz+uMh4bgQps=
 			</data>
 			<key>hash2</key>
 			<data>
-			to716uQLzMqUCndAjAjjMuSSvIkYeRTTsJ2IwslqPwQ=
+			QsWKnxCm1DTTYS06o4dtSK3Vp0N3WxpyuZiJf7HZAvU=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.Forms.Platform.iOS.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1+0BBbumGlwLkOsGZx1qRNXQzks=
+			LuhN+DCyyJXr+uR7e+p04pvE6jU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rvl+P4yBFAetl8m8YvH+vqamIleAT4klJAD8IYrwmlg=
+			W/7tEt+RVCPqJN3R+Iv+M3fBE1rGyDf4x9OWZHNY61M=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.Forms.Platform.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yYVMhQpmcyNuQajdL1WZKBgFgfE=
+			7VvYApIx77SbL+JxIwpYsMh/ukw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LVgiSHmp0sYUUBECLEFuBA5nhnHZrV8b6pPrY0BjUsE=
+			9yM/auVTM7z9rWxgt6r1tOMbQyY3sVIDszLQacxzKzE=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.Forms.Xaml.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cTxHl0oc4N+jlKnO+U6WXvyOQTg=
+			cFU1QSaPzLHx6JA7jVf5nHVOoDM=
 			</data>
 			<key>hash2</key>
 			<data>
-			+ksjsXFOYewmUPwIgKhHfkuqcldyY7ZCwn1Sh+Z5KHQ=
+			dFQnMQu4PVxuP2SgYiPNOM4N+DG2ezb/8ojHcTUosaM=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.Forms.Xaml.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VAwkVMO7e5Rwq+WZjWQRKag9/bo=
+			alidW3rlcZovQoSh37ZfVqbDr7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			rLaj5gzJoXtGwuds5nDvB8bUJzZPYSBp1RAT9OjS5RY=
+			JMRKQJ1y1cqvGe6iIeATOwNb0qNHqV7Nq4URPoL5eF0=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.iOS.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+vGBGAhED8xVsC24GM6i+/qf1T8=
+			kU1xA3sK0arZgQdvNMh4qCOVQBM=
 			</data>
 			<key>hash2</key>
 			<data>
-			bCLr6pK4ia1LWBNbnEZN7gGqxnL/QKRbbRKnag4fnnQ=
+			w/TlgX5xNsrer2qwfru5Dtaxj4PmLTQEPzql6zJtXXQ=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jg2E1VW9RXlWewSb5LyAWt+4WJo=
+			rcfm4eHy3vt7APltg6heFn+wdtA=
 			</data>
 			<key>hash2</key>
 			<data>
-			FxIc+BwH05lu+2G3TzL0Lc406G99w3osbNY4HgKNMMc=
+			/EpzvCc3ovPf04G5KdyfkSmRcMUkGv5trTFXyfkk2UE=
 			</data>
 		</dict>
 		<key>.monotouch-64/ar/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1623,22 +1923,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jA4d0S8Sf4xaBvv7jlsHajM+I+s=
+			9cuti4vNgb4Y0/ZH0+p7ppk0lgg=
 			</data>
 			<key>hash2</key>
 			<data>
-			FM5nF9ctOJn48bgePxOCy3HtgxSS7EkIgz5NblSiVwU=
+			IPWMd0vqd8abpX4QPvw9gh4e73mQkwctjVasn+omTvY=
 			</data>
 		</dict>
 		<key>.monotouch-64/mscorlib.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JYCer3ZmaRLj3uO4wKvlPpwethI=
+			0sIKS6ZUn1HkFrfN3dVfzX7fMEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			YnpsIxTYZ+sYbx7DrczYvGMuWg8BPTLq86+W3qy08F4=
+			MpxfTYnzN0yGCcpzN0F8WvLYxFxVnLmGlPg+4kMESU0=
 			</data>
 		</dict>
 		<key>.monotouch-64/nb/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1887,11 +2187,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VKHBexMIiRk2ExXcdcbhgp+EVpo=
+			1HrnvIkFAMIV2T0iA8O7v3S0T8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			lmteR93QqTpEc4bw06bfPPSyrANF7ceuAw4bbXC9lkI=
+			x9sYV49+y1lvOuUJml6LeHjskuGj6mjdl53YUwAu948=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -1909,11 +2209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s8CFTGQYglX4Afy9gFItJG+7rE0=
+			7/Vb95XG9R7j0EIR7t4fQQAas+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			auDUaC7cwI8BWdu3VpYks33H2VhobrK3v8ANvHGPUyw=
+			KmLUXVLZwqjMgrzDf2NbaKPmgZioGX32KsdxXcO8D8E=
 			</data>
 		</dict>
 		<key>NOTICE</key>

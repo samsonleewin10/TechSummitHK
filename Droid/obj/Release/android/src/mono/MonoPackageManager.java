@@ -114,6 +114,12 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"Newtonsoft.Json.dll",
 		"Microsoft.Azure.DocumentDB.Core.dll",
+		"Microsoft.Azure.Mobile.Android.Bindings.dll",
+		"Microsoft.Azure.Mobile.dll",
+		"Microsoft.Azure.Mobile.Crashes.Android.Bindings.dll",
+		"Microsoft.Azure.Mobile.Crashes.dll",
+		"Microsoft.Azure.Mobile.Analytics.Android.Bindings.dll",
+		"Microsoft.Azure.Mobile.Analytics.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

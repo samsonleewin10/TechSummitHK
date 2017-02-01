@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 
 using Foundation;
 using UIKit;
@@ -13,6 +16,8 @@ namespace DocumentDBTodo.iOS
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
 			global::Xamarin.Forms.Forms.Init ();
+
+			MobileCenter.Configure("e9e0d8ef-f8da-4fe4-bb51-97d4f50c43c6");
 
 			LoadApplication (new App ());
 

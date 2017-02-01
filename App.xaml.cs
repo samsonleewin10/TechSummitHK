@@ -1,4 +1,7 @@
 ﻿using Xamarin.Forms;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 
 namespace DocumentDBTodo
 {
@@ -9,6 +12,8 @@ namespace DocumentDBTodo
 			InitializeComponent ();
 
 			MainPage = new LoginPage();
+
+			MobileCenter.Start(typeof(Analytics), typeof(Crashes));
 		}
 
 		protected override void OnStart ()

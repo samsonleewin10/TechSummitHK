@@ -5714,6 +5714,183 @@ exception_handling:;
 }
 
 
+static BOOL native_to_managed_trampoline_117 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, id p1, const char *r0, const char *r1, const char *r2, const char *r3)
+{
+	NSObject *nsobj0 = NULL;
+	MonoObject *mobj0 = NULL;
+	int32_t created0 = false;
+	MonoType *paramtype0 = NULL;
+	NSObject *nsobj1 = NULL;
+	MonoObject *mobj1 = NULL;
+	int32_t created1 = false;
+	MonoType *paramtype1 = NULL;
+	MonoObject *retval = NULL;
+	guint32 exception_gchandle = 0;
+	BOOL res = {0};
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [2];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[2] = { r0, r1 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r2, r3, 2, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	nsobj0 = (NSObject *) p0;
+	if (nsobj0) {
+		paramtype0 = xamarin_get_parameter_type (managed_method, 0);
+		mobj0 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj0, false, paramtype0, &created0, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [0] = mobj0;
+	nsobj1 = (NSObject *) p1;
+	if (nsobj1) {
+		paramtype1 = xamarin_get_parameter_type (managed_method, 1);
+		mobj1 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj1, false, paramtype1, &created1, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [1] = mobj1;
+
+	retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+	res = *(BOOL *) mono_object_unbox ((MonoObject *) retval);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return res;
+}
+
+
+static void native_to_managed_trampoline_118 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, id p1, const char *r0, const char *r1, const char *r2, const char *r3)
+{
+	NSObject *nsobj0 = NULL;
+	MonoObject *mobj0 = NULL;
+	int32_t created0 = false;
+	MonoType *paramtype0 = NULL;
+	NSObject *nsobj1 = NULL;
+	MonoObject *mobj1 = NULL;
+	int32_t created1 = false;
+	MonoType *paramtype1 = NULL;
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [2];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[2] = { r0, r1 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r2, r3, 2, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	nsobj0 = (NSObject *) p0;
+	if (nsobj0) {
+		paramtype0 = xamarin_get_parameter_type (managed_method, 0);
+		mobj0 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj0, false, paramtype0, &created0, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [0] = mobj0;
+	nsobj1 = (NSObject *) p1;
+	if (nsobj1) {
+		paramtype1 = xamarin_get_parameter_type (managed_method, 1);
+		mobj1 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj1, false, paramtype1, &created1, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [1] = mobj1;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+static void native_to_managed_trampoline_119 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, id p1, NSError * p2, const char *r0, const char *r1, const char *r2, const char *r3, const char *r4)
+{
+	NSObject *nsobj0 = NULL;
+	MonoObject *mobj0 = NULL;
+	int32_t created0 = false;
+	MonoType *paramtype0 = NULL;
+	NSObject *nsobj1 = NULL;
+	MonoObject *mobj1 = NULL;
+	int32_t created1 = false;
+	MonoType *paramtype1 = NULL;
+	NSObject *nsobj2 = NULL;
+	MonoObject *mobj2 = NULL;
+	int32_t created2 = false;
+	MonoType *paramtype2 = NULL;
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [3];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[3] = { r0, r1, r2 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r3, r4, 3, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	nsobj0 = (NSObject *) p0;
+	if (nsobj0) {
+		paramtype0 = xamarin_get_parameter_type (managed_method, 0);
+		mobj0 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj0, false, paramtype0, &created0, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [0] = mobj0;
+	nsobj1 = (NSObject *) p1;
+	if (nsobj1) {
+		paramtype1 = xamarin_get_parameter_type (managed_method, 1);
+		mobj1 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj1, false, paramtype1, &created1, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [1] = mobj1;
+	nsobj2 = (NSObject *) p2;
+	if (nsobj2) {
+		paramtype2 = xamarin_get_parameter_type (managed_method, 2);
+		mobj2 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj2, false, paramtype2, &created2, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [2] = mobj2;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
 } /* extern "C" */
 
 @protocol CALayerDelegate
@@ -10887,6 +11064,322 @@ exception_handling:;
 	}
 @end
 
+@interface MSWrapperSdk : NSObject {
+}
+	-(BOOL) isEqual:(id)p0;
+	-(NSString *) liveUpdateDeploymentKey;
+	-(NSString *) liveUpdatePackageHash;
+	-(NSString *) liveUpdateReleaseLabel;
+	-(NSString *) wrapperSdkName;
+	-(NSString *) wrapperSdkVersion;
+	-(id) init;
+	-(id) initWithWrapperSdkVersion:(NSString *)p0 wrapperSdkName:(NSString *)p1 liveUpdateReleaseLabel:(NSString *)p2 liveUpdateDeploymentKey:(NSString *)p3 liveUpdatePackageHash:(NSString *)p4;
+@end
+
+@interface MSDevice : MSWrapperSdk {
+}
+	-(BOOL) isEqual:(id)p0;
+	-(NSString *) appBuild;
+	-(NSString *) appNamespace;
+	-(NSString *) appVersion;
+	-(NSString *) carrierCountry;
+	-(NSString *) carrierName;
+	-(NSString *) locale;
+	-(NSString *) model;
+	-(NSString *) oemName;
+	-(NSNumber *) osApiLevel;
+	-(NSString *) osBuild;
+	-(NSString *) osName;
+	-(NSString *) osVersion;
+	-(NSString *) screenSize;
+	-(NSString *) sdkName;
+	-(NSString *) sdkVersion;
+	-(NSNumber *) timeZoneOffset;
+	-(id) init;
+@end
+
+@interface MSLogger : NSObject {
+}
+	-(id) init;
+@end
+
+@interface MSMobileCenter : NSObject {
+}
+	-(id) init;
+@end
+
+@protocol MSService
+	@optional +(BOOL) isEnabled;
+	@optional +(void) setEnabled:(BOOL)p0;
+@end
+
+@interface MSServiceAbstract : NSObject {
+}
+	-(id) init;
+@end
+
+@interface MSWrapperLogger : NSObject {
+}
+	-(id) init;
+@end
+
+@interface MSAnalytics : NSObject {
+}
+	-(id) init;
+@end
+
+@protocol MSAnalyticsDelegate
+	@optional -(void) analytics:(id)p0 willSendEventLog:(id)p1;
+	@optional -(void) analytics:(id)p0 didSucceedSendingEventLog:(id)p1;
+	@optional -(void) analytics:(id)p0 didFailSendingEventLog:(id)p1 withError:(NSError *)p2;
+@end
+
+@interface MSLogWithProperties : NSObject {
+}
+	-(NSDictionary <NSString *, NSString *>*) properties;
+	-(void) setProperties:(NSDictionary <NSString *, NSString *>*)p0;
+	-(id) init;
+@end
+
+@interface MSEventLog : MSLogWithProperties {
+}
+	-(NSString *) eventId;
+	-(void) setEventId:(NSString *)p0;
+	-(NSString *) name;
+	-(void) setName:(NSString *)p0;
+	-(NSDictionary <NSString *, NSString *>*) properties;
+	-(void) setProperties:(NSDictionary <NSString *, NSString *>*)p0;
+	-(id) init;
+@end
+
+@interface MSPageLog : MSLogWithProperties {
+}
+	-(NSString *) name;
+	-(void) setName:(NSString *)p0;
+	-(NSDictionary <NSString *, NSString *>*) properties;
+	-(void) setProperties:(NSDictionary <NSString *, NSString *>*)p0;
+	-(id) init;
+@end
+
+@protocol MSCrashesDelegate
+	@optional -(BOOL) crashes:(id)p0 shouldProcessErrorReport:(id)p1;
+	@optional -(id) attachmentWithCrashes:(id)p0 forErrorReport:(id)p1;
+	@optional -(void) crashes:(id)p0 willSendErrorReport:(id)p1;
+	@optional -(void) crashes:(id)p0 didSucceedSendingErrorReport:(id)p1;
+	@optional -(void) crashes:(id)p0 didFailSendingErrorReport:(id)p1 withError:(NSError *)p2;
+@end
+
+@interface Microsoft_Azure_Mobile_Crashes_CrashesDelegate : NSObject<MSCrashesDelegate> {
+	XamarinObject __monoObjectGCHandle;
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) crashes:(id)p0 shouldProcessErrorReport:(id)p1;
+	-(void) crashes:(id)p0 willSendErrorReport:(id)p1;
+	-(void) crashes:(id)p0 didSucceedSendingErrorReport:(id)p1;
+	-(void) crashes:(id)p0 didFailSendingErrorReport:(id)p1 withError:(NSError *)p2;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+@implementation Microsoft_Azure_Mobile_Crashes_CrashesDelegate { } 
+	-(void) release
+	{
+		xamarin_release_trampoline (self, _cmd);
+	}
+
+	-(id) retain
+	{
+		return xamarin_retain_trampoline (self, _cmd);
+	}
+
+	-(int) xamarinGetGCHandle
+	{
+		return __monoObjectGCHandle.gc_handle;
+	}
+
+	-(void) xamarinSetGCHandle: (int) gc_handle
+	{
+		__monoObjectGCHandle.gc_handle = gc_handle;
+		__monoObjectGCHandle.native_object = self;
+	}
+
+
+	-(BOOL) crashes:(id)p0 shouldProcessErrorReport:(id)p1
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_117 (self, _cmd, &managed_method, p0, p1, "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSCrashes, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSErrorReport, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "Microsoft.Azure.Mobile.Crashes.CrashesDelegate, Microsoft.Azure.Mobile.Crashes", "CrashesShouldProcessErrorReport");
+	}
+
+	-(void) crashes:(id)p0 willSendErrorReport:(id)p1
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_118 (self, _cmd, &managed_method, p0, p1, "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSCrashes, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSErrorReport, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "Microsoft.Azure.Mobile.Crashes.CrashesDelegate, Microsoft.Azure.Mobile.Crashes", "CrashesWillSendErrorReport");
+	}
+
+	-(void) crashes:(id)p0 didSucceedSendingErrorReport:(id)p1
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_118 (self, _cmd, &managed_method, p0, p1, "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSCrashes, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSErrorReport, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "Microsoft.Azure.Mobile.Crashes.CrashesDelegate, Microsoft.Azure.Mobile.Crashes", "CrashesDidSucceedSendingErrorReport");
+	}
+
+	-(void) crashes:(id)p0 didFailSendingErrorReport:(id)p1 withError:(NSError *)p2
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_119 (self, _cmd, &managed_method, p0, p1, p2, "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSCrashes, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSErrorReport, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "Foundation.NSError, Xamarin.iOS", "Microsoft.Azure.Mobile.Crashes.CrashesDelegate, Microsoft.Azure.Mobile.Crashes", "CrashesDidFailSendingErrorReport");
+	}
+
+	-(BOOL) conformsToProtocol:(void *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib", "Foundation.NSObject, Xamarin.iOS", "InvokeConformsToProtocol");
+	}
+@end
+
+@interface MSCrashes : NSObject {
+}
+	-(id) init;
+@end
+
+@interface MSErrorAttachment : NSObject {
+}
+	-(BOOL) isEqual:(id)p0;
+	-(id) binaryAttachment;
+	-(void) setBinaryAttachment:(id)p0;
+	-(NSString *) textAttachment;
+	-(void) setTextAttachment:(NSString *)p0;
+	-(id) init;
+@end
+
+@interface MSErrorBinaryAttachment : NSObject {
+}
+	-(BOOL) isEqual:(id)p0;
+	-(NSString *) contentType;
+	-(NSData *) data;
+	-(NSString *) fileName;
+	-(id) init;
+	-(id) initWithFileName:(NSString *)p0 attachmentData:(NSData *)p1 contentType:(NSString *)p2;
+@end
+
+@interface MSErrorReport : NSObject {
+}
+	-(NSDate *) appErrorTime;
+	-(NSUInteger) appProcessIdentifier;
+	-(NSDate *) appStartTime;
+	-(id) device;
+	-(NSString *) exceptionName;
+	-(NSString *) exceptionReason;
+	-(NSString *) incidentIdentifier;
+	-(BOOL) isAppKill;
+	-(NSString *) reporterKey;
+	-(NSString *) signal;
+	-(id) init;
+@end
+
+@interface MSException : NSObject {
+}
+	-(BOOL) isEqual:(id)p0;
+	-(NSArray *) frames;
+	-(void) setFrames:(NSArray *)p0;
+	-(NSArray *) innerExceptions;
+	-(void) setInnerExceptions:(NSArray *)p0;
+	-(NSString *) message;
+	-(void) setMessage:(NSString *)p0;
+	-(NSString *) stackTrace;
+	-(void) setStackTrace:(NSString *)p0;
+	-(NSString *) type;
+	-(void) setType:(NSString *)p0;
+	-(NSString *) wrapperSdkName;
+	-(void) setWrapperSdkName:(NSString *)p0;
+	-(id) init;
+@end
+
+@interface MSStackFrame : NSObject {
+}
+	-(BOOL) isEqual:(id)p0;
+	-(NSString *) address;
+	-(void) setAddress:(NSString *)p0;
+	-(NSString *) className;
+	-(void) setClassName:(NSString *)p0;
+	-(NSString *) code;
+	-(void) setCode:(NSString *)p0;
+	-(NSString *) fileName;
+	-(void) setFileName:(NSString *)p0;
+	-(NSNumber *) lineNumber;
+	-(void) setLineNumber:(NSNumber *)p0;
+	-(NSString *) methodName;
+	-(void) setMethodName:(NSString *)p0;
+	-(id) init;
+@end
+
+@protocol MSWrapperCrashesInitializationDelegate
+	@optional -(BOOL) setUpCrashHandlers;
+@end
+
+@interface MSWrapperExceptionManager : NSObject {
+}
+	-(id) init;
+@end
+
+@interface Microsoft_Azure_Mobile_Crashes_iOS_Bindings_CrashesInitializationDelegate : NSObject<MSWrapperCrashesInitializationDelegate> {
+	XamarinObject __monoObjectGCHandle;
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) setUpCrashHandlers;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+@implementation Microsoft_Azure_Mobile_Crashes_iOS_Bindings_CrashesInitializationDelegate { } 
+	-(void) release
+	{
+		xamarin_release_trampoline (self, _cmd);
+	}
+
+	-(id) retain
+	{
+		return xamarin_retain_trampoline (self, _cmd);
+	}
+
+	-(int) xamarinGetGCHandle
+	{
+		return __monoObjectGCHandle.gc_handle;
+	}
+
+	-(void) xamarinSetGCHandle: (int) gc_handle
+	{
+		__monoObjectGCHandle.gc_handle = gc_handle;
+		__monoObjectGCHandle.native_object = self;
+	}
+
+
+	-(BOOL) setUpCrashHandlers
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_13 (self, _cmd, &managed_method, "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.CrashesInitializationDelegate, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", "SetUpCrashHandlers");
+	}
+
+	-(BOOL) conformsToProtocol:(void *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib", "Foundation.NSObject, Xamarin.iOS", "InvokeConformsToProtocol");
+	}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_9 (self, _cmd, &managed_method, "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.CrashesInitializationDelegate, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", ".ctor", &call_super);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [NSObject class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+
 	static MTClassMap __xamarin_class_map [] = {
 		{"NSObject", "Foundation.NSObject, Xamarin.iOS", NULL },
 		{"UIResponder", "UIKit.UIResponder, Xamarin.iOS", NULL },
@@ -10924,6 +11417,7 @@ exception_handling:;
 		{"NSString", "Foundation.NSString, Xamarin.iOS", NULL },
 		{"NSThread", "Foundation.NSThread, Xamarin.iOS", NULL },
 		{"NSURLRequest", "Foundation.NSUrlRequest, Xamarin.iOS", NULL },
+		{"NSUUID", "Foundation.NSUuid, Xamarin.iOS", NULL },
 		{"NSTimer", "Foundation.NSTimer, Xamarin.iOS", NULL },
 		{"NSTimeZone", "Foundation.NSTimeZone, Xamarin.iOS", NULL },
 		{"NSURL", "Foundation.NSUrl, Xamarin.iOS", NULL },
@@ -11113,6 +11607,25 @@ exception_handling:;
 		{"UIKit_UISplitViewController__UISplitViewControllerDelegate", "UIKit.UISplitViewController+_UISplitViewControllerDelegate, Xamarin.iOS", NULL },
 		{"UIKit_UITabBarController__UITabBarControllerDelegate", "UIKit.UITabBarController+_UITabBarControllerDelegate, Xamarin.iOS", NULL },
 		{"UIKit_UIWebView__UIWebViewDelegate", "UIKit.UIWebView+_UIWebViewDelegate, Xamarin.iOS", NULL },
+		{"MSWrapperSdk", "Microsoft.Azure.Mobile.iOS.Bindings.MSWrapperSdk, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSDevice", "Microsoft.Azure.Mobile.iOS.Bindings.MSDevice, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSLogger", "Microsoft.Azure.Mobile.iOS.Bindings.MSLogger, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSMobileCenter", "Microsoft.Azure.Mobile.iOS.Bindings.MSMobileCenter, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSServiceAbstract", "Microsoft.Azure.Mobile.iOS.Bindings.MSServiceAbstract, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSWrapperLogger", "Microsoft.Azure.Mobile.iOS.Bindings.MSWrapperLogger, Microsoft.Azure.Mobile.iOS.Bindings", NULL },
+		{"MSAnalytics", "Microsoft.Azure.Mobile.Analytics.iOS.Bindings.MSAnalytics, Microsoft.Azure.Mobile.Analytics.iOS.Bindings", NULL },
+		{"MSLogWithProperties", "Microsoft.Azure.Mobile.Analytics.iOS.Bindings.MSLogWithProperties, Microsoft.Azure.Mobile.Analytics.iOS.Bindings", NULL },
+		{"MSEventLog", "Microsoft.Azure.Mobile.Analytics.iOS.Bindings.MSEventLog, Microsoft.Azure.Mobile.Analytics.iOS.Bindings", NULL },
+		{"MSPageLog", "Microsoft.Azure.Mobile.Analytics.iOS.Bindings.MSPageLog, Microsoft.Azure.Mobile.Analytics.iOS.Bindings", NULL },
+		{"Microsoft_Azure_Mobile_Crashes_CrashesDelegate", "Microsoft.Azure.Mobile.Crashes.CrashesDelegate, Microsoft.Azure.Mobile.Crashes", NULL },
+		{"MSCrashes", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSCrashes, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
+		{"MSErrorAttachment", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSErrorAttachment, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
+		{"MSErrorBinaryAttachment", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSErrorBinaryAttachment, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
+		{"MSErrorReport", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSErrorReport, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
+		{"MSException", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSException, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
+		{"MSStackFrame", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSStackFrame, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
+		{"MSWrapperExceptionManager", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.MSWrapperExceptionManager, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
+		{"Microsoft_Azure_Mobile_Crashes_iOS_Bindings_CrashesInitializationDelegate", "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.CrashesInitializationDelegate, Microsoft.Azure.Mobile.Crashes.iOS.Bindings", NULL },
 		{ NULL, NULL, NULL },
 	};
 
@@ -11137,6 +11650,12 @@ exception_handling:;
 		"Mono.CSharp", 
 		"System.Security.SecureString", 
 		"System.Runtime.InteropServices.RuntimeInformation", 
+		"Microsoft.Azure.Mobile", 
+		"Microsoft.Azure.Mobile.iOS.Bindings", 
+		"Microsoft.Azure.Mobile.Analytics", 
+		"Microsoft.Azure.Mobile.Analytics.iOS.Bindings", 
+		"Microsoft.Azure.Mobile.Crashes", 
+		"Microsoft.Azure.Mobile.Crashes.iOS.Bindings", 
 		"Xamarin.Forms.Xaml"
 	};
 
@@ -11144,9 +11663,9 @@ exception_handling:;
 		NULL,
 		__xamarin_registration_assemblies,
 		__xamarin_class_map,
-		21,
-		225,
-		95
+		27,
+		245,
+		114
 	};
 
 void xamarin_create_classes () {
@@ -11186,195 +11705,215 @@ void xamarin_create_classes () {
 	__xamarin_class_map [33].handle = objc_getClass ("NSString");
 	__xamarin_class_map [34].handle = objc_getClass ("NSThread");
 	__xamarin_class_map [35].handle = objc_getClass ("NSURLRequest");
-	__xamarin_class_map [36].handle = objc_getClass ("NSTimer");
-	__xamarin_class_map [37].handle = objc_getClass ("NSTimeZone");
-	__xamarin_class_map [38].handle = objc_getClass ("NSURL");
-	__xamarin_class_map [39].handle = objc_getClass ("CALayer");
-	__xamarin_class_map [40].handle = objc_getClass ("CADisplayLink");
-	__xamarin_class_map [41].handle = objc_getClass ("CSSearchableIndex");
-	__xamarin_class_map [42].handle = objc_getClass ("CSSearchableItemAttributeSet");
-	__xamarin_class_map [43].handle = objc_getClass ("CKShareMetadata");
-	__xamarin_class_map [44].handle = objc_getClass ("EAGLContext");
-	__xamarin_class_map [45].handle = objc_getClass ("UIPresentationController");
-	__xamarin_class_map [46].handle = objc_getClass ("UIBezierPath");
-	__xamarin_class_map [47].handle = objc_getClass ("UIButton");
-	__xamarin_class_map [48].handle = objc_getClass ("UICollectionView");
-	__xamarin_class_map [49].handle = objc_getClass ("UICollectionViewLayout");
-	__xamarin_class_map [50].handle = objc_getClass ("UIColor");
-	__xamarin_class_map [51].handle = objc_getClass ("UIKit_UIControlEventProxy");
-	__xamarin_class_map [52].handle = objc_getClass ("UIEvent");
-	__xamarin_class_map [53].handle = objc_getClass ("CATransaction");
-	__xamarin_class_map [54].handle = objc_getClass ("UIFont");
-	__xamarin_class_map [55].handle = objc_getClass ("UIImage");
-	__xamarin_class_map [56].handle = objc_getClass ("UIPickerView");
-	__xamarin_class_map [57].handle = objc_getClass ("UIPopoverController");
-	__xamarin_class_map [58].handle = objc_getClass ("UITableView");
-	__xamarin_class_map [59].handle = objc_getClass ("UITraitCollection");
-	__xamarin_class_map [60].handle = objc_getClass ("UIPopoverPresentationController");
-	__xamarin_class_map [61].handle = objc_getClass ("UIScreen");
-	__xamarin_class_map [62].handle = objc_getClass ("__MonoMac_NSActionDispatcher");
-	__xamarin_class_map [63].handle = objc_getClass ("__Xamarin_NSTimerActionDispatcher");
-	__xamarin_class_map [64].handle = objc_getClass ("__MonoMac_NSAsyncActionDispatcher");
-	__xamarin_class_map [65].handle = objc_getClass ("NSAutoreleasePool");
-	__xamarin_class_map [66].handle = objc_getClass ("NSError");
-	__xamarin_class_map [67].handle = objc_getClass ("UIFontDescriptor");
-	__xamarin_class_map [68].handle = objc_getClass ("CSSearchableItem");
-	__xamarin_class_map [69].handle = objc_getClass ("NSEnumerator");
-	__xamarin_class_map [70].handle = objc_getClass ("NSException");
-	__xamarin_class_map [71].handle = objc_getClass ("NSIndexSet");
-	__xamarin_class_map [72].handle = objc_getClass ("NSNotification");
-	__xamarin_class_map [73].handle = objc_getClass ("NSNull");
-	__xamarin_class_map [74].handle = objc_getClass ("NSParagraphStyle");
-	__xamarin_class_map [75].handle = objc_getClass ("NSShadow");
-	__xamarin_class_map [76].handle = objc_getClass ("NSTextAttachment");
-	__xamarin_class_map [77].handle = objc_getClass ("NSTextContainer");
-	__xamarin_class_map [78].handle = objc_getClass ("UIActivityIndicatorView");
-	__xamarin_class_map [79].handle = objc_getClass ("UIAlertAction");
-	__xamarin_class_map [80].handle = objc_getClass ("UIApplicationShortcutItem");
-	__xamarin_class_map [81].handle = objc_getClass ("UIVisualEffect");
-	__xamarin_class_map [82].handle = objc_getClass ("UIBlurEffect");
-	__xamarin_class_map [83].handle = objc_getClass ("UICollectionViewFlowLayout");
-	__xamarin_class_map [84].handle = objc_getClass ("UIFocusUpdateContext");
-	__xamarin_class_map [85].handle = objc_getClass ("UICubicTimingParameters");
-	__xamarin_class_map [86].handle = objc_getClass ("UIDatePicker");
-	__xamarin_class_map [87].handle = objc_getClass ("UIFocusAnimationCoordinator");
-	__xamarin_class_map [88].handle = objc_getClass ("UIImageView");
-	__xamarin_class_map [89].handle = objc_getClass ("UILabel");
-	__xamarin_class_map [90].handle = objc_getClass ("UINavigationItem");
-	__xamarin_class_map [91].handle = objc_getClass ("UILocalNotification");
-	__xamarin_class_map [92].handle = objc_getClass ("UIPress");
-	__xamarin_class_map [93].handle = objc_getClass ("UIRefreshControl");
-	__xamarin_class_map [94].handle = objc_getClass ("UIProgressView");
-	__xamarin_class_map [95].handle = objc_getClass ("UISlider");
-	__xamarin_class_map [96].handle = objc_getClass ("UIStepper");
-	__xamarin_class_map [97].handle = objc_getClass ("UITabBarItem");
-	__xamarin_class_map [98].handle = objc_getClass ("UISpringTimingParameters");
-	__xamarin_class_map [99].handle = objc_getClass ("UITableViewFocusUpdateContext");
-	__xamarin_class_map [100].handle = objc_getClass ("UISwitch");
-	__xamarin_class_map [101].handle = objc_getClass ("UITableViewRowAction");
-	__xamarin_class_map [102].handle = objc_getClass ("UITabBar");
-	__xamarin_class_map [103].handle = objc_getClass ("UITextPosition");
-	__xamarin_class_map [104].handle = objc_getClass ("UITextRange");
-	__xamarin_class_map [105].handle = objc_getClass ("UITextSelectionRect");
-	__xamarin_class_map [106].handle = objc_getClass ("UIUserNotificationSettings");
-	__xamarin_class_map [107].handle = objc_getClass ("UIVisualEffectView");
-	__xamarin_class_map [108].handle = objc_getClass ("UITouch");
-	__xamarin_class_map [109].handle = objc_getClass ("UIWindow");
-	__xamarin_class_map [110].handle = objc_getClass ("NSData");
-	__xamarin_class_map [111].handle = objc_getClass ("NSDictionary");
-	__xamarin_class_map [112].handle = objc_getClass ("NSNotificationCenter");
-	__xamarin_class_map [113].handle = objc_getClass ("NSMutableData");
-	__xamarin_class_map [114].handle = objc_getClass ("NSMutableDictionary");
-	__xamarin_class_map [115].handle = objc_getClass ("NSSet");
-	__xamarin_class_map [116].handle = objc_getClass ("GLKView");
-	__xamarin_class_map [117].handle = objc_getClass ("UIActionSheet");
-	__xamarin_class_map [118].handle = objc_getClass ("UIAlertView");
-	__xamarin_class_map [119].handle = objc_getClass ("UIApplication");
-	__xamarin_class_map [120].handle = objc_getClass ("UIDevice");
-	__xamarin_class_map [121].handle = objc_getClass ("UIRotationGestureRecognizer");
-	__xamarin_class_map [122].handle = objc_getClass ("UILongPressGestureRecognizer");
-	__xamarin_class_map [123].handle = objc_getClass ("UIPanGestureRecognizer");
-	__xamarin_class_map [124].handle = objc_getClass ("UIPinchGestureRecognizer");
-	__xamarin_class_map [125].handle = objc_getClass ("UISwipeGestureRecognizer");
-	__xamarin_class_map [126].handle = objc_getClass ("UIScreenEdgePanGestureRecognizer");
-	__xamarin_class_map [127].handle = objc_getClass ("UINavigationBar");
-	__xamarin_class_map [128].handle = objc_getClass ("UITextView");
-	__xamarin_class_map [129].handle = objc_getClass ("UISearchBar");
-	__xamarin_class_map [130].handle = [Xamarin_Forms_Platform_iOS_FormsApplicationDelegate class];
-	__xamarin_class_map [131].handle = [AppDelegate class];
-	__xamarin_class_map [132].handle = [Xamarin_Forms_Platform_iOS_iOS7ButtonContainer class];
-	__xamarin_class_map [133].handle = [Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer class];
-	__xamarin_class_map [134].handle = [Xamarin_Forms_Platform_iOS_ModalWrapper class];
-	__xamarin_class_map [135].handle = [Xamarin_Forms_Platform_iOS_PlatformRenderer class];
-	__xamarin_class_map [136].handle = [Xamarin_Forms_Platform_iOS_VisualElementRenderer_1 class];
-	__xamarin_class_map [137].handle = [Xamarin_Forms_Platform_iOS_ViewRenderer_2 class];
-	__xamarin_class_map [138].handle = [Xamarin_Forms_Platform_iOS_ViewRenderer class];
-	__xamarin_class_map [139].handle = [Xamarin_Forms_Platform_iOS_CellTableViewCell class];
-	__xamarin_class_map [140].handle = [Xamarin_Forms_Platform_iOS_ActivityIndicatorRenderer class];
-	__xamarin_class_map [141].handle = [Xamarin_Forms_Platform_iOS_BoxRenderer class];
-	__xamarin_class_map [142].handle = [Xamarin_Forms_Platform_iOS_NoCaretField class];
-	__xamarin_class_map [143].handle = [Xamarin_Forms_Platform_iOS_EditorRenderer class];
-	__xamarin_class_map [144].handle = [Xamarin_Forms_Platform_iOS_EntryRenderer class];
-	__xamarin_class_map [145].handle = [Xamarin_Forms_Platform_iOS_FrameRenderer class];
-	__xamarin_class_map [146].handle = [Xamarin_Forms_Platform_iOS_LabelRenderer class];
-	__xamarin_class_map [147].handle = [Xamarin_Forms_Platform_iOS_HeaderWrapperView class];
-	__xamarin_class_map [148].handle = [Xamarin_Forms_Platform_iOS_FormsUITableViewController class];
-	__xamarin_class_map [149].handle = [Xamarin_Forms_Platform_iOS_ProgressBarRenderer class];
-	__xamarin_class_map [150].handle = [Xamarin_Forms_Platform_iOS_ScrollViewRenderer class];
-	__xamarin_class_map [151].handle = [Xamarin_Forms_Platform_iOS_SearchBarRenderer class];
-	__xamarin_class_map [152].handle = [Xamarin_Forms_Platform_iOS_SliderRenderer class];
-	__xamarin_class_map [153].handle = [Xamarin_Forms_Platform_iOS_StepperRenderer class];
-	__xamarin_class_map [154].handle = [Xamarin_Forms_Platform_iOS_SwitchRenderer class];
-	__xamarin_class_map [155].handle = [Xamarin_Forms_Platform_iOS_TabbedRenderer class];
-	__xamarin_class_map [156].handle = [Xamarin_Forms_Platform_iOS_TableViewModelRenderer class];
-	__xamarin_class_map [157].handle = [Xamarin_Forms_Platform_iOS_UnEvenTableViewModelRenderer class];
-	__xamarin_class_map [158].handle = [Xamarin_Forms_Platform_iOS_TableViewRenderer class];
-	__xamarin_class_map [159].handle = [Xamarin_Forms_Platform_iOS_ChildViewController class];
-	__xamarin_class_map [160].handle = [Xamarin_Forms_Platform_iOS_EventedViewController class];
-	__xamarin_class_map [161].handle = [Xamarin_Forms_Platform_iOS_NativeViewWrapperRenderer class];
-	__xamarin_class_map [162].handle = [Xamarin_Forms_Platform_iOS_NativeViewPropertyListener class];
-	__xamarin_class_map [163].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_SelectGestureRecognizer class];
-	__xamarin_class_map [164].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetController class];
-	__xamarin_class_map [165].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetDelegate class];
-	__xamarin_class_map [166].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell class];
-	__xamarin_class_map [167].handle = [Xamarin_Forms_Platform_iOS_ContextScrollViewDelegate class];
-	__xamarin_class_map [168].handle = [Xamarin_Forms_Platform_iOS_Platform_DefaultRenderer class];
-	__xamarin_class_map [169].handle = [Xamarin_Forms_Platform_iOS_EntryCellRenderer_EntryCellTableViewCell class];
-	__xamarin_class_map [170].handle = [Xamarin_Forms_Platform_iOS_ViewCellRenderer_ViewTableCell class];
-	__xamarin_class_map [171].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_PrimaryToolbarItem class];
-	__xamarin_class_map [172].handle = [Xamarin_Forms_Platform_iOS_ButtonRenderer class];
-	__xamarin_class_map [173].handle = [Xamarin_Forms_Platform_iOS_CarouselPageRenderer_PageContainer class];
-	__xamarin_class_map [174].handle = [Xamarin_Forms_Platform_iOS_CarouselPageRenderer class];
-	__xamarin_class_map [175].handle = [Xamarin_Forms_Platform_iOS_DatePickerRenderer class];
-	__xamarin_class_map [176].handle = [Xamarin_Forms_Platform_iOS_ImageRenderer class];
-	__xamarin_class_map [177].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer_ListViewDataSource class];
-	__xamarin_class_map [178].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer_UnevenListViewDataSource class];
-	__xamarin_class_map [179].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer class];
-	__xamarin_class_map [180].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_NavigationCell class];
-	__xamarin_class_map [181].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer class];
-	__xamarin_class_map [182].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController class];
-	__xamarin_class_map [183].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer class];
-	__xamarin_class_map [184].handle = [Xamarin_Forms_Platform_iOS_OpenGLViewRenderer_Delegate class];
-	__xamarin_class_map [185].handle = [Xamarin_Forms_Platform_iOS_OpenGLViewRenderer class];
-	__xamarin_class_map [186].handle = [Xamarin_Forms_Platform_iOS_PageRenderer class];
-	__xamarin_class_map [187].handle = [Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer_ChildViewController class];
-	__xamarin_class_map [188].handle = [Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer class];
-	__xamarin_class_map [189].handle = [Xamarin_Forms_Platform_iOS_PickerRenderer_PickerSource class];
-	__xamarin_class_map [190].handle = [Xamarin_Forms_Platform_iOS_PickerRenderer class];
-	__xamarin_class_map [191].handle = [Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer_InnerDelegate class];
-	__xamarin_class_map [192].handle = [Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer class];
-	__xamarin_class_map [193].handle = [Xamarin_Forms_Platform_iOS_TimePickerRenderer class];
-	__xamarin_class_map [194].handle = [Xamarin_Forms_Platform_iOS_WebViewRenderer_CustomWebViewDelegate class];
-	__xamarin_class_map [195].handle = [Xamarin_Forms_Platform_iOS_WebViewRenderer class];
-	__xamarin_class_map [196].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem_SecondaryToolbarItemContent class];
-	__xamarin_class_map [197].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem class];
-	__xamarin_class_map [198].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource class];
-	__xamarin_class_map [199].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar class];
-	__xamarin_class_map [200].handle = objc_getClass ("GLKit_GLKView__GLKViewDelegate");
-	__xamarin_class_map [201].handle = objc_getClass ("UIKit_UIActionSheet__UIActionSheetDelegate");
-	__xamarin_class_map [202].handle = objc_getClass ("UIKit_UIAlertView__UIAlertViewDelegate");
-	__xamarin_class_map [203].handle = objc_getClass ("UIKit_UIBarButtonItem_Callback");
-	__xamarin_class_map [204].handle = objc_getClass ("__UIGestureRecognizerToken");
-	__xamarin_class_map [205].handle = objc_getClass ("__UIGestureRecognizerParameterlessToken");
-	__xamarin_class_map [206].handle = objc_getClass ("__UIGestureRecognizerParametrizedToken");
-	__xamarin_class_map [207].handle = objc_getClass ("UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate");
-	__xamarin_class_map [208].handle = objc_getClass ("__UIRotationGestureRecognizer");
-	__xamarin_class_map [209].handle = objc_getClass ("__UILongPressGestureRecognizer");
-	__xamarin_class_map [210].handle = objc_getClass ("__UITapGestureRecognizer");
-	__xamarin_class_map [211].handle = objc_getClass ("__UIPanGestureRecognizer");
-	__xamarin_class_map [212].handle = objc_getClass ("__UIPinchGestureRecognizer");
-	__xamarin_class_map [213].handle = objc_getClass ("__UISwipeGestureRecognizer");
-	__xamarin_class_map [214].handle = objc_getClass ("__UIScreenEdgePanGestureRecognizer");
-	__xamarin_class_map [215].handle = objc_getClass ("UIKit_UIView_UIViewAppearance");
-	__xamarin_class_map [216].handle = objc_getClass ("UIKit_UINavigationBar_UINavigationBarAppearance");
-	__xamarin_class_map [217].handle = objc_getClass ("UIKit_UITextField__UITextFieldDelegate");
-	__xamarin_class_map [218].handle = objc_getClass ("UIKit_UIScrollView__UIScrollViewDelegate");
-	__xamarin_class_map [219].handle = objc_getClass ("UIKit_UITextView__UITextViewDelegate");
-	__xamarin_class_map [220].handle = objc_getClass ("UIKit_UISearchBar__UISearchBarDelegate");
-	__xamarin_class_map [221].handle = objc_getClass ("__NSObject_Disposer");
-	__xamarin_class_map [222].handle = objc_getClass ("UIKit_UISplitViewController__UISplitViewControllerDelegate");
-	__xamarin_class_map [223].handle = objc_getClass ("UIKit_UITabBarController__UITabBarControllerDelegate");
-	__xamarin_class_map [224].handle = objc_getClass ("UIKit_UIWebView__UIWebViewDelegate");
+	__xamarin_class_map [36].handle = objc_getClass ("NSUUID");
+	__xamarin_class_map [37].handle = objc_getClass ("NSTimer");
+	__xamarin_class_map [38].handle = objc_getClass ("NSTimeZone");
+	__xamarin_class_map [39].handle = objc_getClass ("NSURL");
+	__xamarin_class_map [40].handle = objc_getClass ("CALayer");
+	__xamarin_class_map [41].handle = objc_getClass ("CADisplayLink");
+	__xamarin_class_map [42].handle = objc_getClass ("CSSearchableIndex");
+	__xamarin_class_map [43].handle = objc_getClass ("CSSearchableItemAttributeSet");
+	__xamarin_class_map [44].handle = objc_getClass ("CKShareMetadata");
+	__xamarin_class_map [45].handle = objc_getClass ("EAGLContext");
+	__xamarin_class_map [46].handle = objc_getClass ("UIPresentationController");
+	__xamarin_class_map [47].handle = objc_getClass ("UIBezierPath");
+	__xamarin_class_map [48].handle = objc_getClass ("UIButton");
+	__xamarin_class_map [49].handle = objc_getClass ("UICollectionView");
+	__xamarin_class_map [50].handle = objc_getClass ("UICollectionViewLayout");
+	__xamarin_class_map [51].handle = objc_getClass ("UIColor");
+	__xamarin_class_map [52].handle = objc_getClass ("UIKit_UIControlEventProxy");
+	__xamarin_class_map [53].handle = objc_getClass ("UIEvent");
+	__xamarin_class_map [54].handle = objc_getClass ("CATransaction");
+	__xamarin_class_map [55].handle = objc_getClass ("UIFont");
+	__xamarin_class_map [56].handle = objc_getClass ("UIImage");
+	__xamarin_class_map [57].handle = objc_getClass ("UIPickerView");
+	__xamarin_class_map [58].handle = objc_getClass ("UIPopoverController");
+	__xamarin_class_map [59].handle = objc_getClass ("UITableView");
+	__xamarin_class_map [60].handle = objc_getClass ("UITraitCollection");
+	__xamarin_class_map [61].handle = objc_getClass ("UIPopoverPresentationController");
+	__xamarin_class_map [62].handle = objc_getClass ("UIScreen");
+	__xamarin_class_map [63].handle = objc_getClass ("__MonoMac_NSActionDispatcher");
+	__xamarin_class_map [64].handle = objc_getClass ("__Xamarin_NSTimerActionDispatcher");
+	__xamarin_class_map [65].handle = objc_getClass ("__MonoMac_NSAsyncActionDispatcher");
+	__xamarin_class_map [66].handle = objc_getClass ("NSAutoreleasePool");
+	__xamarin_class_map [67].handle = objc_getClass ("NSError");
+	__xamarin_class_map [68].handle = objc_getClass ("UIFontDescriptor");
+	__xamarin_class_map [69].handle = objc_getClass ("CSSearchableItem");
+	__xamarin_class_map [70].handle = objc_getClass ("NSEnumerator");
+	__xamarin_class_map [71].handle = objc_getClass ("NSException");
+	__xamarin_class_map [72].handle = objc_getClass ("NSIndexSet");
+	__xamarin_class_map [73].handle = objc_getClass ("NSNotification");
+	__xamarin_class_map [74].handle = objc_getClass ("NSNull");
+	__xamarin_class_map [75].handle = objc_getClass ("NSParagraphStyle");
+	__xamarin_class_map [76].handle = objc_getClass ("NSShadow");
+	__xamarin_class_map [77].handle = objc_getClass ("NSTextAttachment");
+	__xamarin_class_map [78].handle = objc_getClass ("NSTextContainer");
+	__xamarin_class_map [79].handle = objc_getClass ("UIActivityIndicatorView");
+	__xamarin_class_map [80].handle = objc_getClass ("UIAlertAction");
+	__xamarin_class_map [81].handle = objc_getClass ("UIApplicationShortcutItem");
+	__xamarin_class_map [82].handle = objc_getClass ("UIVisualEffect");
+	__xamarin_class_map [83].handle = objc_getClass ("UIBlurEffect");
+	__xamarin_class_map [84].handle = objc_getClass ("UICollectionViewFlowLayout");
+	__xamarin_class_map [85].handle = objc_getClass ("UIFocusUpdateContext");
+	__xamarin_class_map [86].handle = objc_getClass ("UICubicTimingParameters");
+	__xamarin_class_map [87].handle = objc_getClass ("UIDatePicker");
+	__xamarin_class_map [88].handle = objc_getClass ("UIFocusAnimationCoordinator");
+	__xamarin_class_map [89].handle = objc_getClass ("UIImageView");
+	__xamarin_class_map [90].handle = objc_getClass ("UILabel");
+	__xamarin_class_map [91].handle = objc_getClass ("UINavigationItem");
+	__xamarin_class_map [92].handle = objc_getClass ("UILocalNotification");
+	__xamarin_class_map [93].handle = objc_getClass ("UIPress");
+	__xamarin_class_map [94].handle = objc_getClass ("UIRefreshControl");
+	__xamarin_class_map [95].handle = objc_getClass ("UIProgressView");
+	__xamarin_class_map [96].handle = objc_getClass ("UISlider");
+	__xamarin_class_map [97].handle = objc_getClass ("UIStepper");
+	__xamarin_class_map [98].handle = objc_getClass ("UITabBarItem");
+	__xamarin_class_map [99].handle = objc_getClass ("UISpringTimingParameters");
+	__xamarin_class_map [100].handle = objc_getClass ("UITableViewFocusUpdateContext");
+	__xamarin_class_map [101].handle = objc_getClass ("UISwitch");
+	__xamarin_class_map [102].handle = objc_getClass ("UITableViewRowAction");
+	__xamarin_class_map [103].handle = objc_getClass ("UITabBar");
+	__xamarin_class_map [104].handle = objc_getClass ("UITextPosition");
+	__xamarin_class_map [105].handle = objc_getClass ("UITextRange");
+	__xamarin_class_map [106].handle = objc_getClass ("UITextSelectionRect");
+	__xamarin_class_map [107].handle = objc_getClass ("UIUserNotificationSettings");
+	__xamarin_class_map [108].handle = objc_getClass ("UIVisualEffectView");
+	__xamarin_class_map [109].handle = objc_getClass ("UITouch");
+	__xamarin_class_map [110].handle = objc_getClass ("UIWindow");
+	__xamarin_class_map [111].handle = objc_getClass ("NSData");
+	__xamarin_class_map [112].handle = objc_getClass ("NSDictionary");
+	__xamarin_class_map [113].handle = objc_getClass ("NSNotificationCenter");
+	__xamarin_class_map [114].handle = objc_getClass ("NSMutableData");
+	__xamarin_class_map [115].handle = objc_getClass ("NSMutableDictionary");
+	__xamarin_class_map [116].handle = objc_getClass ("NSSet");
+	__xamarin_class_map [117].handle = objc_getClass ("GLKView");
+	__xamarin_class_map [118].handle = objc_getClass ("UIActionSheet");
+	__xamarin_class_map [119].handle = objc_getClass ("UIAlertView");
+	__xamarin_class_map [120].handle = objc_getClass ("UIApplication");
+	__xamarin_class_map [121].handle = objc_getClass ("UIDevice");
+	__xamarin_class_map [122].handle = objc_getClass ("UIRotationGestureRecognizer");
+	__xamarin_class_map [123].handle = objc_getClass ("UILongPressGestureRecognizer");
+	__xamarin_class_map [124].handle = objc_getClass ("UIPanGestureRecognizer");
+	__xamarin_class_map [125].handle = objc_getClass ("UIPinchGestureRecognizer");
+	__xamarin_class_map [126].handle = objc_getClass ("UISwipeGestureRecognizer");
+	__xamarin_class_map [127].handle = objc_getClass ("UIScreenEdgePanGestureRecognizer");
+	__xamarin_class_map [128].handle = objc_getClass ("UINavigationBar");
+	__xamarin_class_map [129].handle = objc_getClass ("UITextView");
+	__xamarin_class_map [130].handle = objc_getClass ("UISearchBar");
+	__xamarin_class_map [131].handle = [Xamarin_Forms_Platform_iOS_FormsApplicationDelegate class];
+	__xamarin_class_map [132].handle = [AppDelegate class];
+	__xamarin_class_map [133].handle = [Xamarin_Forms_Platform_iOS_iOS7ButtonContainer class];
+	__xamarin_class_map [134].handle = [Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer class];
+	__xamarin_class_map [135].handle = [Xamarin_Forms_Platform_iOS_ModalWrapper class];
+	__xamarin_class_map [136].handle = [Xamarin_Forms_Platform_iOS_PlatformRenderer class];
+	__xamarin_class_map [137].handle = [Xamarin_Forms_Platform_iOS_VisualElementRenderer_1 class];
+	__xamarin_class_map [138].handle = [Xamarin_Forms_Platform_iOS_ViewRenderer_2 class];
+	__xamarin_class_map [139].handle = [Xamarin_Forms_Platform_iOS_ViewRenderer class];
+	__xamarin_class_map [140].handle = [Xamarin_Forms_Platform_iOS_CellTableViewCell class];
+	__xamarin_class_map [141].handle = [Xamarin_Forms_Platform_iOS_ActivityIndicatorRenderer class];
+	__xamarin_class_map [142].handle = [Xamarin_Forms_Platform_iOS_BoxRenderer class];
+	__xamarin_class_map [143].handle = [Xamarin_Forms_Platform_iOS_NoCaretField class];
+	__xamarin_class_map [144].handle = [Xamarin_Forms_Platform_iOS_EditorRenderer class];
+	__xamarin_class_map [145].handle = [Xamarin_Forms_Platform_iOS_EntryRenderer class];
+	__xamarin_class_map [146].handle = [Xamarin_Forms_Platform_iOS_FrameRenderer class];
+	__xamarin_class_map [147].handle = [Xamarin_Forms_Platform_iOS_LabelRenderer class];
+	__xamarin_class_map [148].handle = [Xamarin_Forms_Platform_iOS_HeaderWrapperView class];
+	__xamarin_class_map [149].handle = [Xamarin_Forms_Platform_iOS_FormsUITableViewController class];
+	__xamarin_class_map [150].handle = [Xamarin_Forms_Platform_iOS_ProgressBarRenderer class];
+	__xamarin_class_map [151].handle = [Xamarin_Forms_Platform_iOS_ScrollViewRenderer class];
+	__xamarin_class_map [152].handle = [Xamarin_Forms_Platform_iOS_SearchBarRenderer class];
+	__xamarin_class_map [153].handle = [Xamarin_Forms_Platform_iOS_SliderRenderer class];
+	__xamarin_class_map [154].handle = [Xamarin_Forms_Platform_iOS_StepperRenderer class];
+	__xamarin_class_map [155].handle = [Xamarin_Forms_Platform_iOS_SwitchRenderer class];
+	__xamarin_class_map [156].handle = [Xamarin_Forms_Platform_iOS_TabbedRenderer class];
+	__xamarin_class_map [157].handle = [Xamarin_Forms_Platform_iOS_TableViewModelRenderer class];
+	__xamarin_class_map [158].handle = [Xamarin_Forms_Platform_iOS_UnEvenTableViewModelRenderer class];
+	__xamarin_class_map [159].handle = [Xamarin_Forms_Platform_iOS_TableViewRenderer class];
+	__xamarin_class_map [160].handle = [Xamarin_Forms_Platform_iOS_ChildViewController class];
+	__xamarin_class_map [161].handle = [Xamarin_Forms_Platform_iOS_EventedViewController class];
+	__xamarin_class_map [162].handle = [Xamarin_Forms_Platform_iOS_NativeViewWrapperRenderer class];
+	__xamarin_class_map [163].handle = [Xamarin_Forms_Platform_iOS_NativeViewPropertyListener class];
+	__xamarin_class_map [164].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_SelectGestureRecognizer class];
+	__xamarin_class_map [165].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetController class];
+	__xamarin_class_map [166].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetDelegate class];
+	__xamarin_class_map [167].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell class];
+	__xamarin_class_map [168].handle = [Xamarin_Forms_Platform_iOS_ContextScrollViewDelegate class];
+	__xamarin_class_map [169].handle = [Xamarin_Forms_Platform_iOS_Platform_DefaultRenderer class];
+	__xamarin_class_map [170].handle = [Xamarin_Forms_Platform_iOS_EntryCellRenderer_EntryCellTableViewCell class];
+	__xamarin_class_map [171].handle = [Xamarin_Forms_Platform_iOS_ViewCellRenderer_ViewTableCell class];
+	__xamarin_class_map [172].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_PrimaryToolbarItem class];
+	__xamarin_class_map [173].handle = [Xamarin_Forms_Platform_iOS_ButtonRenderer class];
+	__xamarin_class_map [174].handle = [Xamarin_Forms_Platform_iOS_CarouselPageRenderer_PageContainer class];
+	__xamarin_class_map [175].handle = [Xamarin_Forms_Platform_iOS_CarouselPageRenderer class];
+	__xamarin_class_map [176].handle = [Xamarin_Forms_Platform_iOS_DatePickerRenderer class];
+	__xamarin_class_map [177].handle = [Xamarin_Forms_Platform_iOS_ImageRenderer class];
+	__xamarin_class_map [178].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer_ListViewDataSource class];
+	__xamarin_class_map [179].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer_UnevenListViewDataSource class];
+	__xamarin_class_map [180].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer class];
+	__xamarin_class_map [181].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_NavigationCell class];
+	__xamarin_class_map [182].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer class];
+	__xamarin_class_map [183].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController class];
+	__xamarin_class_map [184].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer class];
+	__xamarin_class_map [185].handle = [Xamarin_Forms_Platform_iOS_OpenGLViewRenderer_Delegate class];
+	__xamarin_class_map [186].handle = [Xamarin_Forms_Platform_iOS_OpenGLViewRenderer class];
+	__xamarin_class_map [187].handle = [Xamarin_Forms_Platform_iOS_PageRenderer class];
+	__xamarin_class_map [188].handle = [Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer_ChildViewController class];
+	__xamarin_class_map [189].handle = [Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer class];
+	__xamarin_class_map [190].handle = [Xamarin_Forms_Platform_iOS_PickerRenderer_PickerSource class];
+	__xamarin_class_map [191].handle = [Xamarin_Forms_Platform_iOS_PickerRenderer class];
+	__xamarin_class_map [192].handle = [Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer_InnerDelegate class];
+	__xamarin_class_map [193].handle = [Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer class];
+	__xamarin_class_map [194].handle = [Xamarin_Forms_Platform_iOS_TimePickerRenderer class];
+	__xamarin_class_map [195].handle = [Xamarin_Forms_Platform_iOS_WebViewRenderer_CustomWebViewDelegate class];
+	__xamarin_class_map [196].handle = [Xamarin_Forms_Platform_iOS_WebViewRenderer class];
+	__xamarin_class_map [197].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem_SecondaryToolbarItemContent class];
+	__xamarin_class_map [198].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem class];
+	__xamarin_class_map [199].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource class];
+	__xamarin_class_map [200].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar class];
+	__xamarin_class_map [201].handle = objc_getClass ("GLKit_GLKView__GLKViewDelegate");
+	__xamarin_class_map [202].handle = objc_getClass ("UIKit_UIActionSheet__UIActionSheetDelegate");
+	__xamarin_class_map [203].handle = objc_getClass ("UIKit_UIAlertView__UIAlertViewDelegate");
+	__xamarin_class_map [204].handle = objc_getClass ("UIKit_UIBarButtonItem_Callback");
+	__xamarin_class_map [205].handle = objc_getClass ("__UIGestureRecognizerToken");
+	__xamarin_class_map [206].handle = objc_getClass ("__UIGestureRecognizerParameterlessToken");
+	__xamarin_class_map [207].handle = objc_getClass ("__UIGestureRecognizerParametrizedToken");
+	__xamarin_class_map [208].handle = objc_getClass ("UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate");
+	__xamarin_class_map [209].handle = objc_getClass ("__UIRotationGestureRecognizer");
+	__xamarin_class_map [210].handle = objc_getClass ("__UILongPressGestureRecognizer");
+	__xamarin_class_map [211].handle = objc_getClass ("__UITapGestureRecognizer");
+	__xamarin_class_map [212].handle = objc_getClass ("__UIPanGestureRecognizer");
+	__xamarin_class_map [213].handle = objc_getClass ("__UIPinchGestureRecognizer");
+	__xamarin_class_map [214].handle = objc_getClass ("__UISwipeGestureRecognizer");
+	__xamarin_class_map [215].handle = objc_getClass ("__UIScreenEdgePanGestureRecognizer");
+	__xamarin_class_map [216].handle = objc_getClass ("UIKit_UIView_UIViewAppearance");
+	__xamarin_class_map [217].handle = objc_getClass ("UIKit_UINavigationBar_UINavigationBarAppearance");
+	__xamarin_class_map [218].handle = objc_getClass ("UIKit_UITextField__UITextFieldDelegate");
+	__xamarin_class_map [219].handle = objc_getClass ("UIKit_UIScrollView__UIScrollViewDelegate");
+	__xamarin_class_map [220].handle = objc_getClass ("UIKit_UITextView__UITextViewDelegate");
+	__xamarin_class_map [221].handle = objc_getClass ("UIKit_UISearchBar__UISearchBarDelegate");
+	__xamarin_class_map [222].handle = objc_getClass ("__NSObject_Disposer");
+	__xamarin_class_map [223].handle = objc_getClass ("UIKit_UISplitViewController__UISplitViewControllerDelegate");
+	__xamarin_class_map [224].handle = objc_getClass ("UIKit_UITabBarController__UITabBarControllerDelegate");
+	__xamarin_class_map [225].handle = objc_getClass ("UIKit_UIWebView__UIWebViewDelegate");
+	__xamarin_class_map [226].handle = [MSWrapperSdk class];
+	__xamarin_class_map [227].handle = [MSDevice class];
+	__xamarin_class_map [228].handle = [MSLogger class];
+	__xamarin_class_map [229].handle = [MSMobileCenter class];
+	__xamarin_class_map [230].handle = [MSServiceAbstract class];
+	__xamarin_class_map [231].handle = [MSWrapperLogger class];
+	__xamarin_class_map [232].handle = [MSAnalytics class];
+	__xamarin_class_map [233].handle = [MSLogWithProperties class];
+	__xamarin_class_map [234].handle = [MSEventLog class];
+	__xamarin_class_map [235].handle = [MSPageLog class];
+	__xamarin_class_map [236].handle = [Microsoft_Azure_Mobile_Crashes_CrashesDelegate class];
+	__xamarin_class_map [237].handle = [MSCrashes class];
+	__xamarin_class_map [238].handle = [MSErrorAttachment class];
+	__xamarin_class_map [239].handle = [MSErrorBinaryAttachment class];
+	__xamarin_class_map [240].handle = [MSErrorReport class];
+	__xamarin_class_map [241].handle = [MSException class];
+	__xamarin_class_map [242].handle = [MSStackFrame class];
+	__xamarin_class_map [243].handle = [MSWrapperExceptionManager class];
+	__xamarin_class_map [244].handle = [Microsoft_Azure_Mobile_Crashes_iOS_Bindings_CrashesInitializationDelegate class];
 	xamarin_add_registration_map (&__xamarin_registration_map);
 }
 

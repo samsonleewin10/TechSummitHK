@@ -1,26 +1,19 @@
-﻿<Properties StartupConfiguration="{86E5BC60-1CA5-4EEB-94BF-6414F840DB58}|Default">
+﻿<Properties StartupConfiguration="{F2CC1A86-0045-49E2-852F-71025C94731F}|Default">
   <MonoDevelop.Ide.ItemProperties.DocumentDBTodo.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DocumentDBTodo.UITests/Tests.cs">
-    <Files>
-      <File FileName="iOS/Info.plist" />
-      <File FileName="LoginPage.xaml.cs" Line="26" Column="27" />
-      <File FileName="DocumentDBTodo.UITests/Tests.cs" Line="31" Column="9" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="DocumentDBTodo" expanded="True">
+          <Node name="DocumentDBTodo" expanded="True" selected="True">
             <Node name="DocumentDBTodo.UITests" expanded="True">
-              <Node name="Test Apps" expanded="True">
-                <Node name="DocumentDBTodo.Droid" selected="True" />
-              </Node>
+              <Node name="Test Apps" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
   <MonoDevelop.Ide.ItemProperties.DocumentDBTodo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3f312ddc88578554200055518687f7a1e4ca0236" />
   <MonoDevelop.Ide.ItemProperties.DocumentDBTodo HideGettingStarted="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

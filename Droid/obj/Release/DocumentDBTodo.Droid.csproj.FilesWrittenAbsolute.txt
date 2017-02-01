@@ -38,3 +38,9 @@
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Xamarin.Forms.Xaml.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Newtonsoft.Json.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Microsoft.Azure.DocumentDB.Core.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Microsoft.Azure.Mobile.Android.Bindings.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Microsoft.Azure.Mobile.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Microsoft.Azure.Mobile.Crashes.Android.Bindings.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Microsoft.Azure.Mobile.Crashes.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Microsoft.Azure.Mobile.Analytics.Android.Bindings.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Microsoft.Azure.Mobile.Analytics.dll

@@ -46,6 +46,20 @@
 	-r \
 	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.DocumentDB.Core.1.0.0/lib/netstandard1.6/Microsoft.Azure.DocumentDB.Core.dll \
 	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Xamarin.TestCloud.Agent.0.20.3/lib/Xamarin.iOS10/Calabash.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.iOS.Bindings.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.Crashes.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Crashes.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.Crashes.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.Analytics.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.Analytics.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll \
@@ -321,6 +335,20 @@
 	/Users/microsoftdx/Desktop/TechSummitHK/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
 	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.DocumentDB.Core.1.0.0/lib/netstandard1.6/Microsoft.Azure.DocumentDB.Core.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Xamarin.TestCloud.Agent.0.20.3/lib/Xamarin.iOS10/Calabash.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.iOS.Bindings.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.Crashes.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Crashes.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.Crashes.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.Analytics.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.dll \
+	-r \
+	/Users/microsoftdx/Desktop/TechSummitHK/packages/Microsoft.Azure.Mobile.Analytics.0.6.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/microsoftdx/Desktop/TechSummitHK/iOS/bin/iPhone/Release//DocumentDBTodo.iOS.exe \

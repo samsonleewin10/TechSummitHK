@@ -22,6 +22,12 @@
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Xamarin.Forms.Xaml.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Newtonsoft.Json.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Microsoft.Azure.DocumentDB.Core.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Microsoft.Azure.Mobile.Android.Bindings.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Microsoft.Azure.Mobile.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Microsoft.Azure.Mobile.Crashes.Android.Bindings.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Microsoft.Azure.Mobile.Crashes.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Microsoft.Azure.Mobile.Analytics.Android.Bindings.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/Microsoft.Azure.Mobile.Analytics.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/mscorlib.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/System.Runtime.Serialization.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/assets/System.ServiceModel.Internals.dll
