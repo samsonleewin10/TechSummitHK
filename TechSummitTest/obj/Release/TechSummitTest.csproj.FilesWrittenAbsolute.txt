@@ -1,0 +1,5 @@
+/Users/microsoftdx/Desktop/TechSummitHK/TechSummitTest/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/microsoftdx/Desktop/TechSummitHK/TechSummitTest/bin/Release/TechSummitTest.dll
+/Users/microsoftdx/Desktop/TechSummitHK/TechSummitTest/obj/Release/TechSummitTest.dll
+/Users/microsoftdx/Desktop/TechSummitHK/TechSummitTest/bin/Release/nunit.framework.dll
+/Users/microsoftdx/Desktop/TechSummitHK/TechSummitTest/bin/Release/Xamarin.UITest.dll

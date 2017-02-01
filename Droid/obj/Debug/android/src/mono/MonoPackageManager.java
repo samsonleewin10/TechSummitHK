@@ -97,8 +97,8 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
-		/* We need to ensure that "DocumentDBTodo.Droid.dll" comes first in this list. */
-		"DocumentDBTodo.Droid.dll",
+		/* We need to ensure that "TechSummitHK.Droid.dll" comes first in this list. */
+		"TechSummitHK.Droid.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",

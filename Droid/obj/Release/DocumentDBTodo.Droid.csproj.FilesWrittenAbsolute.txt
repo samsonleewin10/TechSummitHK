@@ -5,8 +5,8 @@
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/DocumentDBTodo.Droid..Users.microsoftdx.Desktop.TechSummitHK.App.xaml.g.cs
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/DocumentDBTodo.Droid..Users.microsoftdx.Desktop.TechSummitHK.DocumentDBTodoPage.xaml.g.cs
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/DocumentDBTodo.Droid..Users.microsoftdx.Desktop.TechSummitHK.LoginPage.xaml.g.cs
-/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/DocumentDBTodo.Droid.dll.mdb
-/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/DocumentDBTodo.Droid.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/TechSummitHK.Droid.dll.mdb
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/TechSummitHK.Droid.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/com.mobillholmes.documentdbtodo.apk
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/android/bin/com.mobillholmes.documentdbtodo.apk
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/res/layout/tabbar.xml
@@ -21,8 +21,8 @@
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/R.cs.flag
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/com.mobillholmes.documentdbtodo-Signed.apk
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/uploadflags.txt
-/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/DocumentDBTodo.Droid.dll
-/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/DocumentDBTodo.Droid.dll.mdb
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/TechSummitHK.Droid.dll
+/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/TechSummitHK.Droid.dll.mdb
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Xamarin.Android.Support.v4.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Xamarin.Android.Support.Vector.Drawable.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Xamarin.Android.Support.Animated.Vector.Drawable.dll
@@ -38,7 +38,3 @@
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Xamarin.Forms.Xaml.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Newtonsoft.Json.dll
 /Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/Microsoft.Azure.DocumentDB.Core.dll
-/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/TechSummitHK.Droid.dll.mdb
-/Users/microsoftdx/Desktop/TechSummitHK/Droid/bin/Release/TechSummitHK.Droid.dll
-/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/TechSummitHK.Droid.dll
-/Users/microsoftdx/Desktop/TechSummitHK/Droid/obj/Release/TechSummitHK.Droid.dll.mdb
