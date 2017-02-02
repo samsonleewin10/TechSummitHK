@@ -24,7 +24,7 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Entry x:Name="newItemName"
-                  Placeholder="Item name" BackgroundColor="#e5e5e5"/>
+                  Placeholder="Insert events name here" BackgroundColor="#e5e5e5"/>
                 <StackLayout x:Name="buttonsPanel" Grid.Column="1" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
                     <Button Text="+"
                   MinimumHeightRequest="30"
