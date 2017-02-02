@@ -10,9 +10,9 @@
             </Label>
             <Image x:Name="loginImage" Margin="0,0,0,15" WidthRequest="140"/>
             <Label Text="Username:" TextColor="White"/>
-            <Entry x:Name="nameInput" Placeholder="Input Your Username here" BackgroundColor="White" TextColor="Gray"/>
+            <Entry x:Name="nameInput" Placeholder="input your username here" BackgroundColor="White" TextColor="Gray"/>
             <Label Text="Password:" TextColor="White"/>
-            <Entry x:Name="pwdInput" Placeholder="Input Your Password here" IsPassword="true"  BackgroundColor="White" TextColor="Gray"/>
+            <Entry x:Name="pwdInput" Placeholder="input your password here" IsPassword="true"  BackgroundColor="White" TextColor="Gray"/>
             <Button x:Name="LoginBtn" Text="Login" BackgroundColor="Teal" TextColor="White" Margin="0,15" />
         </StackLayout>
     </ContentPage.Content>
