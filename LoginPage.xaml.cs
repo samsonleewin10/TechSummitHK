@@ -22,7 +22,7 @@ namespace DocumentDBTodo
 		{
 			Analytics.TrackEvent("Attempt to Login");
 
-			if (pwdInput.Text == "P@ssw0rd")
+			if (pwdInput.Text == "P@ssw0rd!")
 			{
 				var selection = await DisplayAlert("Identity Confirmation", "Welcome back, " + nameInput.Text + "!", "Thanks!", "I'm not " + nameInput.Text);
 
