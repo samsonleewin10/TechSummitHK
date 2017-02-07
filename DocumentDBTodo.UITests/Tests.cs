@@ -28,38 +28,44 @@ namespace DocumentDBTodo.UITests
 		[Test]
 		public void AppLaunches()
 		{
-			app.Screenshot("First screen.");
+            app.Screenshot("App Launches");
 		}
 
 		[Test]
 		public void Login()
 		{
 			app.Tap(x => x.Marked("Input Your Username here"));
-			app.EnterText(x => x.Class("UITextField").Text("Samson"), " ");
-			app.PressEnter();
-			app.Tap(x => x.Marked("Input Your Password here"));
-			app.EnterText(x => x.Class("UITextField").Index(1), "P@ssw0rd!");
-			app.PressEnter();
-			app.Tap(x => x.Marked("Login"));
-			app.Screenshot("Tapped on view with class: UIButton marked: Login");
+            app.Screenshot("Tap on Username input field");
+            app.EnterText(x => x.Class("UITextField").Text("Samson"), " ");
+            app.Screenshot("Type Username");
+            app.PressEnter();
+            app.Screenshot("Done with Username");
+            app.Tap(x => x.Marked("Input Your Password here"));
+            app.Screenshot("Tap on Password input field");
+            app.EnterText(x => x.Class("UITextField").Index(1), "P@ssw0rd!");
+            app.Screenshot("Type Password");
+            app.PressEnter();
+            app.Screenshot("Done with Password");
+            app.Tap(x => x.Marked("Login"));
+			app.Screenshot("Tapped on Login");
 		}
 
-		[Test]
-		public void DisplayErrorMessage_WrongPassword()
-		{
-			app.WaitForElement(c => c.Marked("OK").Text("OK"));
-			app.Tap(x => x.Marked("OK"));
-			app.Screenshot("Tapped on view with class: _UIAlertControllerActionView marked: OK");
-		}
+		//[Test]
+		//public void DisplayErrorMessage_WrongPassword()
+		//{
+		//	app.Tap(x => x.Marked("OK"));
+		//	app.Screenshot("Tapped on view with class: _UIAlertControllerActionView marked: OK");
+		//}
 
-		[Test]
-		public void InteractWithEventPage()
-		{
-			app.ScrollUp();
-			app.Screenshot("Swipped down");
-			app.Tap(x => x.Text("Browse Events"));
-			app.Screenshot("Tapped on view with class: UIButtonLabel marked: Browse Events");
-			app.Tap(x => x.Marked("Back"));
-		}
+		//[Test]
+		//public void InteractWithEventPage()
+		//{
+		//	app.ScrollUp();
+		//	app.Screenshot("Swipped down");
+		//	app.Tap(x => x.Text("Browse Events"));
+		//	app.Screenshot("Browse Events");
+		//	app.Tap(x => x.Marked("Back"));
+  //          app.Screenshot("Back to MainPage");
+  //      }
 	}
 }
