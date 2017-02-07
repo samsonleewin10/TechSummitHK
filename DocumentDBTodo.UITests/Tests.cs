@@ -44,6 +44,7 @@ namespace DocumentDBTodo.UITests
 			app.Screenshot("Login with wrong credentials");
 		}
 
+        [Test]
         public void LoginRight()
         {
             app.Tap(x => x.Marked("OK"));
