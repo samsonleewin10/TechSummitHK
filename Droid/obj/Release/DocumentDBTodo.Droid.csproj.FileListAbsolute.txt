@@ -34,7 +34,6 @@ C:\Users\samslee\Source\Repos\TechSummitHK\Droid\bin\Release\Xamarin.Forms.Xaml.
 C:\Users\samslee\Source\Repos\TechSummitHK\Droid\bin\Release\Xamarin.Forms.Xaml.xml
 C:\Users\samslee\Source\Repos\TechSummitHK\Droid\bin\Release\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\samslee\Source\Repos\TechSummitHK\Droid\bin\Release\Newtonsoft.Json.xml
-C:\Users\samslee\Source\Repos\TechSummitHK\Droid\obj\Release\DocumentDBTodo.Droid.csprojResolveAssemblyReference.cache
 C:\Users\samslee\Source\Repos\TechSummitHK\Droid\obj\Release\DocumentDBTodo.Droid.App.xaml.g.cs
 C:\Users\samslee\Source\Repos\TechSummitHK\Droid\obj\Release\DocumentDBTodo.Droid.DocumentDBTodoPage.xaml.g.cs
 C:\Users\samslee\Source\Repos\TechSummitHK\Droid\obj\Release\DocumentDBTodo.Droid.LoginPage.xaml.g.cs

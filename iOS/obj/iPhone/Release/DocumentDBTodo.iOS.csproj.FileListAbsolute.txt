@@ -60,7 +60,6 @@ C:\Users\samslee\Source\Repos\TechSummitHK\iOS\obj\iPhone\Release\ibtool\_Bundle
 C:\Users\samslee\Source\Repos\TechSummitHK\iOS\obj\iPhone\Release\actool\_PartialAppManifest.items
 C:\Users\samslee\Source\Repos\TechSummitHK\iOS\obj\iPhone\Release\actool\_BundleResourceWithLogicalName.items
 C:\Users\samslee\Source\Repos\TechSummitHK\iOS\obj\iPhone\Release\optimized\
-C:\Users\samslee\Source\Repos\TechSummitHK\iOS\obj\iPhone\Release\DocumentDBTodo.iOS.csprojResolveAssemblyReference.cache
 C:\Users\samslee\Source\Repos\TechSummitHK\iOS\obj\iPhone\Release\DocumentDBTodo.iOS.App.xaml.g.cs
 C:\Users\samslee\Source\Repos\TechSummitHK\iOS\obj\iPhone\Release\DocumentDBTodo.iOS.DocumentDBTodoPage.xaml.g.cs
 C:\Users\samslee\Source\Repos\TechSummitHK\iOS\obj\iPhone\Release\DocumentDBTodo.iOS.LoginPage.xaml.g.cs
